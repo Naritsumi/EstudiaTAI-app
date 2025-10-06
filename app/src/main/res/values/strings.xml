@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EstudiaTAI</string>
+    <!-- Bloque 1 -->
+    <string name="b1">Bloque 1: Legislación</string>
+
+    <!-- Bloque 2 -->
+    <string name="b2">Bloque 2: Tecnología</string>
+    <string name="b2t1">T1. Informática básica</string>
+    <string name="b2t2">T2. Periféricos</string>
+    <string name="b2t3">T3. Tipos de ficheros, TAD y estructura de datos</string>
+    <string name="b2t4">T4. Sistemas operativos</string>
+    <string name="b2t5">T5. Bases de datos, NoSQL y OOP</string>
+
+    <!-- Bloque 3 -->
+    <string name="b3">Bloque 3: Desarrollo</string>
+    <string name="b3t1">T1. Modelo conceptual de datos</string>
+    <string name="b3t2">T2. Lenguajes de programación</string>
+    <string name="b3t3">T3. Lenguajes de interrogación de bases de datos</string>
+    <string name="b3t4">T4. Diseño y programación orientada a objetos</string>
+    <string name="b3t5">T5. Arquitectura Java EE/Jakarta EE y Plataforma .NET</string>
+    <string name="b3t6">T6. Arquitectura Cliente/Servidor y multicapas</string>
+    <string name="b3t7">T7. Aplicaciones Web, multiplataforma y multidispositivo</string>
+    <string name="b3t8">T8. Accesibilidad, diseño universal y usabilidad</string>
+    <string name="b3t9">T9. Repositorios, generación de código y documentación</string>
+
+    <!-- Bloque 4 -->
+    <string name="b4">Bloque 4: Sistemas</string>
+    <string name="b4t1">T1. Administración de sistemas operativos</string>
+    <string name="b4t2">T2. Administración de bases de datos, backup y virtualización</string>
+    <string name="b4t3">T3. Correo electrónico</string>
+    <string name="b4t4">T4. Administración y red Local. SNMP</string>
+    <string name="b4t5">T5. Seguridad y amenazas. Firma digital y CPD</string>
+    <string name="b4t6">T6. Medios de comunicación</string>
+    <string name="b4t7">T7. TCP/IP y Modelo OSI</string>
+    <string name="b4t8">T8. Internet: arquitectura de red</string>
+    <string name="b4t9">T9. Seguridad en redes y VPN</string>
+    <string name="b4t10">T10. Redes locales</string>
+
+
+
+
+
+
+
+
+</resources>

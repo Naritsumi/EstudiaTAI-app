@@ -1,0 +1,155 @@
+{
+  "topicId": 8,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué es la accesibilidad universal en el contexto de la Ley 51/2003?",
+      "options": ["La capacidad de un sistema para ser utilizado solo por personas sin discapacidad", "La condición que deben cumplir los entornos para ser comprensibles y utilizables por todas las personas", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué normativa española regula la accesibilidad en medios electrónicos?",
+      "options": ["Ley 11/2007 y Real Decreto 1112/2018", "Ley 39/2015", "Ley 51/2003", "Todas las anteriores"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué son las WCAG?",
+      "options": ["Directrices de Accesibilidad para el Contenido Web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué significa POUR en el contexto de las WCAG?",
+      "options": ["Perceptible, Operable, Usable, Robusto", "Perceptible, Operable, Usable, Responsivo", "Perceptible, Operable, Usable, Rápido", "Perceptible, Operable, Usable, Resistente"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué es el principio de 'Perceptible' en las WCAG?",
+      "options": ["La información debe ser presentada de manera que todos puedan percibirla", "La información debe ser operable por todos", "La información debe ser comprensible para todos", "La información debe ser robusta"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué es el texto alternativo para imágenes en el contexto de la accesibilidad web?",
+      "options": ["Un texto que se muestra en lugar de la imagen si no se carga", "Un texto que describe la imagen para lectores de pantalla", "Un texto que aparece cuando se pasa el ratón sobre la imagen", "Un texto que se utiliza para mejorar el SEO"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué es ARIA en el contexto de la accesibilidad web?",
+      "options": ["Un conjunto de herramientas para hacer interactivos y accesibles los elementos de una página web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué son las ATAG?",
+      "options": ["Guías para herramientas de creación de contenido accesible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué es el objetivo principal de las UAAG?",
+      "options": ["Garantizar que los agentes de usuario sean accesibles para personas con discapacidades", "Garantizar que las herramientas de creación sean accesibles", "Garantizar que el contenido web sea accesible", "Garantizar que los sistemas operativos sean accesibles"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué es el Observatorio de Accesibilidad Web (OAW)?",
+      "options": ["Una iniciativa para promover la inclusión digital en España", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué es el nivel A de conformidad en las WCAG?",
+      "options": ["El nivel más alto de accesibilidad", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad", "El nivel más bajo de accesibilidad"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué es el nivel AA de conformidad en las WCAG?",
+      "options": ["El nivel más alto de accesibilidad", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad, recomendado en muchos marcos legales", "El nivel más bajo de accesibilidad"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué es el nivel AAA de conformidad en las WCAG?",
+      "options": ["El nivel más alto de accesibilidad, con requisitos avanzados", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad", "El nivel más bajo de accesibilidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué es el principio de 'Operable' en las WCAG?",
+      "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "La información debe ser comprensible para todos", "La información debe ser robusta"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué es el principio de 'Comprensible' en las WCAG?",
+      "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fácil de entender", "La información debe ser robusta"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es el principio de 'Robusto' en las WCAG?",
+      "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fácil de entender", "El contenido debe ser accesible y funcionar correctamente con diversas tecnologías"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué es ACT en el contexto de la accesibilidad web?",
+      "options": ["Un conjunto de reglas para realizar pruebas de conformidad con las WCAG", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué es EARL en el contexto de la accesibilidad web?",
+      "options": ["Un formato de metadatos para describir resultados de evaluaciones de accesibilidad", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es el uso de etiquetas semánticas en HTML para la accesibilidad?",
+      "options": ["Usar etiquetas como <div> y <span> para todo", "Usar etiquetas como <header>, <nav>, <main> para estructurar el contenido", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es la importancia de la compatibilidad con lectores de pantalla en la accesibilidad web?",
+      "options": ["Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 21,
+      "question": "¿Qué es la validación del código HTML para la accesibilidad?",
+      "options": ["Usar herramientas para verificar la sintaxis correcta del código", "Usar herramientas para verificar la presentación visual", "Usar herramientas para verificar la funcionalidad", "No es necesario validar el código"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 22,
+      "question": "¿Qué es el uso de contrastes de color adecuados en la accesibilidad web?",
+      "options": ["Permite que los usuarios con discapacidad visual puedan ver el contenido de forma clara", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 23,
+      "question": "¿Qué es la importancia de la navegación consistente en la accesibilidad web?",
+      "options": ["Permite que los usuarios puedan encontrar fácilmente la información", "Permite que los usuarios puedan acceder al contenido solo mediante teclado", "Permite que los usuarios puedan ver el contenido de forma clara", "No es importante para la accesibilidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 24,
+      "question": "¿Qué es el uso de subtítulos y transcripciones para contenidos audiovisuales en la accesibilidad web?",
+      "options": ["Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 25,
+      "question": "¿Qué es la importancia de la accesibilidad web para la inclusión social?",
+      "options": ["Permite que todas las personas puedan acceder a la información y servicios en línea sin barreras", "Permite que solo las personas sin discapacidad puedan acceder a la información", "Permite que solo las personas con discapacidad puedan acceder a la información", "No es importante para la inclusión social"],
+      "correctAnswer": 0
+    }
+  ]
+}

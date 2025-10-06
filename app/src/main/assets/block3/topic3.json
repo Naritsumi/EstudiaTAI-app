@@ -1,0 +1,287 @@
+{
+  "topicId": 3,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Cuál es el lenguaje más utilizado para gestionar bases de datos relacionales?",
+      "options": ["GraphQL", "SQL", "SPARQL", "XQuery"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Cuál de los siguientes lenguajes es utilizado para bases de datos NoSQL?",
+      "options": ["T-SQL", "PL/SQL", "Cypher", "HiveQL"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué lenguaje se utiliza principalmente en bases de datos de grafos como Neo4j?",
+      "options": ["GraphQL", "Cypher", "SPARQL", "T-SQL"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 4,
+      "question": "¿Cuál de los siguientes lenguajes de interrogación es una extensión de SQL utilizada en Microsoft SQL Server?",
+      "options": ["T-SQL", "PL/SQL", "XQuery", "HiveQL"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué lenguaje es utilizado en Apache Hive para consultas en entornos de Big Data?",
+      "options": ["XQuery", "HiveQL", "Cypher", "SPARQL"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 6,
+      "question": "¿Cuál de los siguientes lenguajes se usa para consultar datos en formato RDF?",
+      "options": ["GraphQL", "SPARQL", "NoSQL", "Cypher"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 7,
+      "question": "¿Cuál de los siguientes comandos pertenece al lenguaje DDL (Data Definition Language)?",
+      "options": ["SELECT", "GRANT", "CREATE", "ROLLBACK"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué comando en SQL se utiliza para eliminar registros de una tabla sin eliminar la estructura de la tabla?",
+      "options": ["DELETE", "DROP", "TRUNCATE", "ALTER"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué tipo de JOIN devuelve todos los registros de la tabla izquierda y solo los coincidentes de la tabla derecha?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 10,
+      "question": "¿Cuál es el comando utilizado en SQL para confirmar una transacción?",
+      "options": ["SAVEPOINT", "ROLLBACK", "COMMIT", "GRANT"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué cláusula en SQL se usa para filtrar registros en una consulta?",
+      "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 12,
+      "question": "¿Cuál de las siguientes consultas SQL es válida para seleccionar todos los registros de la tabla 'clientes'?",
+      "options": ["GET ALL FROM clientes;", "SELECT * FROM clientes;", "SHOW TABLE clientes;", "EXTRACT clientes;"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué operador SQL se usa para seleccionar registros que cumplan una condición dentro de un rango?",
+      "options": ["LIKE", "BETWEEN", "IN", "EXISTS"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué función agregada en SQL se usa para contar el número de registros en una tabla?",
+      "options": ["SUM()", "AVG()", "TOTAL()", "COUNT()"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 15,
+      "question": "¿Cuál de las siguientes sentencias SQL es correcta para obtener la cantidad total de ventas por cada cliente?",
+      "options": [
+        "SELECT cliente_id, SUM(ventas) FROM pedidos;",
+        "SELECT cliente_id, COUNT(ventas) FROM pedidos GROUP BY cliente_id;",
+        "SELECT cliente_id, SUM(ventas) FROM pedidos GROUP BY cliente_id;",
+        "SELECT cliente_id, SUM(ventas) FROM pedidos WHERE GROUP BY cliente_id;"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es SQL?",
+      "options": [
+        "Un lenguaje de programación para aplicaciones web",
+        "Un lenguaje de consulta para bases de datos relacionales",
+        "Un sistema operativo",
+        "Un lenguaje de programación para aplicaciones móviles"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué tipo de bases de datos son ideales para NoSQL?",
+      "options": [
+        "Bases de datos estructuradas",
+        "Bases de datos no estructuradas o semi-estructuradas",
+        "Bases de datos relacionales",
+        "Bases de datos en red"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué es GraphQL?",
+      "options": [
+        "Un lenguaje de consulta para bases de datos relacionales",
+        "Un lenguaje de consulta para APIs",
+        "Un lenguaje de programación para aplicaciones web",
+        "Un sistema operativo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es T-SQL?",
+      "options": [
+        "Una extensión de SQL para MySQL",
+        "Una extensión de SQL para Oracle",
+        "Una extensión de SQL para Microsoft SQL Server",
+        "Una extensión de SQL para PostgreSQL"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es PL/SQL?",
+      "options": [
+        "Un lenguaje procedimental para MySQL",
+        "Un lenguaje procedimental para Oracle",
+        "Un lenguaje procedimental para PostgreSQL",
+        "Un lenguaje procedimental para Microsoft SQL Server"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 21,
+      "question": "¿Qué es DDL en SQL?",
+      "options": [
+        "Lenguaje de definición de datos",
+        "Lenguaje de manipulación de datos",
+        "Lenguaje de control de datos",
+        "Lenguaje de transacción"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 22,
+      "question": "¿Qué es DML en SQL?",
+      "options": [
+        "Lenguaje de definición de datos",
+        "Lenguaje de manipulación de datos",
+        "Lenguaje de control de datos",
+        "Lenguaje de transacción"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 23,
+      "question": "¿Qué es DCL en SQL?",
+      "options": [
+        "Lenguaje de definición de datos",
+        "Lenguaje de manipulación de datos",
+        "Lenguaje de control de datos",
+        "Lenguaje de transacción"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 24,
+      "question": "¿Qué es TCL en SQL?",
+      "options": [
+        "Lenguaje de definición de datos",
+        "Lenguaje de manipulación de datos",
+        "Lenguaje de control de datos",
+        "Lenguaje de transacción"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 25,
+      "question": "¿Qué es un trigger en SQL?",
+      "options": [
+        "Un conjunto de instrucciones que se ejecutan automáticamente en respuesta a eventos",
+        "Un conjunto de instrucciones que se ejecutan manualmente",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 26,
+      "question": "¿Qué es un procedimiento almacenado en SQL?",
+      "options": [
+        "Un conjunto de instrucciones SQL precompiladas",
+        "Un conjunto de instrucciones SQL que se ejecutan en tiempo de ejecución",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 27,
+      "question": "¿Qué es una función de agregación en SQL?",
+      "options": [
+        "Una función que realiza cálculos sobre un conjunto de valores y devuelve un valor único",
+        "Una función que realiza cálculos sobre un valor único",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 28,
+      "question": "¿Qué es una subconsulta en SQL?",
+      "options": [
+        "Una consulta anidada dentro de otra consulta",
+        "Una consulta que se ejecuta de forma independiente",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 29,
+      "question": "¿Qué es una clave primaria en SQL?",
+      "options": [
+        "Una clave que identifica de forma única cada fila en una tabla",
+        "Una clave que relaciona dos tablas",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 30,
+      "question": "¿Qué es una clave foránea en SQL?",
+      "options": [
+        "Una clave que identifica de forma única cada fila en una tabla",
+        "Una clave que relaciona dos tablas",
+        "Un tipo de dato en SQL",
+        "Un comando para crear tablas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 31,
+      "question": "¿Qué es la diferencia entre DELETE y TRUNCATE en SQL?",
+      "options": [
+        "DELETE elimina todas las filas y TRUNCATE elimina filas específicas",
+        "DELETE y TRUNCATE son lo mismo",
+        "DELETE elimina filas sin activar triggers y TRUNCATE elimina filas con triggers",
+        "DELETE elimina filas específicas y TRUNCATE elimina todas las filas sin activar triggers"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 32,
+      "question": "¿Qué es el comando ROLLBACK en SQL?",
+      "options": [
+        "Un comando que deshace los cambios realizados en una transacción",
+        "Un comando que confirma los cambios realizados en una transacción",
+        "Un comando que crea una tabla",
+        "Un comando que elimina una tabla"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

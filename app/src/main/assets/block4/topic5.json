@@ -1,0 +1,95 @@
+{
+  "topicId": 5,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué significa la tríada de seguridad CIA?",
+      "options": ["Control, Integración y Autenticidad", "Confidencialidad, Integridad y Disponibilidad", "Confianza, Innovación y Acceso", "Comunicación, Integridad y Autorización"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué dimensión de seguridad asegura que los datos no sean alterados sin permiso?",
+      "options": ["Disponibilidad", "Integridad", "Autenticidad", "Trazabilidad"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué norma del CCN-STIC está orientada al análisis de riesgos en la administración pública?",
+      "options": ["CCN-STIC-400","ISO 27001", "ENS", "CCN-STIC-410"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué dimensión adicional a la tríada CIA garantiza que los datos provienen de una fuente legítima?",
+      "options": ["Autenticidad", "Integridad", "Disponibilidad", "Confidencialidad"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Cómo se denomina un recurso o información que necesita protección?",
+      "options": ["Amenaza", "Activo", "Vulnerabilidad", "Impacto"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué concepto combina amenaza, vulnerabilidad e impacto?",
+      "options": ["Ataque", "Seguridad", "Incidente","Riesgo"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué tipo de seguridad protege los componentes físicos de TI?",
+      "options": ["Seguridad lógica", "Seguridad física", "Seguridad de red", "Ciberseguridad"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué sistema pertenece a la seguridad física?",
+      "options": ["Firewall", "Antivirus", "Control de acceso", "Cifrado de disco"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué tipo de seguridad emplea antivirus y firewalls?",
+      "options": ["Seguridad física", "Seguridad lógica", "Seguridad organizativa", "Seguridad administrativa"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué tipo de malware cifra archivos y pide un rescate?",
+      "options": ["Spyware", "Troyano", "Ransomware", "Adware"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué tipo de malware se oculta dentro de software legítimo?",
+      "options": ["Virus", "Troyano", "Dialer", "Rogue"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué tipo de malware registra lo que el usuario teclea?",
+      "options": ["Spyware", "Keylogger", "Adware", "Worm"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué tipo de software malicioso muestra publicidad invasiva?",
+      "options": ["Dialer", "Spyware", "Rogue","Adware"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué tipo de malware suplanta un antivirus para engañar al usuario?",
+      "options": ["Rogue", "Troyano", "Spyware", "Keylogger"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué objetivo persigue la seguridad en TI?",
+      "options": ["Evitar el acceso no autorizado y proteger los datos", "Aumentar la velocidad de red", "Optimizar recursos hardware", "Instalar software de ofimática"],
+      "correctAnswer": 0
+    }
+  ]
+}

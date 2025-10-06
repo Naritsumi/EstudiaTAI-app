@@ -32,10 +32,6 @@ output.json
 *.jks
 *.keystore
 
-# Google Services (JSON Files)
-google-services.json
-firebase.json
-
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
@@ -86,9 +82,9 @@ node_modules/
 # Kotlin
 *.kts
 
-# Gradle Wrapper
+# Gradle Wrapper (keep both files)
 !gradle/wrapper/gradle-wrapper.properties
-gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 
 # Dependency cache (clear these if build issues occur)
 .cxx/

@@ -1,0 +1,95 @@
+{
+  "topicId": 1,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué caracteriza al almacenamiento DAS?",
+      "options": ["Se conecta directamente a la máquina", "Se conecta a través de la red LAN", "Se utiliza en grandes empresas como red de discos", "Siempre funciona en modo objeto"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué tipo de acceso utiliza DAS?",
+      "options": ["Acceso en modo archivo", "Acceso en modo bloque", "Acceso en modo red", "Acceso en modo objeto"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué tipo de almacenamiento permite compartir ficheros en una red local (LAN)?",
+      "options": ["DAS", "SAN", "SSD", "NAS"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué define mejor a una SAN?",
+      "options": ["Un dispositivo conectado directamente al servidor", "Un sistema de copias de seguridad", "Una red de almacenamiento de alta velocidad usada en grandes empresas", "Un sistema de logs centralizados"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué estrategia de backup sigue el ciclo de Abuelo-Padre-Hijo?",
+      "options": ["Parchear el sistema operativo", "Regla 3-2-1", "GPS",  "Service Pack"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 6,
+      "question": "Según la regla 3-2-1, ¿dónde debe almacenarse una de las copias de seguridad?",
+      "options": ["En el mismo disco", "En un medio externo", "En memoria RAM", "En la caché del procesador"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué extensión tienen los scripts de PowerShell?",
+      "options": [".bat", ".sh", ".ps1", ".exe"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué comando de APT se usa para actualizar la lista de paquetes en Debian?",
+      "options": ["apt upgrade", "apt update", "apt install", "apt remove"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 9,
+      "question": "¿En qué archivo se almacena la información de contraseñas de usuarios en Linux?",
+      "options": ["/etc/passwd", "/etc/group", "/etc/shadow", "/etc/hosts"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué herramienta de red sirve para analizar paquetes en Linux?",
+      "options": ["ip", "nslookup", "tcpdump", "netstat"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué tipo de actualización es un Service Pack?",
+      "options": ["Un conjunto de parches acumulados", "Un parche único", "Un backup diferencial", "Un tipo de mantenimiento"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué herramienta se utiliza en Windows para consultar los logs del sistema?",
+      "options": ["eventvwr (Visor de eventos)", "services.msc", "taskmgr", "regedit"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué tipo de mantenimiento busca prevenir fallos antes de que ocurran?",
+      "options": ["Correctivo", "Preventivo", "Perfectivo", "De Oportunidad"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué tipo de mantenimiento consiste en reparar cuando ya se ha producido el fallo?",
+      "options": ["Predictivo", "Adaptativo", "Preventivo","Correctivo"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué mide una métrica en administración de sistemas?",
+      "options": ["La cantidad de logs generados", "El tipo de mantenimiento requerido", "El rendimiento y progreso del sistema", "El número de usuarios conectados"],
+      "correctAnswer": 2
+    }
+  ]
+}
