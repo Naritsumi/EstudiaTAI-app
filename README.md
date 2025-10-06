@@ -22,7 +22,7 @@ La aplicación está disponible en **F-Droid**:
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/naritsumi/EstudiaTAI.app.git
+git clone https://github.com/naritsumi/EstudiaTAI.git
 ```
 
 ## Configuración del proyecto
@@ -31,7 +31,7 @@ Abre el proyecto con **Android Studio**.
 Necesitarás:  
 
 - Android Studio actualizado (Versión utilizada 2025.1.3 
-- Gradle configurado  (Versión utilizada 8.8.0)
+- Gradle configurado (Versión utilizada 8.8.0)
 - JDK 11+ instalado  
 
 ---
