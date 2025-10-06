@@ -64,10 +64,11 @@ Necesitarás:
 
 ## ⚠️ Importante
 
-El proyecto **no incluye preguntas por defecto**.  
+El proyecto **no incluye preguntas ni temario por defecto**.  
 Cada usuario debe añadir las suyas en la carpeta `assets`.
 
 ## 📌 Nota sobre versiones
 
 - La versión publicada en **F-Droid** es estable, contiene un banco de preguntas propio y se irá ampliando con el tiempo.  
-- El código de este repositorio es una versión reducida para mostrar la estructura del proyecto, sin incluir ficheros sensibles relacionados con **Firebase** o **AdMob**.
+- Los archivos `.json` y `.html` con el contenido real del temario no están incluidos en este repositorio. Se incluyen solo archivos de ejemplo para fines de compilación.
+
