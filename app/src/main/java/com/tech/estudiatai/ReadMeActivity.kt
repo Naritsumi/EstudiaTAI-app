@@ -86,7 +86,7 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
             color = MaterialTheme.colorScheme.onSecondary
         )
 
-        EmailAndCoffeeButtons()
+        KoFiAndCoffeeButtons()
 
         Spacer(modifier = Modifier.height(16.dp))
 
@@ -101,61 +101,30 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(16.dp),
             color = MaterialTheme.colorScheme.onSecondary
         )
+        
+        EmailButton()
     }
 }
+
 @SuppressLint("UseKtx")
 @Composable
-fun EmailAndCoffeeButtons() {
+fun KoFiAndCoffeeButtons() {
     val context = LocalContext.current
-    AppTheme{
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(top = 16.dp),
-            horizontalArrangement = Arrangement.SpaceEvenly, // Distribuye los botones de manera uniforme
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-        // Botón de Email
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(top = 16.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        // 🩵 Botón Ko-fi
         IconButton(
             onClick = {
-                val intent = Intent(Intent.ACTION_SEND).apply {
-                    type = "message/rfc822"
-                    putExtra(Intent.EXTRA_EMAIL, arrayOf("techracoon.group@gmail.com"))
-                    putExtra(Intent.EXTRA_SUBJECT, "EstudiaTAI")
-                }
-                val chooser = Intent.createChooser(intent, "Selecciona una aplicación de correo")
-                if (intent.resolveActivity(context.packageManager) != null) {
-                    context.startActivity(chooser)
-                } else {
-                    println("No hay aplicaciones instaladas para manejar correos.")
-                }
-            },
-            modifier = Modifier
-                .width(180.dp)
-                .height(60.dp)
-                .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
-            colors = IconButtonDefaults.iconButtonColors(
-                containerColor = MaterialTheme.colorScheme.primary,
-                contentColor = MaterialTheme.colorScheme.surface
-            )
-        ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Icon(Icons.Default.Email, contentDescription = "Enviar correo", modifier = Modifier.size(24.dp))
-                Spacer(modifier = Modifier.width(6.dp))
-                Text("¡Escríbeme!")
-            }
-        }
-
-        // Botón de Buy Me a Coffee
-
-        IconButton(
-            onClick = {
-                val intent = Intent(Intent.ACTION_VIEW,
-                    "https://www.buymeacoffee.com/tuusuario".toUri())
+                val intent = Intent(
+                    Intent.ACTION_VIEW,
+                    "https://ko-fi.com/tuusuario".toUri() // <-- cambia tuusuario por el tuyo
+                )
                 context.startActivity(intent)
             },
             modifier = Modifier
@@ -163,7 +132,40 @@ fun EmailAndCoffeeButtons() {
                 .height(60.dp)
                 .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
             colors = IconButtonDefaults.iconButtonColors(
-                containerColor = MaterialTheme.colorScheme.tertiary, // En teoría está puesto el amarillo pero no se muestra
+                containerColor = MaterialTheme.colorScheme.secondary,
+                contentColor = MaterialTheme.colorScheme.onSecondary
+            )
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.kofi_logo), // añade un logo kofi.png o .xml a res/drawable
+                    contentDescription = "Ko-fi",
+                    modifier = Modifier.size(24.dp)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text("Apóyame en Ko-fi")
+            }
+        }
+
+        // ☕ Botón Buy Me a Coffee
+        IconButton(
+            onClick = {
+                val intent = Intent(
+                    Intent.ACTION_VIEW,
+                    "https://www.buymeacoffee.com/tuusuario".toUri() // <-- cambia tuusuario
+                )
+                context.startActivity(intent)
+            },
+            modifier = Modifier
+                .width(180.dp)
+                .height(60.dp)
+                .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
+            colors = IconButtonDefaults.iconButtonColors(
+                containerColor = MaterialTheme.colorScheme.tertiary,
                 contentColor = MaterialTheme.colorScheme.onTertiary
             )
         ) {
@@ -174,7 +176,7 @@ fun EmailAndCoffeeButtons() {
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.bmc_logo),
-                    contentDescription = "Invítame a un café",
+                    contentDescription = "Buy Me a Coffee",
                     modifier = Modifier.size(24.dp)
                 )
                 Spacer(modifier = Modifier.width(8.dp))
@@ -182,6 +184,45 @@ fun EmailAndCoffeeButtons() {
             }
         }
     }
+}
+
+@SuppressLint("UseKtx")
+@Composable
+fun EmailButton() {
+    val context = LocalContext.current
+
+    IconButton(
+        onClick = {
+            val intent = Intent(Intent.ACTION_SEND).apply {
+                type = "message/rfc822"
+                putExtra(Intent.EXTRA_EMAIL, arrayOf("techracoon.group@gmail.com"))
+                putExtra(Intent.EXTRA_SUBJECT, "EstudiaTAI")
+            }
+            val chooser = Intent.createChooser(intent, "Selecciona una aplicación de correo")
+            if (intent.resolveActivity(context.packageManager) != null) {
+                context.startActivity(chooser)
+            }
+        },
+        modifier = Modifier
+            .align(Alignment.CenterHorizontally)
+            .width(180.dp)
+            .height(60.dp)
+            .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
+        colors = IconButtonDefaults.iconButtonColors(
+            containerColor = MaterialTheme.colorScheme.primary,
+            contentColor = MaterialTheme.colorScheme.surface
+        )
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Center,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Icon(Icons.Default.Email, contentDescription = "Enviar correo", modifier = Modifier.size(24.dp))
+            Spacer(modifier = Modifier.width(6.dp))
+            Text("¡Escríbeme!")
+        }
     }
 }
+
 
