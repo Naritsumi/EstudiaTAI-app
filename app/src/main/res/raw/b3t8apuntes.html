@@ -3,52 +3,171 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>T8. Accesibilidad, diseño universal y usabilidad.</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
 
-        <h1>Pronto estará disponible</h1>
+        <h1>Tema 8: Accesibilidad, diseño universal y usabilidad</h1>
+
+        <h2>Accesibilidad universal</h2>
+        <div class="highlight">
+            <p>La <b>accesibilidad universal</b>, según el <b>Artículo 2 de la Ley 51/2003, se define como:</b></p>
+            <p>“Condición que deben cumplir los entornos, procesos, bienes, productos y servicios, así como los objetos o instrumentos, herramientas y dispositivos, para ser comprensibles, utilizables y practicables por todas las personas en condiciones de seguridad y comodidad y de la forma más autónoma y natural posible.”</p>
+        </div>
+
+        <h2>Accesibilidad en páginas Web</h2>
+        <div class="section">
+            <p>Una página web se considera accesible cuando sus contenidos y servicios pueden <span class="important">ser utilizados por todas las personas, sin importar:</span></p>
+            <ul>
+                <li>Sus capacidades visuales, auditivas, cognitivas o motrices.</li>
+                <li>Las tecnologías o dispositivos que utilicen (navegadores, lectores de pantalla, etc.).</li>
+            </ul>
+        </div>
+
+        <h2>Normas WAI</h2>
+        <div class="section">
+            <p>La <b>Web Accessibility Initiative (WAI)</b> es un proyecto del <b>World Wide Web Consortium (W3C)</b> que desarrolla estándares para la accesibilidad web.</p>
+            <p>Principales normas WAI:</p>
+            <ul>
+                <li><b>WCAG:</b> Web Content Accessibility Guidelines.</li>
+                <li><b>ARIA:</b> Accessible Rich Internet Applications.</li>
+                <li><b>UAAG:</b> User-Agent Accessibility Guidelines.</li>
+                <li><b>ATAG:</b> Authoring Tool Accessibility Guidelines.</li>
+                <li><b>ACT:</b> Accessibility Conformance Testing.</li>
+                <li><b>EARL:</b> Evaluation and Report Language.</li>
+            </ul>
+        </div>
+
+        <h2>WCAG - Web Content Accessibility Guidelines</h2>
+        <div class="section">
+            <p>Las <b>WCAG</b> establecen criterios de accesibilidad para asegurar que el contenido web (texto, imágenes, multimedia, etc.) sea accesible para todas las personas.</p>
+            <h3>Principios POUR</h3>
+            <ul>
+                <li><b>Perceptible:</b> La información y los componentes de la interfaz deben ser presentados de manera que puedan ser percibidos por todos los usuarios.</li>
+                <li><b>Operable:</b> Los elementos interactivos deben ser utilizables a través de distintos dispositivos y métodos de interacción.</li>
+                <li><b>Comprensible:</b> La información y el funcionamiento de la interfaz deben ser claros y fáciles de entender.</li>
+                <li><b>Robusto:</b> El contenido debe ser compatible con diferentes tecnologías y futuras innovaciones.</li>
+            </ul>
+            <div class="examples">
+                <h3>Ejemplo de aplicación:</h3>
+                <p>Un sitio web que utiliza texto alternativo en imágenes y etiquetas ARIA para botones cumple con el principio <b>Perceptible</b> y <b>Robusto</b>.</p>
+            </div>
+        </div>
+
+
+        <h2>ARIA - Accessible Rich Internet Applications</h2>
+        <div class="section">
+            <p>ARIA proporciona herramientas para hacer accesibles elementos interactivos en páginas web.</p>
+            <ul>
+                <li>Versión actual: <b>1.2</b>.</li>
+                <li>Define roles para describir elementos dinámicos o complejos.</li>
+                <li>Facilita la comunicación con tecnologías asistivas.</li>
+            </ul>
+        </div>
+
+        <h2>ATAG - Authoring Tool Accessibility Guidelines</h2>
+        <div class="section">
+            <p>Guías para herramientas de creación de contenido accesible, asegurando que:</p>
+            <ul>
+                <li>Las plataformas de edición permitan generar contenido accesible.</li>
+                <li>Sean accesibles también para los creadores con discapacidades.</li>
+            </ul>
+            <p>Versión actual: <b>2.0</b>.</p>
+        </div>
+
+        <h2>UAAG - User-Agent Accessibility Guidelines</h2>
+        <div class="section">
+            <p>Establecen criterios para que los agentes de usuario (navegadores y reproductores multimedia) sean accesibles.</p>
+            <p>Versión actual: <b>2 (2.2)</b>. Existe un borrador más actualizado.</p>
+        </div>
+
+        <h2>Herramientas de evaluación de accesibilidad</h2>
+        <div class="section">
+            <p>El <b>Observatorio de Accesibilidad Web (OAW)</b> es una iniciativa del Gobierno de España que asegura que los sitios web de administraciones públicas cumplan con las normativas de accesibilidad digital.</p>
+            <p>Su objetivo es promover la <b>inclusión digital</b> y garantizar el acceso equitativo a la información y servicios en línea para todas las personas.</p>
+        </div>
 
     </body>
 </html>

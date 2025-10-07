@@ -3,52 +3,170 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>Bloque 2: Tecnología</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
+        <h1>Tema 3: Tipos abstractos y estructura de datos</h1>
 
-        <h1>Pronto estará disponible</h1>
+        <h2>Tipos Abstractos de Datos (TAD)</h2>
+        <div class="section">
+            <p>Son modelos teóricos de estructuras de datos que describen su comportamiento y operaciones permitidas, sin especificar cómo se implementan.</p>
+            <div class="important">Los TAD permiten diseñar algoritmos sin preocuparse por los detalles de implementación.</div>
+        </div>
 
+        <h2>Estructuras de datos</h2>
+        <div class="section">
+            <p>Son la implementación concreta de los TAD, encargándose de organizar y almacenar los datos de manera eficiente.</p>
+            <ul>
+                <li><b>Lista:</b> colección ordenada de elementos con acceso por posición.</li>
+                <li><b>Cola:</b> estructura FIFO (First In, First Out).</li>
+                <div class="examples">
+                    Una cola de impresión en el ordenador sigue el principio FIFO.
+                </div>
+                <li><b>Pila:</b> estructura LIFO (Last In, First Out).</li>
+                <li><b>Conjunto:</b> colección de elementos únicos sin orden específico.</li>
+                <li><b>Árbol:</b> estructura jerárquica con nodos padre e hijo.</li>
+                <li><b>Tablas hash:</b> acceso rápido a los datos mediante funciones hash.</li>
+                <li><b>Grafos:</b> modelan relaciones entre elementos.</li>
+            </ul>
+        </div>
+
+        <h2>Árboles</h2>
+        <div class="section">
+            <p>Los árboles son estructuras de datos jerárquicas donde cada nodo tiene un padre y puede tener múltiples hijos.</p>
+            <p><b>Componentes:</b></p>
+            <ul>
+                <li><b>Raíz:</b> Nodo principal.</li>
+                <li><b>Nodos Hoja:</b> Nodos sin hijos.</li>
+                <li><b>Altura:</b> Longitud del camino más largo hasta una hoja.</li>
+                <li><b>Grado:</b> Número de hijos de un nodo.</li>
+            </ul>
+        </div>
+
+        <h2>Algoritmos de Búsqueda en Grafos</h2>
+        <div class="section">
+            <p>Existen varios algoritmos para encontrar caminos en grafos:</p>
+            <ul>
+                <li><b>PRIM:</b> Empieza en un punto y va conectando los más cercanos hasta unir todo, usando las conexiones más baratas.</li>
+                <li><b>KRUSKAL:</b> Toma las conexiones más baratas y las une por orden de costo, evitando ciclos.</li>
+                <li><b>Dijkstra:</b> Encuentra el camino más corto desde un nodo a todos los demás.</li>
+                <li><b>Bellman-Ford:</b> Similar a Dijkstra, pero admite pesos negativos.</li>
+                <li><b>Floyd-Warshall:</b> Encuentra la ruta más corta entre todos los nodos.</li>
+                <li><b>Algoritmo A*:</b> Encuentra el camino de menor coste entre un nodo origen y uno objetivo.</li>
+            </ul>
+        </div>
+
+        <h2>Algoritmos de Ordenación</h2>
+        <div class="section">
+            <p>Los algoritmos de ordenación organizan los datos en un orden específico:</p>
+            <ul>
+                <li><b>Burbuja:</b> Intercambia elementos adyacentes.</li>
+                <li><b>Quick Sort:</b> Divide y vence ordenando recursivamente.</li>
+                <li><b>Merge Sort:</b> Divide la lista y la combina ordenada.</li>
+                <li><b>Heap Sort:</b> Basado en estructuras de montículos.</li>
+            </ul>
+        </div>
+
+        <h2>Extensiones de Ficheros</h2>
+        <div class="section">
+            <ul>
+                <li><b>.jpg / .jpeg:</b> Compresión con pérdida, sin transparencia.</li>
+                <li><b>.png:</b> Compresión sin pérdida, soporta transparencia.</li>
+                <li><b>.gif:</b> Admite animaciones con 256 colores.</li>
+                <li><b>.svg:</b> Gráficos vectoriales escalables.</li>
+            </ul>
+        </div>
+
+        <h2>Formatos de Video y Audio</h2>
+        <div class="section">
+            <ul>
+                <li><b>.mp3:</b> Audio comprimido con pérdida.</li>
+                <li><b>.wav:</b> Audio sin compresión.</li>
+                <li><b>.webm:</b> Formato de video optimizado para la web.</li>
+                <li><b>H.264 / H.265:</b> Códigos de compresión de video.</li>
+            </ul>
+        </div>
     </body>
 </html>

@@ -3,52 +3,244 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>Bloque 2: Tecnología</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
 
-        <h1>Pronto estará disponible</h1>
+        <h1>Tema 2. Administración de bases de datos, backup y virtualización</h1>
+
+        <h2>Administradores de bases de datos</h2>
+        <div class="section">
+            <p>Los administradores de bases de datos (DBAs) son los encargados de usar programas y herramientas especializadas para organizar, mantener y proteger la información almacenada en una base de datos. Su trabajo es crucial para asegurar el buen funcionamiento del sistema, garantizar la seguridad de los datos y prevenir posibles fallos que afecten la integridad de la información. Algunas de las principales responsabilidades de un DBA incluyen:</p>
+            <ul>
+                <li><b>Instalación y configuración:</b> Se encargan de la instalación del software de gestión de bases de datos (DBMS) y su configuración adecuada según las necesidades del sistema.</li>
+                <li><b>Seguridad:</b> Implementan medidas de seguridad para proteger los datos de accesos no autorizados, asegurándose de que solo los usuarios autorizados puedan acceder a la información. Esto incluye el control de acceso y la implementación de criptografía para proteger los datos sensibles.</li>
+                <li><b>Mantenimiento:</b> Realizan tareas rutinarias como backups, recuperación de datos, y actualizaciones del sistema para garantizar la estabilidad y seguridad de la base de datos.</li>
+                <li><b>Optimización:</b> Trabajan para mejorar el rendimiento del sistema de base de datos, asegurando que las consultas sean rápidas y eficientes. Esto incluye la creación de índices, la reestructuración de tablas y la configuración de parámetros de rendimiento.</li>
+                <li><b>Monitoreo:</b> Supervisan el rendimiento del sistema de base de datos, detectando posibles fallos o caídas del sistema y asegurándose de que la base de datos esté disponible para los usuarios en todo momento.</li>
+                <li><b>Soporte:</b> Ofrecen soporte técnico para resolver problemas relacionados con las bases de datos, como errores de consulta, problemas de acceso, entre otros.</li>
+            </ul>
+        </div>
+
+        <h2>Administrador de bases de datos de aplicaciones (ADBA)</h2>
+        <div class="section">
+            <p>El Administrador de Bases de Datos de Aplicaciones (ADBA) es un profesional especializado en la gestión de bases de datos para aplicaciones específicas. Mientras que el DBA tradicional se enfoca en la infraestructura y la seguridad general del sistema de bases de datos, el ADBA se concentra en las necesidades particulares de las aplicaciones que utilizan la base de datos. Algunas de las tareas clave de un ADBA son:</p>
+            <ul>
+                <li><b>Organización de la información:</b> Organiza la estructura de la base de datos de acuerdo con las necesidades de la aplicación específica, creando y ajustando tablas, índices y relaciones entre los datos.</li>
+                <li><b>Gestión de instantáneas:</b> Realiza copias o "instantáneas" de los datos en momentos específicos para facilitar la recuperación de información en caso de problemas.</li>
+                <li><b>Optimización de consultas:</b> Se enfoca en mejorar la eficiencia de las consultas a la base de datos, creando índices adecuados y ajustando los parámetros del sistema para reducir el tiempo de respuesta.</li>
+            </ul>
+        </div>
+
+        <h2>Administración de bases de datos</h2>
+
+        <div class="section">
+            <h3>Conceptos básicos</h3>
+            <p>La administración de bases de datos implica gestionar y mantener la <span class="important">integridad</span> y la <span class="important">seguridad</span> de la información. Se utilizan sistemas como MySQL, PostgreSQL, Oracle, entre otros.</p>
+            <p><b>Objetivo:</b> Asegurar la correcta <b>almacenación</b>, <b>acceso</b> y <b>protección</b> de los datos.</p>
+        </div>
+        <div class="section">
+            <h3>Tipos de bases de datos</h3>
+            <p>Se distinguen principalmente dos categorías:</p>
+            <ul>
+                <li><b>Relacionales (SQL):</b> Organizadas en tablas con relaciones definidas entre los datos.</li>
+                <li><b>No relacionales (NoSQL):</b> Estructuras flexibles, ideales para grandes volúmenes y datos sin un esquema fijo.</li>
+            </ul>
+        </div>
+
+        <h2>Sistemas de almacenamiento y su virtualización</h2>
+        <div class="section">
+            <h3>Tipos de almacenamiento</h3>
+            <p>Los sistemas de almacenamiento se clasifican en:</p>
+            <ul>
+                <li><b>DAS (Direct Attached Storage):</b> Almacenamiento conectado directamente al servidor.</li>
+                <li><b>NAS (Network Attached Storage):</b> Almacenamiento accesible a través de la red, ideal para compartir archivos.</li>
+                <li><b>SAN (Storage Area Network):</b> Redes especializadas para grandes volúmenes de datos y aplicaciones críticas.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Virtualización del almacenamiento</h3>
+            <p>La virtualización del almacenamiento permite gestionar de forma centralizada y abstracta distintos dispositivos, facilitando la <b>escalabilidad</b> y la <b>optimización</b> de recursos.</p>
+            <div class="examples">
+                <p><b>Ejemplo:</b> Implementar soluciones de SDS (Software-Defined Storage) para unificar distintos discos duros en un único recurso virtual.</p>
+            </div>
+        </div>
+
+        <h2>Políticas y procedimientos de backup y recuperación</h2>
+        <div class="section">
+            <h3>Concepto de backup</h3>
+            <p>El backup es el proceso de copiar datos para protegerlos ante posibles pérdidas o daños. Es fundamental definir <span class="important">políticas claras</span> y procedimientos que aseguren la realización periódica y efectiva de copias de seguridad.</p>
+            <p><b>Tipos de backup:</b></p>
+            <ul>
+                <li><b>Completo:</b> Copia total de la información.</li>
+                <li><b>Incremental:</b> Copia de los datos modificados desde el último backup.</li>
+                <li><b>Diferencial:</b> Copia de los datos cambiados desde el último backup completo.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Recuperación de datos</h3>
+            <p>La recuperación es el proceso de restaurar la información a partir de las copias de seguridad. Se recomienda realizar <b>pruebas periódicas</b> para verificar la eficacia de los backups y garantizar la continuidad de los servicios.</p>
+        </div>
+
+        <h2>Backup de Sistemas físicos y virtuales</h2>
+        <div class="section">
+            <h3>Backup de Sistemas Físicos</h3>
+            <p>En entornos físicos, el backup se realiza sobre hardware dedicado y servidores tradicionales, utilizando herramientas específicas para gestionar estos dispositivos.</p>
+        </div>
+        <div class="section">
+            <h3>Backup de sistemas virtuales</h3>
+            <p>Los entornos virtualizados requieren técnicas y herramientas que integren con plataformas de virtualización (como VMware, Hyper-V, KVM), permitiendo la realización de copias de seguridad sin afectar el rendimiento del sistema.</p>
+        </div>
+
+        <h2>Visualización</h2>
+        <div class="section">
+            <p>La virtualización es una tecnología que permite crear versiones virtuales de recursos físicos, como servidores, almacenamiento, redes y sistemas operativos. En lugar de usar directamente el hardware físico, se crean máquinas virtuales (VMs) que permiten que varios sistemas operativos o aplicaciones corran en un solo dispositivo físico, optimizando el uso de recursos y permitiendo una mayor flexibilidad y eficiencia.</p>
+        </div>
+
+        <h2>Conceptos clave</h2>
+        <div class="section">
+            <ul>
+                <li><b>Virtualización:</b> Proceso de crear representaciones virtuales de dispositivos o recursos.</li>
+                <li><b>Emulación:</b> Capacidad de un sistema de imitar o reproducir el comportamiento de otro sistema.</li>
+            </ul>
+        </div>
+
+        <h2>Tipos de archivos y extensiones</h2>
+        <div class="section">
+            <ul>
+                <li><b>.vmx:</b> Configuración de máquinas virtuales en VMware.</li>
+                <li><b>.vdi:</b> Formato de disco virtual utilizado por Oracle VirtualBox.</li>
+                <li><b>.vbox:</b> Configuración de máquinas virtuales en VirtualBox.</li>
+                <li><b>.ova:</b> Archivo empaquetado que contiene una VM completa.</li>
+                <li><b>.vmdk:</b> Formato de disco duro virtual de VMware.</li>
+            </ul>
+        </div>
+
+        <h2>Virtualización de máquinas</h2>
+        <div class="section">
+            <ul>
+                <li><b>Máquina virtual (VM):</b> Entorno que simula un sistema operativo completo.</li>
+                <li><b>Hipervisor:</b> Permite la coexistencia de múltiples VMs en un solo servidor físico.</li>
+            </ul>
+        </div>
+
+        <h2>Plataformas</h2>
+        <div class="section">
+            <ul>
+                <li><b>IaaS:</b> Infraestructura como servicio. Ejemplo: AWS, Azure.</li>
+                <li><b>PaaS:</b> Plataforma como servicio. Ejemplo: Heroku.</li>
+                <li><b>SaaS:</b> Software como servicio. Ejemplo: Gmail.</li>
+            </ul>
+        </div>
+
+        <h2>Docker</h2>
+        <div class="section">
+            <p>Docker es una plataforma de código abierto diseñada para facilitar la creación, el despliegue y la ejecución de aplicaciones utilizando contenedores.</p>
+            <ul>
+                <li><b>Imagen Docker:</b> Contiene herramientas, librerías y la aplicación en sí.</li>
+                <li><b>Docker Engine:</b> Gestiona imágenes y contenedores.</li>
+                <li><b>Docker Client:</b> Herramienta de línea de comandos para Docker.</li>
+            </ul>
+        </div>
+
+        <h2>Microservicios</h2>
+        <div class="section">
+            <p>Arquitectura de software que estructura una aplicación como un conjunto de servicios pequeños e independientes.</p>
+        </div>
+
+        <h2>Herramientas y tecnologías</h2>
+        <div class="tools">
+            <p>Entre las herramientas más utilizadas en este ámbito se encuentran:</p>
+            <ul>
+                <li><b>SGBD:</b> MySQL, PostgreSQL, Oracle y SQL Server.</li>
+                <li><b>Virtualización:</b> VMware, Hyper-V, KVM y Xen.</li>
+                <li><b>Software de backup:</b> Veeam, Acronis, Bacula y otros.</li>
+                <li><b>SDS:</b> Soluciones de Software-Defined Storage para la virtualización del almacenamiento.</li>
+            </ul>
+        </div>
+
 
     </body>
 </html>

@@ -3,52 +3,215 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>T3. Lenguajes de interrogación de bases de datos</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
 
-        <h1>Pronto estará disponible</h1>
+        <h1>Tema 3. Lenguajes de interrogación de bases de datos</h1>
+
+        <h2>Lenguajes principales</h2>
+        <div class="section">
+            <h3>SQL (Structured Query Language)</h3>
+            <p>Es el lenguaje más utilizado para gestionar y manipular bases de datos relacionales. Permite realizar:</p>
+            <ul>
+                <li><span class="important">Consultas (<b>SELECT</b>)</span>.</li>
+                <li><span class="important">Inserciones (<b>INSERT</b>)</span>.</li>
+                <li><span class="important">Actualizaciones (<b>UPDATE</b>)</span>.</li>
+                <li><span class="important">Eliminaciones (<b>DELETE</b>)</span>.</li>
+            </ul>
+            <p>Soporta operaciones complejas como uniones, subconsultas y funciones agregadas, organizando datos en tablas bajo un modelo relacional.</p>
+        </div>
+
+        <div class="section">
+            <h3>NoSQL</h3>
+            <p>Lenguajes utilizados en bases de datos NoSQL, ideales para manejar grandes volúmenes de datos no estructurados o semi-estructurados.</p>
+        </div>
+
+        <div class="section">
+            <h3>GraphQL</h3>
+            <p>Un lenguaje de consulta para APIs, que permite a los clientes solicitar exactamente los datos que necesitan.</p>
+        </div>
+
+        <div class="section">
+            <h3>Cypher</h3>
+            <p>Principalmente utilizado en bases de datos de grafos como <b>Neo4j</b>.</p>
+        </div>
+
+        <div class="section">
+            <h3>T-SQL (Transact-SQL)</h3>
+            <p>Extensión de SQL utilizada en <b>Microsoft SQL Server</b>, ampliamente usado en entornos empresariales.</p>
+        </div>
+
+        <div class="section">
+            <h3>PL/SQL</h3>
+            <p>Lenguaje utilizado en bases de datos Oracle, especialmente en aplicaciones empresariales.</p>
+        </div>
+
+        <div class="section">
+            <h3>HiveQL</h3>
+            <p>Lenguaje de consulta utilizado en Apache para Big Data.</p>
+        </div>
+
+        <div class="section">
+            <h3>SPARQL</h3>
+            <p>Lenguaje para consultar datos en formato <b>RDF</b>. Útil en bibliotecas, científicos y aplicaciones de datos enlazados.</p>
+        </div>
+
+        <div class="section">
+            <h3>XQuery</h3>
+            <p>Lenguaje utilizado para consultar y transformar datos en formato XML.</p>
+        </div>
+
+        <h2>Tipos de ejecuciones</h2>
+        <div class="examples">
+            <h3>DDL (Data Definition Language)</h3>
+            <p>Se utiliza para definir la estructura de la base de datos. Ejemplos:</p>
+            <ul>
+                <li><b>CREATE</b></li>
+                <li><b>ALTER</b></li>
+                <li><b>DROP</b></li>
+                <li><b>TRUNCATE</b></li>
+            </ul>
+        </div>
+
+        <div class="examples">
+            <h3>DML (Data Manipulation Language)</h3>
+            <p>Se utiliza para manipular datos en las tablas. Ejemplos:</p>
+            <ul>
+                <li><b>SELECT</b></li>
+                <li><b>INSERT</b></li>
+                <li><b>UPDATE</b></li>
+                <li><b>DELETE</b></li>
+            </ul>
+        </div>
+
+        <div class="examples">
+            <h3>DCL (Data Control Language)</h3>
+            <p>Se utiliza para controlar el acceso a los datos en la base de datos. Ejemplos:</p>
+            <ul>
+                <li><b>GRANT</b></li>
+                <li><b>REVOKE</b></li>
+            </ul>
+        </div>
+
+        <div class="examples">
+            <h3>TCL (Transaction Control Language)</h3>
+            <p>Permite asegurar que un conjunto de operaciones se complete correctamente. Ejemplos:</p>
+            <ul>
+                <li><b>COMMIT</b></li>
+                <li><b>ROLLBACK</b></li>
+                <li><b>SAVEPOINT</b></li>
+            </ul>
+        </div>
+
+        <h2>Características adicionales</h2>
+        <div class="section">
+            <h3>TRIGGER</h3>
+            <p>Conjunto de instrucciones que se ejecutan automáticamente en respuesta a ciertos eventos que ocurren en una tabla o vista.</p>
+        </div>
+
+        <div class="section">
+            <h3>MERGE</h3>
+            <p>Permite realizar operaciones de inserción (<b>INSERT</b>), actualización (<b>UPDATE</b>) o eliminación (<b>DELETE</b>) en función de la coincidencia de datos entre dos tablas o entre una tabla y una consulta.</p>
+        </div>
+
+        <h2>JOINS</h2>
+        <div class="section">
+            <h3>LEFT JOIN</h3>
+            <p>Devuelve todos los registros de la tabla izquierda y los registros coincidentes de la tabla derecha. Si no hay coincidencia, los valores de la tabla derecha serán <b>NULL</b>.</p>
+        </div>
+
+        <div class="section">
+            <h3>INNER JOIN</h3>
+            <p>Devuelve solo los registros que tienen coincidencias en ambas tablas. Este tipo de JOIN es útil para encontrar relaciones comunes entre dos tablas.</p>
+        </div>
+
+        <div class="section">
+            <h3>RIGHT JOIN</h3>
+            <p>Devuelve todos los registros de la tabla derecha y los registros coincidentes de la tabla izquierda. Si no hay coincidencia, los valores de la tabla izquierda serán <b>NULL</b>.</p>
+        </div>
 
     </body>
 </html>

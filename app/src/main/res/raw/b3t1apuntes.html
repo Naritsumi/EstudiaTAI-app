@@ -3,52 +3,209 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>T1. Modelo Conceptual de Datos</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
 
-        <h1>Pronto estará disponible</h1>
+        <h1>Tema 1. Modelo conceptual de datos</h1>
+
+        <h2>Tipos de modelos</h2>
+        <div class="section">
+            <h3>Modelo conceptual</h3>
+            <p>Representación <span class="important">abstracta</span> de los datos, enfocada en <b>qué información</b> será almacenada, sin detalles técnicos.</p>
+            <p><b>Objetivo:</b> Entender y representar la <b>estructura de la información</b>. Solo se identifican los más importantes (nombre del libro, nombre del cliente, etc.).</p>
+        </div>
+        <div class="section">
+            <h3>Modelo lógico</h3>
+            <p>Define <b>estructuras de datos</b> como tablas y claves, sin depender de una tecnología específica.</p>
+            <p><b>Elementos claves:</b></p>
+            <ul>
+                <li><b>Tablas</b></li>
+                <li><b>Columnas</b></li>
+                <li><b>PK (Primary Key)</b></li>
+                <li><b>FK (Foreign Key)</b></li>
+                <li><b>Índices</b></li>
+                <li><b>Restricciones</b></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h3>Modelo físico</h3>
+            <p>Describe cómo los datos serán <b>almacenados</b> en un DBMS específico, incluyendo detalles técnicos. Ya son las propias <b>tablas</b>, <b>condiciones</b>, <b>variables</b>… Aquí sí importa la <b>tecnología</b>.</p>
+        </div>
+
+        <h2>Modelos conceptuales</h2>
+        <div class="examples">
+            <h3>Modelo Entidad/Relación</h3>
+            <p>Usa diagramas para representar <b>entidades</b> y sus <b>relaciones</b>.</p>
+            <h3>Modelo EER</h3>
+            <p>Extiende el ER con <b>jerarquías</b>, <b>superclases</b> y <b>subclases</b>, representando relaciones más complejas.</p>
+            <h3>Flujograma</h3>
+            <p>Diagrama que representa el <b>flujo de datos</b> en procesos.</p>
+        </div>
+
+        <h2>Modelos lógicos</h2>
+        <div class="examples">
+            <h3>Modelo Relacional</h3>
+            <p>Organiza los datos en <b>tablas</b> (relaciones) con <b>filas</b> y <b>columnas</b>. Utiliza claves <b>primarias</b> y <b>foráneas</b> para identificar registros y establecer relaciones entre tablas.</p>
+            <h3>Modelo Orientado a Objetos</h3>
+            <p>Combina conceptos del modelo lógico con paradigmas de <b>programación orientada a objetos</b>. Representa los datos como <b>objetos</b> que tienen <b>atributos</b> y <b>métodos</b>.</p>
+            <h3>Modelo Jerárquico</h3>
+            <p>Organiza los datos en una estructura de <b>árbol</b>, donde cada <b>nodo</b> tiene un único <b>padre</b>. Es útil para representar relaciones <b>uno a muchos</b> de forma jerárquica.</p>
+        </div>
+
+        <h2>Normalización de bases de datos</h2>
+        <div class="section">
+            <p>La <b>normalización</b> en bases de datos es un proceso sistemático para <b>organizar</b> los datos en una base de datos con el fin de reducir la <b>redundancia</b> (duplicación de datos) y mejorar la <b>integridad</b>.</p>
+            <p><b>Objetivo:</b> Garantizar que los datos se almacenen de manera <b>eficiente</b> y que las relaciones entre las tablas se mantengan correctamente.</p>
+
+        </div>
+            <!-- 1FN -->
+            <section class="section">
+                <h3>1FN</h3>
+                <p>Evita <span class="important">valores repetitivos</span> en un mismo campo. Esto evita la redundancia de datos y mejora la eficiencia en la base de datos. Una tabla no debe contener listas o grupos de valores en una sola celda.</p>
+                <div class="examples">
+                    <p><b>Ejemplo:</b> Supongamos que tenemos una tabla llamada "Clientes" con una columna "Dirección" que almacena varias direcciones en un solo campo. Esto no cumple con 1FN, ya que se deben almacenar las direcciones como registros separados. La tabla corregida debería ser:</p>
+                    <ul>
+                        <li>Cliente ID | Nombre  | Dirección</li>
+                        <li>1         | Juan    | Calle A, Calle B</li>  <!-- Incorrecto -->
+                        <li>1         | Juan    | Calle A</li>
+                        <li>1         | Juan    | Calle B</li>  <!-- Corregido -->
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 2FN -->
+            <section class="section">
+                <h3>2FN</h3>
+                <p>Elimina <span class="important">dependencias parciales</span>. Establece que una tabla <b>debe estar en 1FN y, además, todos los atributos no clave deben depender completamente de la clave primaria</b>, es decir, no debe haber <b>dependencias parciales</b>. Una dependencia parcial ocurre cuando un atributo depende solo de una parte de la clave primaria compuesta.</p>
+                <div class="examples">
+                    <p><b>Ejemplo:</b> Supongamos que tenemos una tabla llamada "Pedidos" con una clave primaria compuesta por "ID Cliente" y "ID Pedido", y una columna adicional llamada "Nombre Cliente". Si el "Nombre Cliente" depende solo de "ID Cliente", estamos ante una dependencia parcial, ya que depende solo de una parte de la clave primaria. Esto viola la 2FN. Para corregirlo, movemos la información del cliente a una tabla separada. La estructura corregida sería:</p>
+                    <ul>
+                        <li><b>Tabla Clientes</b>: Cliente ID | Nombre Cliente</li>
+                        <li><b>Tabla Pedidos</b>: Cliente ID | Pedido ID | Fecha Pedido</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 3FN -->
+            <section class="section">
+                <h3>3FN</h3>
+                <p>Elimina <span class="important">dependencias transitivas</span>. <b>Debe estar en 2FN y, además, no debe haber dependencias transitivas</b>. Una dependencia transitoria ocurre cuando un atributo no clave depende de otro atributo no clave. Esto puede generar redundancia y anomalías en la base de datos.</p>
+                <div class="examples">
+                    <p><b>Ejemplo:</b> Imagina una tabla llamada "Empleados" con las columnas "ID Empleado", "Nombre Empleado", "Departamento" y "Jefe Departamento". Si "Jefe Departamento" depende de "Departamento", y "Departamento" depende de "ID Empleado", esto sería una dependencia transitoria. Para corregirlo, la información del jefe debe almacenarse en una tabla separada relacionada solo con el "Departamento". La estructura corregida sería:</p>
+                    <ul>
+                        <li><b>Tabla Empleados</b>: ID Empleado | Nombre Empleado | Departamento ID</li>
+                        <li><b>Tabla Departamentos</b>: Departamento ID | Nombre Departamento | Jefe Departamento</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- FNBC -->
+            <section class="section">
+                <h3>FNBC</h3>
+                <p>Debe estar en <b>3FN</b> y todas las <b>dependencias funcionales</b> deben ser determinadas por una <b>clave candidata</b>.</p>
+            </section>
+
+            <!-- 4FN -->
+            <section class="section">
+                <h3>4FN</h3>
+                <p>Debe estar en <b>FNBC</b> y no tener <b>dependencias multivaluadas no triviales</b>. Separa valores múltiples en diferentes tablas.</p>
+            </section>
+
+        <h2>Herramientas y tecnologías</h2>
+        <div class="tools">
+            <p>Ejemplos de herramientas más utilizadas:</p>
+            <ul>
+                <li><b>MySQL:</b> Amplio uso en <b>aplicaciones web</b>. Es de <b>código abierto</b>, aunque existe una versión comercial de Oracle.</li>
+                <li><b>PostgreSQL:</b> Sistema avanzado de <b>código abierto</b> con características <b>robustas</b> y <b>escalabilidad</b>.</li>
+                <li><b>Oracle Database:</b> Conocido por su <b>rendimiento</b> y capacidad para grandes <b>empresas</b>.</li>
+                <li><b>SQL Server:</b> Desarrollado por <b>Microsoft</b>, muy utilizado en entornos <b>corporativos</b>.</li>
+                <li><b>MariaDB:</b> Bifurcación de <b>MySQL</b> con mejoras en <b>rendimiento</b> y características adicionales.</li>
+                <li><b>SQLite:</b> Sistema <b>ligero</b> que no requiere un <b>servidor</b> separado, ideal para aplicaciones pequeñas o móviles.</li>
+            </ul>
+        </div>
 
     </body>
 </html>

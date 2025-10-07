@@ -3,52 +3,151 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>T3: Administración de servidores de correo electrónico</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
+        <h1>Tema 3: Administración de servidores de correo electrónico</h1>
+        <div class="section">
+            <p>El correo electrónico es un método de <b>intercambio de mensajes digitales</b> entre usuarios de una red informática.</p>
+        </div>
 
-        <h1>Pronto estará disponible</h1>
+        <h2>Agentes - Arquitectura</h2>
+        <div class="section">
+            <ul>
+                <li><b>MUA (Mail User Agent)</b>: Cliente de correo utilizado por el usuario para enviar y recibir emails.</li>
+                <li><b>MRA (Mail Retrieval Agent)</b>: Recupera correos desde el servidor de correo.</li>
+                <li><b>MTA (Mail Transfer Agent)</b>: Enruta y entrega correos entre servidores.</li>
+                <li><b>MSA (Mail Submission Agent)</b>: Recibe los correos desde el MUA y los pasa al MTA.</li>
+                <li><b>MDA (Mail Delivery Agent)</b>: Entrega los correos en el buzón del destinatario.</li>
+            </ul>
+        </div>
 
+        <h2>Flujo del correo electrónico</h2>
+        <div class="section">
+            <ol>
+                <li>El usuario envía un correo desde su MUA.</li>
+                <li>El MSA lo transfiere al MTA.</li>
+                <li>El MTA encuentra la mejor ruta y envía el correo.</li>
+                <li>El correo llega al servidor de destino y es almacenado por el MDA.</li>
+                <li>El destinatario accede a su correo a través de su MUA mediante IMAP o POP3.</li>
+            </ol>
+        </div>
+
+        <h2>Protocolos y puertos</h2>
+        <div class="section">
+            <ul>
+                <li><b>POP3</b>: 110 (sin cifrado), 995 (con SSL/TLS).</li>
+                <li><b>IMAP</b>: 143 (sin cifrado), 993 (con SSL/TLS).</li>
+                <li><b>SMTP</b>: 25 (sin cifrado), 465 (SSL), 587 (TLS).</li>
+            </ul>
+        </div>
+
+        <h2>DNS y seguridad</h2>
+        <div class="section">
+            <p>El DNS (Domain Name System) es <span class="important">crucial en el enrutamiento de correos</span>, ya que permite la identificación de servidores responsables de manejar el email de un dominio.</p>
+        </div>
+
+        <div class="section examples">
+            <h3>SPF (Sender Policy Framework)</h3>
+            <p>SPF es un protocolo de autenticación que permite a los dueños de dominios especificar qué servidores están autorizados para enviar correos en su nombre.</p>
+            <p><b>Ejemplo de un registro SPF:</b></p>
+            <code>v=spf1 include:_spf.example.com ~all</code>
+        </div>
+
+        <div class="section examples">
+            <h3>DKIM (DomainKeys Identified Mail)</h3>
+            <p>DKIM agrega una firma digital a los correos electrónicos para verificar que no han sido modificados durante el tránsito.</p>
+            <p><b>Ejemplo de un registro DKIM:</b></p>
+            <code>v=DKIM1; k=rsa; p=MIGfMA0G...</code>
+        </div>
+
+        <div class="section examples">
+            <h3>DMARC (Domain-based Message Authentication, Reporting & Conformance)</h3>
+            <p>DMARC es una política que permite a los dueños de dominios definir cómo los correos fallidos en autenticación deben ser manejados.</p>
+            <p><b>Ejemplo de un registro DMARC:</b></p>
+            <code>v=DMARC1; p=reject; rua=mailto:reports@example.com</code>
+        </div>
     </body>
 </html>

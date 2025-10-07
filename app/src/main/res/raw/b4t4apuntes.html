@@ -3,52 +3,141 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>T4: Administración de redes de área local</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
-                background-color: #e7f5e7;
-                border-left: 5px solid #4CAF50;
-                padding: 10px 15px;
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
+            }
+             .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
                 margin-top: 30px;
-            }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+                font-size: 16px;
             }
         </style>
     </head>
     <body>
+        <h1>Tema 4: Administración de redes de área local</h1>
 
-        <h1>Pronto estará disponible</h1>
+        <h2>Administración de redes</h2>
+        <div class="section">
+            <p>La administración de redes se basa en la <b>gestión y monitorización</b> de los dispositivos y recursos de una red para asegurar su correcto funcionamiento.</p>
+        </div>
 
+        <h2>SNMP (Simple Network Management Protocol)</h2>
+        <div class="section">
+            <p>SNMP es un protocolo estándar de internet utilizado para <b>gestionar y supervisar dispositivos de red</b> como routers, switches, servidores e impresoras.</p>
+            <p>Permite recolectar información sobre rendimiento, diagnosticar problemas y controlar dispositivos.</p>
+            <p><b>Puertos:</b> 161/UDP (agente) y 162/UDP (gestor).</p>
+        </div>
+
+        <h2>Herramientas de gestión de redes</h2>
+        <div class="section tools">
+            <ul>
+                <li><b>Nagios</b>: Monitorización de redes y servidores.</li>
+                <li><b>Zabbix</b>: Plataforma avanzada de monitorización.</li>
+                <li><b>SolarWinds</b>: Solución integral para gestión de redes.</li>
+            </ul>
+        </div>
+
+        <h2>SNMPv1</h2>
+        <div class="section">
+            <p>Primera versión de SNMP, definida en el RFC 1157.</p>
+            <p>Los RFC (Request for Comments) definen los estándares y especificaciones de SNMP.</p>
+            <ul>
+                <li>Basado en una estructura simple de comunidad para autenticación.</li>
+                <li>Usa comandos GET, SET y TRAP.</li>
+                <li>No proporciona encriptación ni autenticación segura.</li>
+            </ul>
+        </div>
+
+        <h2>SNMPv2</h2>
+        <div class="section">
+            <p>SNMPv2 introdujo mejoras sobre SNMPv1, pero inicialmente su modelo de seguridad era complejo.</p>
+            <p>Se definió en los RFC 1441-1450 y posteriormente nació SNMPv2c, que es la versión más utilizada.</p>
+            <ul>
+                <li>Soporte para nuevos tipos de datos.</li>
+                <li>Mejor eficiencia en la recuperación de datos.</li>
+                <li>SNMPv2c mantiene el modelo de comunidad de SNMPv1 pero mejora la gestión.</li>
+            </ul>
+        </div>
+
+        <h2>SNMPv3</h2>
+        <div class="section">
+            <p>Incluye características avanzadas de seguridad, como autenticación y encriptación.</p>
+            <p class="important">Su configuración es más compleja debido a estos aspectos de seguridad.</p>
+        </div>
+
+        <h2>LDAP</h2>
+        <div class="section">
+            <p>LDAP (Lightweight Directory Access Protocol) es un protocolo de comunicación utilizado para acceder y gestionar servicios de directorios, como bases de datos que contienen información sobre usuarios, dispositivos o recursos en una red.
+                Se usa comúnmente en sistemas para gestionar usuarios y autenticar accesos, por ejemplo, en servicios como Active Directory de Microsoft o en sistemas de correo electrónico.</p>
+            <p>Es ideal para almacenar información de <b>usuarios, grupos y permisos</b>.</p>
+            <ul>
+                <li><b>Versión:</b> 3</li>
+                <li><b>Protocolo de transporte:</b> TCP/IP</li>
+            </ul>
+        </div>
+
+        <div class="section examples">
+            <h3>Active Directory</h3>
+            <p>Basado en LDAP, proporciona servicios de directorio en entornos Windows.</p>
+        </div>
+
+        <h2>Seguridad en LDAP</h2>
+        <div class="section">
+            <ul>
+                <li><b>LDAPS</b>: Implementación de LDAP sobre SSL/TLS para comunicación segura.</li>
+                <li><b>Autenticación y Autorización</b>: LDAP gestiona la validación y los permisos de acceso.</li>
+                <li><b>ACL (Access Control Lists)</b>: Controla quién puede leer o modificar el directorio.</li>
+            </ul>
+        </div>
     </body>
 </html>

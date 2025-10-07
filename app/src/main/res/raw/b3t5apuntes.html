@@ -3,52 +3,201 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>(Ejemplo) Tipos de Modelos</title>
+        <title>Bloque 3: Desarrollo de Sistemas</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: 'Helvetica', sans-serif;
                 margin: 20px;
                 background-color: #f9f9f9;
                 color: #333;
+                line-height: 1.6;
             }
             h1 {
-                text-align: center;
                 color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
             }
             h2 {
-                color: #333;
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
             }
             p {
-                font-size: 16px;
-                line-height: 1.6;
                 margin-bottom: 20px;
             }
-            .tips {
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
                 background-color: #e7f5e7;
                 border-left: 5px solid #4CAF50;
                 padding: 10px 15px;
                 margin-top: 30px;
             }
-            .model {
-                background-color: #f1f1f1;
-                padding: 15px;
-                border-radius: 8px;
-                margin-bottom: 20px;
-            }
-            .model h3 {
-                color: #007BFF;
-            }
-            .model ul {
-                margin-top: 10px;
-            }
-            .model ul li {
-                margin-bottom: 5px;
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
             }
         </style>
     </head>
     <body>
 
-        <h1>Pronto estará disponible</h1>
+        <h1>Tema 5: Java EE/Jakarta EE y Plataforma .NET</h1>
+
+        <h2>Ecosistema .NET</h2>
+
+        <div class="section">
+            <h3>.NET</h3>
+            <p><span class="important">Plataforma de desarrollo de Microsoft</span> para crear aplicaciones de escritorio, web y servicios.</p>
+            <ul>
+                <li><strong>Common Language Infrastructure (CLI):</strong> Especificación que define la ejecución del código independiente del lenguaje.</li>
+                <li><strong>Common Language Runtime (CLR):</strong> Entorno de ejecución que gestiona la memoria, la seguridad y la ejecución del código .NET.</li>
+                <li><strong>Base Class Library (BCL):</strong> Conjunto de clases reutilizables para manejar archivos, colecciones, bases de datos y más.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>ASP.NET</h3>
+            <p>Framework para desarrollar <b>aplicaciones web en .NET.</b></p>
+            <ul>
+                <li>ASP.NET MVC: Arquitectura Modelo-Vista-Controlador.</li>
+                <li>ASP.NET Web Forms: Basado en formularios y controles de servidor.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Persistencia de datos en .NET</h3>
+            <ul>
+                <li><strong>Entity Framework (EF):</strong> ORM que permite interactuar con bases de datos sin escribir SQL.</li>
+                <li><strong>ADO.NET:</strong> Permite acceder y manipular datos mediante consultas SQL directas.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Multiplataforma</h3>
+            <p><strong>.NET Core (ahora parte de .NET 5+)</strong> permite ejecutar aplicaciones en Windows, Linux y macOS.</p>
+        </div>
+
+        <div class="tools">
+            <h3>Lenguajes en .NET</h3>
+            <ul>
+                <li>C#</li>
+                <li>F#</li>
+                <li>VB.NET</li>
+            </ul>
+        </div>
+
+        <div class="tools">
+            <h3>Desarrollo de UI</h3>
+            <ul>
+                <li><strong>.NET MAUI</strong> (sucesor de Xamarin)</li>
+                <li>ASP.NET Web Forms y MVC</li>
+            </ul>
+        </div>
+
+        <h2>Ecosistema Java SE</h2>
+
+        <div class="section">
+            <h3>JDK y JRE</h3>
+            <p><strong>El JDK</strong> incluye el compilador y herramientas para desarrollo en Java. El <strong>JRE</strong> solo permite ejecutar aplicaciones.</p>
+        </div>
+
+        <div class="section">
+            <h3>Conceptos importantes</h3>
+            <ul>
+                <li><strong>Threads:</strong> Permiten ejecución concurrente dentro de un programa.</li>
+                <li><strong>Concurrencia:</strong> Múltiples tareas se ejecutan al mismo tiempo.</li>
+                <li><strong>Sincronización:</strong> Previene conflictos entre hilos.</li>
+                <li><strong>Garbage Collector:</strong> Administra la memoria liberando objetos no utilizados.</li>
+            </ul>
+        </div>
+
+        <h2>Jakarta EE (Java EE)</h2>
+
+        <div class="section">
+            <p>Jakarta EE es un conjunto de especificaciones para el desarrollo de aplicaciones empresariales en Java.</p>
+            <ul>
+                <li><strong>Jakarta Servlet:</strong> Manejo de solicitudes HTTP.</li>
+                <li><strong>Jakarta Faces (JSF):</strong> Framework para UI web.</li>
+                <li><strong>Jakarta RESTful Web Services (JAX-RS):</strong> Creación de APIs REST.</li>
+                <li><strong>Jakarta Persistence (JPA):</strong> Mapeo Objeto-Relacional.</li>
+                <li><strong>Jakarta CDI:</strong> Inyección de dependencias.</li>
+                <li><strong>Jakarta Transactions (JTA):</strong> Gestión de transacciones distribuidas.</li>
+                <li><strong>Jakarta Messaging (JMS):</strong> Comunicación asíncrona.</li>
+            </ul>
+        </div>
+
+        <h2>Herramientas y librerías</h2>
+
+        <div class="tools">
+            <h3>IDE’s para Java</h3>
+            <ul>
+                <li>Eclipse</li>
+                <li>IntelliJ IDEA</li>
+                <li>NetBeans</li>
+            </ul>
+        </div>
+
+        <div class="tools">
+            <h3>Automatización de desarrollo</h3>
+            <ul>
+                <li>Ant</li>
+                <li>Maven</li>
+                <li>Gradle</li>
+            </ul>
+        </div>
+
+        <div class="tools">
+            <h3>Integración continua</h3>
+            <p><strong>Jenkins</strong> permite automatizar pruebas y despliegue de software.</p>
+        </div>
 
     </body>
 </html>
