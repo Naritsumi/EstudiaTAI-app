@@ -63,3 +63,4 @@ Thumbs.db
 node_modules/
 .externalNativeBuild/
 .cxx/
+**/external-resources/
