@@ -3,13 +3,14 @@ package com.tech.estudiatai
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -29,9 +30,11 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.core.net.toUri
+
 
 class ReadMeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,8 +81,6 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
                 Estoy trabajando constantemente para mejorarla y añadir nuevas funcionalidades. Espero que disfrutes usándola tanto como yo disfruto desarrollándola.
 
                 Por favor, recuerda que esta es una aplicación en constante desarrollo y habrá actualizaciones frecuentes para añadir temario y mejorar la aplicación.
-
-                Si tienes algún comentario, sugerencia, encuentras algún problema o información errada, no dudes en contactarme.
             """.trimIndent(),
             style = MaterialTheme.typography.bodyLarge,
             modifier = Modifier.padding(16.dp),
@@ -92,9 +93,9 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
 
         Text(
             text = """
-                ¡Gracias por tu apoyo! :)
-                                
-                IMPORTANTE: Los apuntes aportados en esta aplicación NO están sujetos a derechos de autor.                 
+                ¡Gracias por tu apoyo! :) 
+                
+                Si tienes algún comentario, sugerencia, encuentras algún problema o información errada, no dudes en contactarme.                                
             """.trimIndent(),
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Justify,
@@ -103,6 +104,16 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
         )
         
         EmailButton()
+
+        Text(
+            text = """
+                IMPORTANTE: Los apuntes aportados en esta aplicación NO están sujetos a derechos de autor.                 
+            """.trimIndent(),
+            style = MaterialTheme.typography.bodyLarge,
+            textAlign = TextAlign.Justify,
+            modifier = Modifier.padding(16.dp),
+            color = MaterialTheme.colorScheme.onSecondary
+        )
     }
 }
 
@@ -118,7 +129,7 @@ fun KoFiAndCoffeeButtons() {
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // 🩵 Botón Ko-fi
+        // Botón Ko-fi
         IconButton(
             onClick = {
                 val intent = Intent(
@@ -141,8 +152,9 @@ fun KoFiAndCoffeeButtons() {
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Icon(
-                    painter = painterResource(id = R.drawable.bmc_logo), // añade un logo kofi.png o .xml a res/drawable
+                // Image para tratar el icono como png, cosa que icon no hace
+                Image(
+                    painter = painterResource(id = R.drawable.kofi_symbol),
                     contentDescription = "Ko-fi",
                     modifier = Modifier.size(24.dp)
                 )
@@ -151,7 +163,7 @@ fun KoFiAndCoffeeButtons() {
             }
         }
 
-        // ☕ Botón Buy Me a Coffee
+        // Botón Buy Me a Coffee
         IconButton(
             onClick = {
                 val intent = Intent(
@@ -174,6 +186,7 @@ fun KoFiAndCoffeeButtons() {
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxWidth()
             ) {
+                // Lo dejo como icon porque me gusta el toque negro que le agrega
                 Icon(
                     painter = painterResource(id = R.drawable.bmc_logo),
                     contentDescription = "Buy Me a Coffee",
@@ -191,38 +204,53 @@ fun KoFiAndCoffeeButtons() {
 fun EmailButton() {
     val context = LocalContext.current
 
-    IconButton(
-        onClick = {
-            val intent = Intent(Intent.ACTION_SEND).apply {
-                type = "message/rfc822"
-                putExtra(Intent.EXTRA_EMAIL, arrayOf("techracoon.group@gmail.com"))
-                putExtra(Intent.EXTRA_SUBJECT, "EstudiaTAI")
-            }
-            val chooser = Intent.createChooser(intent, "Selecciona una aplicación de correo")
-            if (intent.resolveActivity(context.packageManager) != null) {
-                context.startActivity(chooser)
-            }
-        },
-        modifier = Modifier
-            .align(Alignment.CenterHorizontally)
-            .width(180.dp)
-            .height(60.dp)
-            .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
-        colors = IconButtonDefaults.iconButtonColors(
-            containerColor = MaterialTheme.colorScheme.primary,
-            contentColor = MaterialTheme.colorScheme.surface
-        )
+    // Envolvemos el botón en un Column para centrarlo horizontalmente
+    Column(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxWidth()
+        IconButton(
+            onClick = {
+                val intent = Intent(Intent.ACTION_SEND).apply {
+                    type = "message/rfc822"
+                    putExtra(Intent.EXTRA_EMAIL, arrayOf("techracoon.group@gmail.com"))
+                    putExtra(Intent.EXTRA_SUBJECT, "EstudiaTAI")
+                }
+                val chooser = Intent.createChooser(intent, "Selecciona una aplicación de correo")
+                if (intent.resolveActivity(context.packageManager) != null) {
+                    context.startActivity(chooser)
+                }
+            },
+            modifier = Modifier
+                .width(180.dp)
+                .height(60.dp)
+                .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
+            colors = IconButtonDefaults.iconButtonColors(
+                containerColor = MaterialTheme.colorScheme.primary,
+                contentColor = MaterialTheme.colorScheme.surface
+            )
         ) {
-            Icon(Icons.Default.Email, contentDescription = "Enviar correo", modifier = Modifier.size(24.dp))
-            Spacer(modifier = Modifier.width(6.dp))
-            Text("¡Escríbeme!")
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Icon(Icons.Default.Email, contentDescription = "Enviar correo", modifier = Modifier.size(24.dp))
+                Spacer(modifier = Modifier.width(6.dp))
+                Text("¡Escríbeme!")
+            }
         }
     }
 }
 
-
+/*
+@Preview(showBackground = true)
+@Composable
+fun Preview2() {
+    AppTheme {
+        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            ReadMeScreen(modifier = Modifier.padding(innerPadding))
+        }
+    }
+}
+*/

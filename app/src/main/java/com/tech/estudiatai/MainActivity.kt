@@ -1,14 +1,11 @@
 package com.tech.estudiatai
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -90,6 +87,7 @@ fun MainScreen(
 }
 
 @Composable
+// Queda pendiente:
 fun ToggleThemeButton(isDarkTheme: Boolean, onToggleTheme: () -> Unit) {
     Button(
         onClick = onToggleTheme,

@@ -61,11 +61,6 @@ import com.google.gson.JsonObject
 import kotlinx.coroutines.delay
 
 // Clases necesarias para poder leer la estructura json
-data class Block(
-    val blockId: Int,
-    val topics: List<Topic>
-)
-
 data class Topic(
     val topicId: Int,
     val questions: List<Question>
