@@ -1,117 +1,65 @@
-# Android Studio
+# ===================================
+# Android Studio / IntelliJ
+# ===================================
 .idea/
-.idea/caches
-.idea/libraries
-.idea/modules.xml
-.idea/workspace.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
-.idea/misc.xml
 *.iml
 
-# Build output
+# ===================================
+# Build outputs
+# ===================================
 build/
 app/build/
-
-# Gradle
-.gradle/
-local.properties
-.gradle/
-build/
-
-# Log files
-*.log
-
-# Android specific
-*.apk
-*.ap_
-*.aab
-output.json
-
-# Keystore files (sensitive information)
-*.jks
-*.keystore
-
-# Google Services (JSON Files)
-google-services.json
-firebase.json
-
-# Fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-
-# MacOS
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Linux
-*.~lock.*
-
-# Coverage and test reports
-*.ec
-*.hprof
-*.coverdata
-*.coverage
-*.trace
-
-# ProGuard
-proguard/
-
-# IDE and editor files
-*.swp
-*.swo
-*~
-
-# VSCode
-.vscode/
-
-# Generated files
-gen/
-out/
 captures/
 
-# Temporary files
+# ===================================
+# Gradle files
+# ===================================
+.gradle/
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivo local de configuración del SDK (NO compartir)
+local.properties
+
+# ===================================
+# Firmas y credenciales sensibles
+# ===================================
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# ===================================
+# Logs, reportes y temporales
+# ===================================
+*.log
 *.tmp
 *.temp
 *.bak
 *.old
+*.hprof
+*.ec
+*.trace
+*.coverdata
+*.coverage
 
-# Node modules (if using React Native or similar tools)
-node_modules/
-
-# Kotlin
-*.kts
-
-# Gradle Wrapper
-!gradle/wrapper/gradle-wrapper.properties
-gradle/wrapper/gradle-wrapper.jar
-
-# Dependency cache (clear these if build issues occur)
-.cxx/
-
-# Lint
-lint/intermediates/
-lint/generated/
-
-# Annotation processors
-generated/
-
-# User-specific configuration
-*.sublime-workspace
+# ===================================
+# IDEs / Editores alternativos
+# ===================================
+.vscode/
 *.sublime-project
+*.sublime-workspace
 
-# Ignore crashlytics and analytics generated files
-crashlytics-build.properties
+# ===================================
+# Sistemas operativos
+# ===================================
+.DS_Store
+Thumbs.db
+*.~lock.*
 
-# Ignore NDK directories
+# ===================================
+# Otros
+# ===================================
+node_modules/
 .externalNativeBuild/
-
-# Ignore Jetpack Compose compilation output
-.compose/
-
-# Other IDEs
-.idea/runConfigurations/
+.cxx/
