@@ -123,7 +123,7 @@ fun KoFiAndCoffeeButtons() {
             onClick = {
                 val intent = Intent(
                     Intent.ACTION_VIEW,
-                    "https://ko-fi.com/tuusuario".toUri() // <-- cambia tuusuario por el tuyo
+                    "https://ko-fi.com/tech_racoon".toUri() 
                 )
                 context.startActivity(intent)
             },
@@ -142,7 +142,7 @@ fun KoFiAndCoffeeButtons() {
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Icon(
-                    painter = painterResource(id = R.drawable.kofi_logo), // añade un logo kofi.png o .xml a res/drawable
+                    painter = painterResource(id = R.drawable.bmc_logo), // añade un logo kofi.png o .xml a res/drawable
                     contentDescription = "Ko-fi",
                     modifier = Modifier.size(24.dp)
                 )
@@ -156,7 +156,7 @@ fun KoFiAndCoffeeButtons() {
             onClick = {
                 val intent = Intent(
                     Intent.ACTION_VIEW,
-                    "https://www.buymeacoffee.com/tuusuario".toUri() // <-- cambia tuusuario
+                    "https://buymeacoffee.com/tech_racoon".toUri()
                 )
                 context.startActivity(intent)
             },
