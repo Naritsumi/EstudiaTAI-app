@@ -72,14 +72,13 @@ fun MainScreen(
             ButtonsSection()
             Spacer(modifier = Modifier.height(16.dp))
             Text(
-                text = "No se recopilan datos del usuario, ni tampoco se hará en futuras actualizaciones.\n" +
-                        "Basado en la convocatoria TAI-AGE 2024.",
+                text = "Aplicación open-source. Basado en la convocatoria 2024.",
                 fontSize = 12.sp,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.padding(16.dp),
                 color = MaterialTheme.colorScheme.onSecondary
             )
-            Spacer(modifier = Modifier.height(16.dp))
+            //Spacer(modifier = Modifier.height(16.dp))
             // Para versiones futuras:
             //ToggleThemeButton(isDarkTheme = isDarkTheme, onToggleTheme = onToggleTheme)
         }
@@ -158,6 +157,16 @@ fun ButtonsSection() {
                 val intent = Intent(context, B4IndiceActivity::class.java)
                 context.startActivity(intent)
             })
+        //Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(26.dp))
+        Text(
+            text = "Apoya el desarrollo ❤️",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = MaterialTheme.colorScheme.onSecondary,
+            modifier = Modifier.padding(bottom = 8.dp)
+        )
+        KoFiAndCoffeeButtons() // reutiliza tu composable existente
         Spacer(modifier = Modifier.height(16.dp))
         CustomButton("Sobre la app",
             onClick = {

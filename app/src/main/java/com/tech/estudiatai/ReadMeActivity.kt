@@ -17,6 +17,8 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Email
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonDefaults
@@ -126,23 +128,23 @@ fun KoFiAndCoffeeButtons() {
         modifier = Modifier
             .fillMaxWidth()
             .padding(top = 16.dp),
-        horizontalArrangement = Arrangement.SpaceEvenly,
+        horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        // Botón Ko-fi
-        IconButton(
+        Button(
             onClick = {
                 val intent = Intent(
                     Intent.ACTION_VIEW,
-                    "https://ko-fi.com/tech_racoon".toUri() 
+                    "https://ko-fi.com/tech_racoon".toUri()
                 )
                 context.startActivity(intent)
             },
             modifier = Modifier
                 .width(180.dp)
                 .height(60.dp)
-                .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
-            colors = IconButtonDefaults.iconButtonColors(
+                .shadow(5.dp, shape = RoundedCornerShape(16.dp)),
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.secondary,
                 contentColor = MaterialTheme.colorScheme.onSecondary
             )
@@ -152,7 +154,6 @@ fun KoFiAndCoffeeButtons() {
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                // Image para tratar el icono como png, cosa que icon no hace
                 Image(
                     painter = painterResource(id = R.drawable.kofi_symbol),
                     contentDescription = "Ko-fi",
@@ -163,8 +164,9 @@ fun KoFiAndCoffeeButtons() {
             }
         }
 
-        // Botón Buy Me a Coffee
-        IconButton(
+        Spacer(modifier = Modifier.width(6.dp))
+
+        Button(
             onClick = {
                 val intent = Intent(
                     Intent.ACTION_VIEW,
@@ -175,8 +177,9 @@ fun KoFiAndCoffeeButtons() {
             modifier = Modifier
                 .width(180.dp)
                 .height(60.dp)
-                .shadow(5.dp, shape = RoundedCornerShape(25.dp)),
-            colors = IconButtonDefaults.iconButtonColors(
+                .shadow(5.dp, shape = RoundedCornerShape(16.dp)),
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.tertiary,
                 contentColor = MaterialTheme.colorScheme.onTertiary
             )
@@ -186,7 +189,6 @@ fun KoFiAndCoffeeButtons() {
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                // Lo dejo como icon porque me gusta el toque negro que le agrega
                 Icon(
                     painter = painterResource(id = R.drawable.bmc_logo),
                     contentDescription = "Buy Me a Coffee",
@@ -198,6 +200,7 @@ fun KoFiAndCoffeeButtons() {
         }
     }
 }
+
 
 @SuppressLint("UseKtx")
 @Composable
