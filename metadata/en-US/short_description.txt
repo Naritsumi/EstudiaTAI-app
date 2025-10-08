@@ -1,1 +1,1 @@
-Tests para preparar la oposición de Técnico Auxiliar de Informática (AGE).
+Practice tests for the Spanish AGE IT Assistant exams.
