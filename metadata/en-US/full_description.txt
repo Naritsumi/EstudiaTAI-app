@@ -1,0 +1,10 @@
+EstudiaTAI es una aplicación gratuita para preparar la oposición de Técnico Auxiliar de Informática (AGE).
+Incluye tests organizados por temas y niveles de dificultad, para practicar a tu ritmo.
+
+Características:
+- Tests agrupados por temas
+- Sin necesidad de registro ni conexión constante
+- Resultados al instante.
+- Diseño limpio y centrado en la experiencia de estudio
+
+Totalmente gratuita y de código abierto.
