@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>T3: Administración de servidores de correo electrónico</title>
+        <title>T3: AdministraciÃ³n de servidores de correo electrÃ³nico</title>
         <style>
             body {
                 font-family: 'Helvetica', sans-serif;
@@ -88,9 +88,9 @@
         </style>
     </head>
     <body>
-        <h1>Tema 3: Administración de servidores de correo electrónico</h1>
+        <h1>Tema 3: AdministraciÃ³n de servidores de correo electrÃ³nico</h1>
         <div class="section">
-            <p>El correo electrónico es un método de <b>intercambio de mensajes digitales</b> entre usuarios de una red informática.</p>
+            <p>El correo electrÃ³nico es un mÃ©todo de <b>intercambio de mensajes digitales</b> entre usuarios de una red informÃ¡tica.</p>
         </div>
 
         <h2>Agentes - Arquitectura</h2>
@@ -100,18 +100,18 @@
                 <li><b>MRA (Mail Retrieval Agent)</b>: Recupera correos desde el servidor de correo.</li>
                 <li><b>MTA (Mail Transfer Agent)</b>: Enruta y entrega correos entre servidores.</li>
                 <li><b>MSA (Mail Submission Agent)</b>: Recibe los correos desde el MUA y los pasa al MTA.</li>
-                <li><b>MDA (Mail Delivery Agent)</b>: Entrega los correos en el buzón del destinatario.</li>
+                <li><b>MDA (Mail Delivery Agent)</b>: Entrega los correos en el buzÃ³n del destinatario.</li>
             </ul>
         </div>
 
-        <h2>Flujo del correo electrónico</h2>
+        <h2>Flujo del correo electrÃ³nico</h2>
         <div class="section">
             <ol>
-                <li>El usuario envía un correo desde su MUA.</li>
+                <li>El usuario envÃ­a un correo desde su MUA.</li>
                 <li>El MSA lo transfiere al MTA.</li>
-                <li>El MTA encuentra la mejor ruta y envía el correo.</li>
+                <li>El MTA encuentra la mejor ruta y envÃ­a el correo.</li>
                 <li>El correo llega al servidor de destino y es almacenado por el MDA.</li>
-                <li>El destinatario accede a su correo a través de su MUA mediante IMAP o POP3.</li>
+                <li>El destinatario accede a su correo a travÃ©s de su MUA mediante IMAP o POP3.</li>
             </ol>
         </div>
 
@@ -126,28 +126,30 @@
 
         <h2>DNS y seguridad</h2>
         <div class="section">
-            <p>El DNS (Domain Name System) es <span class="important">crucial en el enrutamiento de correos</span>, ya que permite la identificación de servidores responsables de manejar el email de un dominio.</p>
+            <p>El DNS (Domain Name System) es <span class="important">crucial en el enrutamiento de correos</span>, ya que permite la identificaciÃ³n de servidores responsables de manejar el email de un dominio.</p>
         </div>
 
         <div class="section examples">
             <h3>SPF (Sender Policy Framework)</h3>
-            <p>SPF es un protocolo de autenticación que permite a los dueños de dominios especificar qué servidores están autorizados para enviar correos en su nombre.</p>
+            <p>SPF es un protocolo de autenticaciÃ³n que permite a los dueÃ±os de dominios especificar quÃ© servidores estÃ¡n autorizados para enviar correos en su nombre.</p>
             <p><b>Ejemplo de un registro SPF:</b></p>
             <code>v=spf1 include:_spf.example.com ~all</code>
         </div>
 
         <div class="section examples">
             <h3>DKIM (DomainKeys Identified Mail)</h3>
-            <p>DKIM agrega una firma digital a los correos electrónicos para verificar que no han sido modificados durante el tránsito.</p>
+            <p>DKIM agrega una firma digital a los correos electrÃ³nicos para verificar que no han sido modificados durante el trÃ¡nsito.</p>
             <p><b>Ejemplo de un registro DKIM:</b></p>
             <code>v=DKIM1; k=rsa; p=MIGfMA0G...</code>
         </div>
 
         <div class="section examples">
             <h3>DMARC (Domain-based Message Authentication, Reporting & Conformance)</h3>
-            <p>DMARC es una política que permite a los dueños de dominios definir cómo los correos fallidos en autenticación deben ser manejados.</p>
+            <p>DMARC es una polÃ­tica que permite a los dueÃ±os de dominios definir cÃ³mo los correos fallidos en autenticaciÃ³n deben ser manejados.</p>
             <p><b>Ejemplo de un registro DMARC:</b></p>
             <code>v=DMARC1; p=reject; rua=mailto:reports@example.com</code>
         </div>
     </body>
 </html>
+
+

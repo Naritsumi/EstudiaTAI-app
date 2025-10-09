@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>T4: Administración de redes de área local</title>
+        <title>T4: AdministraciÃ³n de redes de Ã¡rea local</title>
         <style>
             body {
                 font-family: 'Helvetica', sans-serif;
@@ -64,64 +64,64 @@
         </style>
     </head>
     <body>
-        <h1>Tema 4: Administración de redes de área local</h1>
+        <h1>Tema 4: AdministraciÃ³n de redes de Ã¡rea local</h1>
 
-        <h2>Administración de redes</h2>
+        <h2>AdministraciÃ³n de redes</h2>
         <div class="section">
-            <p>La administración de redes se basa en la <b>gestión y monitorización</b> de los dispositivos y recursos de una red para asegurar su correcto funcionamiento.</p>
+            <p>La administraciÃ³n de redes se basa en la <b>gestiÃ³n y monitorizaciÃ³n</b> de los dispositivos y recursos de una red para asegurar su correcto funcionamiento.</p>
         </div>
 
         <h2>SNMP (Simple Network Management Protocol)</h2>
         <div class="section">
-            <p>SNMP es un protocolo estándar de internet utilizado para <b>gestionar y supervisar dispositivos de red</b> como routers, switches, servidores e impresoras.</p>
-            <p>Permite recolectar información sobre rendimiento, diagnosticar problemas y controlar dispositivos.</p>
+            <p>SNMP es un protocolo estÃ¡ndar de internet utilizado para <b>gestionar y supervisar dispositivos de red</b> como routers, switches, servidores e impresoras.</p>
+            <p>Permite recolectar informaciÃ³n sobre rendimiento, diagnosticar problemas y controlar dispositivos.</p>
             <p><b>Puertos:</b> 161/UDP (agente) y 162/UDP (gestor).</p>
         </div>
 
-        <h2>Herramientas de gestión de redes</h2>
+        <h2>Herramientas de gestiÃ³n de redes</h2>
         <div class="section tools">
             <ul>
-                <li><b>Nagios</b>: Monitorización de redes y servidores.</li>
-                <li><b>Zabbix</b>: Plataforma avanzada de monitorización.</li>
-                <li><b>SolarWinds</b>: Solución integral para gestión de redes.</li>
+                <li><b>Nagios</b>: MonitorizaciÃ³n de redes y servidores.</li>
+                <li><b>Zabbix</b>: Plataforma avanzada de monitorizaciÃ³n.</li>
+                <li><b>SolarWinds</b>: SoluciÃ³n integral para gestiÃ³n de redes.</li>
             </ul>
         </div>
 
         <h2>SNMPv1</h2>
         <div class="section">
-            <p>Primera versión de SNMP, definida en el RFC 1157.</p>
-            <p>Los RFC (Request for Comments) definen los estándares y especificaciones de SNMP.</p>
+            <p>Primera versiÃ³n de SNMP, definida en el RFC 1157.</p>
+            <p>Los RFC (Request for Comments) definen los estÃ¡ndares y especificaciones de SNMP.</p>
             <ul>
-                <li>Basado en una estructura simple de comunidad para autenticación.</li>
+                <li>Basado en una estructura simple de comunidad para autenticaciÃ³n.</li>
                 <li>Usa comandos GET, SET y TRAP.</li>
-                <li>No proporciona encriptación ni autenticación segura.</li>
+                <li>No proporciona encriptaciÃ³n ni autenticaciÃ³n segura.</li>
             </ul>
         </div>
 
         <h2>SNMPv2</h2>
         <div class="section">
             <p>SNMPv2 introdujo mejoras sobre SNMPv1, pero inicialmente su modelo de seguridad era complejo.</p>
-            <p>Se definió en los RFC 1441-1450 y posteriormente nació SNMPv2c, que es la versión más utilizada.</p>
+            <p>Se definiÃ³ en los RFC 1441-1450 y posteriormente naciÃ³ SNMPv2c, que es la versiÃ³n mÃ¡s utilizada.</p>
             <ul>
                 <li>Soporte para nuevos tipos de datos.</li>
-                <li>Mejor eficiencia en la recuperación de datos.</li>
-                <li>SNMPv2c mantiene el modelo de comunidad de SNMPv1 pero mejora la gestión.</li>
+                <li>Mejor eficiencia en la recuperaciÃ³n de datos.</li>
+                <li>SNMPv2c mantiene el modelo de comunidad de SNMPv1 pero mejora la gestiÃ³n.</li>
             </ul>
         </div>
 
         <h2>SNMPv3</h2>
         <div class="section">
-            <p>Incluye características avanzadas de seguridad, como autenticación y encriptación.</p>
-            <p class="important">Su configuración es más compleja debido a estos aspectos de seguridad.</p>
+            <p>Incluye caracterÃ­sticas avanzadas de seguridad, como autenticaciÃ³n y encriptaciÃ³n.</p>
+            <p class="important">Su configuraciÃ³n es mÃ¡s compleja debido a estos aspectos de seguridad.</p>
         </div>
 
         <h2>LDAP</h2>
         <div class="section">
-            <p>LDAP (Lightweight Directory Access Protocol) es un protocolo de comunicación utilizado para acceder y gestionar servicios de directorios, como bases de datos que contienen información sobre usuarios, dispositivos o recursos en una red.
-                Se usa comúnmente en sistemas para gestionar usuarios y autenticar accesos, por ejemplo, en servicios como Active Directory de Microsoft o en sistemas de correo electrónico.</p>
-            <p>Es ideal para almacenar información de <b>usuarios, grupos y permisos</b>.</p>
+            <p>LDAP (Lightweight Directory Access Protocol) es un protocolo de comunicaciÃ³n utilizado para acceder y gestionar servicios de directorios, como bases de datos que contienen informaciÃ³n sobre usuarios, dispositivos o recursos en una red.
+                Se usa comÃºnmente en sistemas para gestionar usuarios y autenticar accesos, por ejemplo, en servicios como Active Directory de Microsoft o en sistemas de correo electrÃ³nico.</p>
+            <p>Es ideal para almacenar informaciÃ³n de <b>usuarios, grupos y permisos</b>.</p>
             <ul>
-                <li><b>Versión:</b> 3</li>
+                <li><b>VersiÃ³n:</b> 3</li>
                 <li><b>Protocolo de transporte:</b> TCP/IP</li>
             </ul>
         </div>
@@ -134,10 +134,12 @@
         <h2>Seguridad en LDAP</h2>
         <div class="section">
             <ul>
-                <li><b>LDAPS</b>: Implementación de LDAP sobre SSL/TLS para comunicación segura.</li>
-                <li><b>Autenticación y Autorización</b>: LDAP gestiona la validación y los permisos de acceso.</li>
-                <li><b>ACL (Access Control Lists)</b>: Controla quién puede leer o modificar el directorio.</li>
+                <li><b>LDAPS</b>: ImplementaciÃ³n de LDAP sobre SSL/TLS para comunicaciÃ³n segura.</li>
+                <li><b>AutenticaciÃ³n y AutorizaciÃ³n</b>: LDAP gestiona la validaciÃ³n y los permisos de acceso.</li>
+                <li><b>ACL (Access Control Lists)</b>: Controla quiÃ©n puede leer o modificar el directorio.</li>
             </ul>
         </div>
     </body>
 </html>
+
+
