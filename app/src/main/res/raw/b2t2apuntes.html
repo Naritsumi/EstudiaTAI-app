@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bloque 2: TecnologÃ­a</title>
+        <title>Bloque 2: Tecnología</title>
         <style>
             body {
                 font-family: 'Helvetica', sans-serif;
@@ -89,22 +89,22 @@
     </head>
     <body>
 
-        <h1>Tema 2: PerifÃ©ricos</h1>
+        <h1>Tema 2: Periféricos</h1>
 
-        <h2>Funcionamiento interno y relaciÃ³n con la CPU</h2>
+        <h2>Funcionamiento interno y relación con la CPU</h2>
         <div class="section">
-            <p>Los perifÃ©ricos son dispositivos externos conectados a la computadora que permiten la interacciÃ³n con el sistema y su funcionamiento adecuado depende de una correcta gestiÃ³n con la CPU.</p>
+            <p>Los periféricos son dispositivos externos conectados a la computadora que permiten la interacción con el sistema y su funcionamiento adecuado depende de una correcta gestión con la CPU.</p>
 
             <h3>Controladores (drivers)</h3>
-            <p>Son esenciales para el funcionamiento de los perifÃ©ricos, ya que actÃºan como intermediarios entre el hardware del perifÃ©rico y el sistema operativo. Se comunican con el <span class="important"><b>PIC (Programmable Interrupt Controller)</b></span> para gestionar la recepciÃ³n y respuesta de las interrupciones.</p>
+            <p>Son esenciales para el funcionamiento de los periféricos, ya que actúan como intermediarios entre el hardware del periférico y el sistema operativo. Se comunican con el <span class="important"><b>PIC (Programmable Interrupt Controller)</b></span> para gestionar la recepción y respuesta de las interrupciones.</p>
 
             <h3>Interrupciones (INT - INT A)</h3>
-            <p>Los perifÃ©ricos utilizan interrupciones para comunicarse con la CPU. Una interrupciÃ³n es una seÃ±al enviada desde el <b>PIC</b> a la CPU, indicando que el perifÃ©rico necesita atenciÃ³n. La CPU pausa su tarea actual para atender la interrupciÃ³n y luego regresa a su tarea anterior.</p>
+            <p>Los periféricos utilizan interrupciones para comunicarse con la CPU. Una interrupción es una señal enviada desde el <b>PIC</b> a la CPU, indicando que el periférico necesita atención. La CPU pausa su tarea actual para atender la interrupción y luego regresa a su tarea anterior.</p>
         </div>
 
         <h2>Puertos y Buses</h2>
         <div class="section">
-            <p>Los perifÃ©ricos se conectan a la placa base de la computadora a travÃ©s de <b>puertos</b> y se comunican mediante <b>buses</b> de datos, que son canales de comunicaciÃ³n que permiten el intercambio de informaciÃ³n entre la CPU, la memoria y los perifÃ©ricos.</p>
+            <p>Los periféricos se conectan a la placa base de la computadora a través de <b>puertos</b> y se comunican mediante <b>buses</b> de datos, que son canales de comunicación que permiten el intercambio de información entre la CPU, la memoria y los periféricos.</p>
         </div>
 
         <h2>El Kernel</h2>
@@ -118,69 +118,69 @@
             <p>Generadas por dispositivos externos como teclados, ratones, controladores de disco, entre otros.</p>
 
             <h3>Interrupciones de software</h3>
-            <p>Generadas por instrucciones especiales dentro del cÃ³digo, como una llamada al sistema operativo.</p>
+            <p>Generadas por instrucciones especiales dentro del código, como una llamada al sistema operativo.</p>
 
             <h3>Interrupciones de excepciones</h3>
-            <p>Provocadas por condiciones anÃ³malas en el hardware, como errores de divisiÃ³n por cero o fallos de pÃ¡gina.</p>
+            <p>Provocadas por condiciones anómalas en el hardware, como errores de división por cero o fallos de página.</p>
         </div>
 
-        <h2>Formas de relacionarnos con los perifÃ©ricos</h2>
+        <h2>Formas de relacionarnos con los periféricos</h2>
         <div class="section">
-            <h3>InterrupciÃ³n</h3>
-            <p>Las interrupciones permiten que el perifÃ©rico <span class="important">avise a la CPU que necesita atenciÃ³n inmediata</span>. Esta tÃ©cnica es crucial para mejorar el rendimiento del sistema sin necesidad de que la CPU estÃ© constantemente comprobando el estado de los dispositivos.</p>
+            <h3>Interrupción</h3>
+            <p>Las interrupciones permiten que el periférico <span class="important">avise a la CPU que necesita atención inmediata</span>. Esta técnica es crucial para mejorar el rendimiento del sistema sin necesidad de que la CPU esté constantemente comprobando el estado de los dispositivos.</p>
 
             <h3>DMA: Acceso Directo a Memoria</h3>
-            <p>El <strong><b>DMA</b></strong> es una caracterÃ­stica esencial en ordenadores modernos que permite a dispositivos como unidades de disco, tarjetas grÃ¡ficas y tarjetas de sonido transferir datos directamente a la memoria sin sobrecargar la CPU con interrupciones constantes.</p>
+            <p>El <strong><b>DMA</b></strong> es una característica esencial en ordenadores modernos que permite a dispositivos como unidades de disco, tarjetas gráficas y tarjetas de sonido transferir datos directamente a la memoria sin sobrecargar la CPU con interrupciones constantes.</p>
 
             <h3>Mapeo de memoria</h3>
-            <p>Permite a los perifÃ©ricos transferir datos directamente a la memoria sin intervenciÃ³n de la CPU, lo que optimiza el rendimiento del sistema, especialmente en operaciones que requieren gran volumen de datos.</p>
+            <p>Permite a los periféricos transferir datos directamente a la memoria sin intervención de la CPU, lo que optimiza el rendimiento del sistema, especialmente en operaciones que requieren gran volumen de datos.</p>
 
             <h3>Puertos de E/S (Entrada/Salida)</h3>
-            <p>Los puertos de E/S son interfaces que permiten la comunicaciÃ³n entre la CPU y los perifÃ©ricos. Dependiendo de la tecnologÃ­a, pueden ser <span class="important"><b>puertos paralelos</b></span> o <span class="important"><b>puertos seriales</b></span>, cada uno con sus propias ventajas y limitaciones.</p>
+            <p>Los puertos de E/S son interfaces que permiten la comunicación entre la CPU y los periféricos. Dependiendo de la tecnología, pueden ser <span class="important"><b>puertos paralelos</b></span> o <span class="important"><b>puertos seriales</b></span>, cada uno con sus propias ventajas y limitaciones.</p>
         </div>
 
-        <h2>RelaciÃ³n entre CPU y GPU</h2>
+        <h2>Relación entre CPU y GPU</h2>
         <div class="section">
-            <h3>GPU (Unidad de Procesamiento GrÃ¡fico)</h3>
-            <p>La <b>GPU</b> es un tipo especializado de procesador diseÃ±ado para procesar y acelerar grÃ¡ficos. Tanto la CPU como la GPU trabajan juntas para realizar tareas de computaciÃ³n, donde la CPU se ocupa de tareas generales y la GPU acelera el procesamiento grÃ¡fico.</p>
+            <h3>GPU (Unidad de Procesamiento Gráfico)</h3>
+            <p>La <b>GPU</b> es un tipo especializado de procesador diseñado para procesar y acelerar gráficos. Tanto la CPU como la GPU trabajan juntas para realizar tareas de computación, donde la CPU se ocupa de tareas generales y la GPU acelera el procesamiento gráfico.</p>
             <p>Por medio de <b>MMIO</b> (Memory-Mapped I/O), podemos acceder a la zona de los registros de la GPU desde el driver.</p>
         </div>
 
-        <h2>TecnologÃ­as relacionadas</h2>
+        <h2>Tecnologías relacionadas</h2>
         <div class="section">
             <h3>SOC (System on Chip)</h3>
-            <p>Es una circuiterÃ­a que integra la CPU, GPU y memoria en un solo chip. Un ejemplo moderno es el <u><b>Apple M1</b></u>, una arquitectura todo-en-uno.</p>
+            <p>Es una circuitería que integra la CPU, GPU y memoria en un solo chip. Un ejemplo moderno es el <u><b>Apple M1</b></u>, una arquitectura todo-en-uno.</p>
         </div>
 
         <h2>Tipos de Almacenamiento</h2>
         <div class="section">
-            <h3>Almacenamiento en cintas magnÃ©ticas</h3>
-            <p>Las <b>cintas magnÃ©ticas</b> se utilizan principalmente para almacenamiento a largo plazo y backups.</p>
+            <h3>Almacenamiento en cintas magnéticas</h3>
+            <p>Las <b>cintas magnéticas</b> se utilizan principalmente para almacenamiento a largo plazo y backups.</p>
 
-            <h3>Almacenamiento Ã“ptico</h3>
-            <p>Los dispositivos de almacenamiento Ã³ptico incluyen CD, DVD y Blu-ray, utilizados para almacenar grandes cantidades de datos de manera permanente.</p>
+            <h3>Almacenamiento Óptico</h3>
+            <p>Los dispositivos de almacenamiento óptico incluyen CD, DVD y Blu-ray, utilizados para almacenar grandes cantidades de datos de manera permanente.</p>
 
             <h3>Discos Duros</h3>
-            <p>Son la tecnologÃ­a de almacenamiento tradicional, con capacidad de almacenar grandes volÃºmenes de datos a un costo relativamente bajo.</p>
+            <p>Son la tecnología de almacenamiento tradicional, con capacidad de almacenar grandes volúmenes de datos a un costo relativamente bajo.</p>
 
             <h3>Dispositivos Flash</h3>
-            <p>Es una memoria no volÃ¡til basada en EEPROM que no requiere electricidad para el mantenimiento, pero sÃ­ para la programaciÃ³n.</p>
+            <p>Es una memoria no volátil basada en EEPROM que no requiere electricidad para el mantenimiento, pero sí para la programación.</p>
 
             <h3>Discos SSD (Solid State Drive)</h3>
-            <p>Utilizan memoria flash para el almacenamiento, siendo mÃ¡s rÃ¡pidos y duraderos que los discos duros tradicionales. Sin embargo, soportan menos escrituras.</p>
+            <p>Utilizan memoria flash para el almacenamiento, siendo más rápidos y duraderos que los discos duros tradicionales. Sin embargo, soportan menos escrituras.</p>
         </div>
 
         <h2>Interfaces de almacenamiento</h2>
         <div class="section">
             <h3>IDE/PATA</h3>
-            <p>Es un sistema de transmisiÃ³n paralelo utilizado en discos duros antiguos.</p>
+            <p>Es un sistema de transmisión paralelo utilizado en discos duros antiguos.</p>
 
             <h3>SATA</h3>
-            <p>Bus serial que permite transferencias de datos mÃ¡s rÃ¡pidas que PATA, con velocidades de hasta 6 Gbps.</p>
+            <p>Bus serial que permite transferencias de datos más rápidas que PATA, con velocidades de hasta 6 Gbps.</p>
 
             <h3>mSATA y SAS</h3>
             <ul>
-                <li><b>mSATA</b> VersiÃ³n mÃ¡s pequeÃ±a de SATA</li>
+                <li><b>mSATA</b> Versión más pequeña de SATA</li>
                 <li><b>SAS</b> Es utilizado principalmente en servidores y sistemas de almacenamiento empresarial.</li>
             </ul>
         </div>
@@ -195,7 +195,7 @@
                 <li><b>USB 3.0:</b> 5 Gbits/s, 4.5W</li>
             </ul>
             <h3>Colores en USB</h3>
-            <p>Los colores en los conectores USB indican la versiÃ³n y velocidad:</p>
+            <p>Los colores en los conectores USB indican la versión y velocidad:</p>
             <ul>
                 <li><b>Blanco:</b> USB 1.0 o 2.0 (hasta 60 MB/s)</li>
                 <li><b>Negro:</b> USB 2.0</li>
@@ -206,4 +206,3 @@
 
     </body>
 </html>
-

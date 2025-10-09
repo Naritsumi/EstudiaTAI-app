@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
@@ -102,8 +102,8 @@
             <ul>
                 <li><strong>Escalabilidad:</strong> Posibilidad de escalar el servidor a medida que la demanda crece.</li>
                 <li><strong>Seguridad:</strong> Permite implementar mejores medidas de seguridad.</li>
-                <li><strong>Mantenimiento y actualizaciÃ³n:</strong> Se pueden realizar cambios en el servidor sin afectar al cliente.</li>
-                <li><strong>Facilidad de implementaciÃ³n:</strong> Modelo ampliamente utilizado y documentado.</li>
+                <li><strong>Mantenimiento y actualización:</strong> Se pueden realizar cambios en el servidor sin afectar al cliente.</li>
+                <li><strong>Facilidad de implementación:</strong> Modelo ampliamente utilizado y documentado.</li>
             </ul>
         </div>
 
@@ -111,7 +111,7 @@
             <h3>Desventajas</h3>
             <ul>
                 <li><strong>Dependencia del servidor:</strong> Si el servidor falla, los clientes no pueden operar.</li>
-                <li><strong>Carga en el servidor:</strong> Muchos clientes simultÃ¡neos pueden afectar el rendimiento.</li>
+                <li><strong>Carga en el servidor:</strong> Muchos clientes simultáneos pueden afectar el rendimiento.</li>
                 <li><strong>Limitaciones de red:</strong> La velocidad y estabilidad de la red impactan la eficiencia.</li>
             </ul>
         </div>
@@ -120,16 +120,16 @@
             <h3>Ejemplos</h3>
             <ul>
                 <li><b>Navegadores web y servidores web.</b></li>
-                <li><b>Aplicaciones de correo electrÃ³nico.</b></li>
+                <li><b>Aplicaciones de correo electrónico.</b></li>
                 <li><b>Base de datos cliente/servidor.</b></li>
             </ul>
         </div>
 
-        <h2>TÃ©rminos de arquitectura cliente/servidor</h2>
+        <h2>Términos de arquitectura cliente/servidor</h2>
 
         <div class="section">
             <h3>Cliente</h3>
-            <p>Entidad que solicita servicios al servidor, como navegadores web o aplicaciones mÃ³viles.</p>
+            <p>Entidad que solicita servicios al servidor, como navegadores web o aplicaciones móviles.</p>
         </div>
 
         <div class="section">
@@ -139,32 +139,32 @@
 
         <div class="section">
             <h3>Red (Middleware)</h3>
-            <p>Canal de comunicaciÃ³n entre cliente y servidor, asegurando el transporte de datos. <span class="important">El middleware es clave para la comunicaciÃ³n eficiente.</span></p>
+            <p>Canal de comunicación entre cliente y servidor, asegurando el transporte de datos. <span class="important">El middleware es clave para la comunicación eficiente.</span></p>
         </div>
 
         <h2>Componentes principales</h2>
 
         <div class="section">
-            <h3>1. Protocolo de comunicaciÃ³n</h3>
+            <h3>1. Protocolo de comunicación</h3>
             <ul>
-                <li><strong>HTTP/HTTPS:</strong> ComunicaciÃ³n estÃ¡ndar para la web.</li>
-                <li><strong>SOAP:</strong> Protocolo basado en XML para comunicaciÃ³n estructurada.</li>
-                <li><strong>REST:</strong> Arquitectura ligera para manipulaciÃ³n de recursos.</li>
+                <li><strong>HTTP/HTTPS:</strong> Comunicación estándar para la web.</li>
+                <li><strong>SOAP:</strong> Protocolo basado en XML para comunicación estructurada.</li>
+                <li><strong>REST:</strong> Arquitectura ligera para manipulación de recursos.</li>
                 <li><strong>GraphQL:</strong> Consulta flexible para evitar sobrecarga de datos.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h3>2. MensajerÃ­a y formato de datos</h3>
+            <h3>2. Mensajería y formato de datos</h3>
             <ul>
                 <li><strong>XML:</strong> Usado en SOAP.</li>
                 <li><strong>JSON:</strong> Ligero y usado en REST y GraphQL.</li>
-                <li><strong>Protocol Buffers (Protobuf):</strong> SerializaciÃ³n eficiente usada en gRPC.</li>
+                <li><strong>Protocol Buffers (Protobuf):</strong> Serialización eficiente usada en gRPC.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h3>3. Registro y localizaciÃ³n de servicios</h3>
+            <h3>3. Registro y localización de servicios</h3>
             <ul>
                 <li><strong>UDDI:</strong> Directorio de servicios web.</li>
                 <li><strong>WSDL:</strong> Describe interfaces de servicios web en XML.</li>
@@ -172,20 +172,18 @@
         </div>
 
         <div class="section">
-            <h3>4. Interfaz de programaciÃ³n de aplicaciones (API)</h3>
-            <p>Definen cÃ³mo los servicios interactÃºan, basadas en REST o SOAP. <span class="important">Las APIs son cruciales para integrar aplicaciones de forma eficiente.</span></p>
+            <h3>4. Interfaz de programación de aplicaciones (API)</h3>
+            <p>Definen cómo los servicios interactúan, basadas en REST o SOAP. <span class="important">Las APIs son cruciales para integrar aplicaciones de forma eficiente.</span></p>
         </div>
 
         <div class="section">
             <h3>5. Seguridad</h3>
             <ul>
-                <li><strong>AutenticaciÃ³n y autorizaciÃ³n:</strong> Uso de tokens y OAuth.</li>
-                <li><strong>Cifrado:</strong> ProtecciÃ³n de datos mediante SSL/TLS.</li>
-                <li><strong>PolÃ­ticas de acceso:</strong> Control de permisos sobre los servicios.</li>
+                <li><strong>Autenticación y autorización:</strong> Uso de tokens y OAuth.</li>
+                <li><strong>Cifrado:</strong> Protección de datos mediante SSL/TLS.</li>
+                <li><strong>Políticas de acceso:</strong> Control de permisos sobre los servicios.</li>
             </ul>
         </div>
 
     </body>
 </html>
-
-
