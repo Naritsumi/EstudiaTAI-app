@@ -1,1 +1,1583 @@
-﻿[  {    "blockId": 1,    "topics": [      {        "topicId": 1,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© significa JVM?",            "options": ["Java Virtual Machine","Java Variable Management","Java Version Module","Java Visual Method"],            "correctAnswer": 0          }        ]      }    ]  },  {    "blockId": 2,    "topics": [      {        "topicId": 1,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© significa JVM?",            "options": ["Java Virtual Machine","Java Variable Management","Java Version Module","Java Visual Method"],            "correctAnswer": 0          }        ]      }    ]  },  {    "blockId": 3,    "topics": [      {        "topicId": 1,        "questions": [          {            "questionId": 1,            "question": "Â¿CuÃ¡l es el propÃ³sito principal del Modelo Conceptual de Datos?",            "options": ["Definir la estructura fÃ­sica de la base de datos","Representar la informaciÃ³n de manera abstracta sin detalles tÃ©cnicos", "Especificar cÃ³mo se almacenarÃ¡n los datos en un sistema RDBMS", "Optimizar las consultas SQL en una base de datos"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿QuÃ© elemento es caracterÃ­stico del Modelo LÃ³gico de Datos?",            "options": ["JerarquÃ­as y subclases", "Atributos y entidades sin estructuras definidas", "Tablas, claves primarias y forÃ¡neas", "Comandos de almacenamiento especÃ­ficos de un DBMS"],            "correctAnswer": 2          },          {            "questionId": 3,            "question": "Â¿QuÃ© caracterÃ­stica distingue al Modelo FÃ­sico de Datos?",            "options": ["Es independiente de la tecnologÃ­a especÃ­fica", "Se centra en la estructura lÃ³gica de los datos", "Define las condiciones y restricciones especÃ­ficas del DBMS", "Representa Ãºnicamente relaciones entre entidades"],            "correctAnswer": 2          },          {            "questionId": 4,            "question": "Â¿CuÃ¡l de los siguientes modelos se usa para representar datos en una estructura jerÃ¡rquica?",            "options": ["Modelo Relacional", "Modelo Entidad-RelaciÃ³n", "Modelo JerÃ¡rquico", "Modelo Orientado a Objetos"],            "correctAnswer": 2          },          {            "questionId": 5,            "question": "Â¿QuÃ© modelo de datos se basa en tablas con filas y columnas?",            "options": ["Modelo Relacional", "Modelo Entidad-RelaciÃ³n Extendido", "Flujograma", "Modelo JerÃ¡rquico"],            "correctAnswer": 0          },          {            "questionId": 6,            "question": "Â¿CuÃ¡l es el objetivo de la normalizaciÃ³n en bases de datos?",            "options": ["Mejorar la seguridad de la base de datos", "Reducir la redundancia y mejorar la integridad de los datos", "Aumentar la velocidad de procesamiento de consultas SQL", "Optimizar el almacenamiento fÃ­sico de los datos"],            "correctAnswer": 1          },          {            "questionId": 7,            "question": "Â¿QuÃ© caracterÃ­stica define la Primera Forma Normal (1FN)?",            "options": ["Los valores deben ser atÃ³micos", "No debe haber dependencias parciales", "No debe haber dependencias transitivas", "Todas las dependencias funcionales deben ser determinadas por una clave candidata"],            "correctAnswer": 0          },          {            "questionId": 8,            "question": "Â¿CuÃ¡l de las siguientes herramientas es un Sistema de GestiÃ³n de Bases de Datos Relacionales (RDBMS)?",            "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],            "correctAnswer": 1          },          {            "questionId": 9,            "question": "Â¿QuÃ© modelo de datos combina conceptos de bases de datos con la ProgramaciÃ³n Orientada a Objetos?",            "options": ["Modelo Relacional", "Modelo Orientado a Objetos", "Modelo Entidad-RelaciÃ³n", "Modelo JerÃ¡rquico"],            "correctAnswer": 1          },          {            "questionId": 10,            "question": "Â¿CuÃ¡l de las siguientes opciones NO es un RDBMS?",            "options": ["PostgreSQL", "Oracle Database", "MariaDB", "MongoDB"],            "correctAnswer": 3          },          {            "questionId": 11,            "question": "Â¿QuÃ© es una entidad dÃ©bil en el modelo E/R?",            "options": ["Una entidad que existe por sÃ­ misma", "Una entidad cuya existencia depende de otra entidad", "Una entidad que no tiene atributos", "Una entidad que no tiene relaciones"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es la cardinalidad en el modelo E/R?",            "options": ["El nÃºmero de atributos de una entidad", "El nÃºmero de relaciones entre entidades", "El nÃºmero mÃ­nimo y mÃ¡ximo de ocurrencias de una entidad en una relaciÃ³n", "El tipo de dato de un atributo"],            "correctAnswer": 2          },          {            "questionId": 13,            "question": "Â¿QuÃ© es un diagrama de contexto en un DFD?",            "options": ["Un diagrama que muestra todos los detalles del sistema", "Un diagrama que muestra el sistema como un proceso de alto nivel", "Un diagrama que muestra solo los almacenes de datos", "Un diagrama que muestra solo las entidades externas"],            "correctAnswer": 1          },          {            "questionId": 14,            "question": "Â¿QuÃ© es una relaciÃ³n ISA en el modelo EER?",            "options": ["Una relaciÃ³n de herencia", "Una relaciÃ³n de agregaciÃ³n", "Una relaciÃ³n de composiciÃ³n", "Una relaciÃ³n de asociaciÃ³n"],            "correctAnswer": 0          },          {            "questionId": 15,            "question": "Â¿QuÃ© es la especializaciÃ³n en el modelo EER?",            "options": ["El proceso de combinar varias entidades en una", "El proceso de definir subclases a partir de una superclase", "El proceso de eliminar subclases", "El proceso de crear nuevas entidades"],            "correctAnswer": 1          },          {            "questionId": 16,            "question": "Â¿QuÃ© es un almacÃ©n de datos en un DFD?",            "options": ["Un proceso que transforma los datos", "Un lugar donde se guardan los datos", "Una entidad externa", "Un flujo de datos"],            "correctAnswer": 1          },          {            "questionId": 17,            "question": "Â¿QuÃ© es una entidad externa en un DFD?",            "options": ["Un proceso interno del sistema", "Un almacÃ©n de datos", "Un actor fuera del sistema que interactÃºa con Ã©l", "Un flujo de datos"],            "correctAnswer": 2          },          {            "questionId": 18,            "question": "Â¿QuÃ© representa un flujo de datos en un DFD?",            "options": ["El movimiento de los datos entre componentes del sistema", "Un proceso que transforma los datos", "Un almacÃ©n de datos", "Una entidad externa"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es el modelo relacional de bases de datos?",            "options": ["Un modelo que organiza los datos en tablas y relaciones", "Un modelo que organiza los datos en jerarquÃ­as", "Un modelo que organiza los datos en redes", "Un modelo que organiza los datos en grafos"],            "correctAnswer": 0          },          {            "questionId": 20,            "question": "Â¿QuÃ© es una clave primaria en el modelo relacional?",            "options": ["Una clave que relaciona dos tablas", "Una clave que identifica de forma Ãºnica una fila en una tabla", "Una clave que permite valores nulos", "Una clave que no es Ãºnica"],            "correctAnswer": 1          },          {            "questionId": 21,            "question": "Â¿QuÃ© es una restricciÃ³n en el modelo relacional?",            "options": ["Una regla que controla los valores permitidos en los datos", "Una regla que elimina los datos duplicados", "Una regla que permite valores nulos", "Una regla que no permite valores Ãºnicos"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es un dominio en el modelo E/R?",            "options": ["El conjunto de valores que un atributo puede tener", "El conjunto de atributos de una entidad", "El conjunto de relaciones entre entidades", "El conjunto de entidades del sistema"],            "correctAnswer": 0          },          {            "questionId": 23,            "question": "Â¿QuÃ© es una relaciÃ³n forzosa en el modelo E/R?",            "options": ["Una relaciÃ³n donde una entidad puede existir sin la otra", "Una relaciÃ³n donde una entidad debe existir con la otra", "Una relaciÃ³n donde no hay dependencia entre entidades", "Una relaciÃ³n donde solo una entidad puede existir"],            "correctAnswer": 1          },          {            "questionId": 24,            "question": "Â¿QuÃ© es un atributo propio de una relaciÃ³n en el modelo E/R?",            "options": ["Un atributo que describe a una entidad", "Un atributo que describe la relaciÃ³n entre entidades", "Un atributo que no tiene valor", "Un atributo que siempre es nulo"],            "correctAnswer": 1          },          {            "questionId": 25,            "question": "Â¿QuÃ© es la generalizaciÃ³n en el modelo EER?",            "options": ["El proceso de combinar varias entidades en una mÃ¡s general", "El proceso de definir subclases a partir de una superclase", "El proceso de eliminar subclases", "El proceso de crear nuevas entidades"],            "correctAnswer": 0          },          {            "questionId": 26,            "question": "Â¿QuÃ© es una superclase en el modelo EER?",            "options": ["Una entidad mÃ¡s especÃ­fica", "Una entidad mÃ¡s general", "Una entidad que no tiene subclases", "Una entidad que no tiene superclases"],            "correctAnswer": 1          },          {            "questionId": 27,            "question": "Â¿QuÃ© es una subclase en el modelo EER?",            "options": ["Una entidad mÃ¡s general", "Una entidad mÃ¡s especÃ­fica", "Una entidad que no tiene superclases", "Una entidad que no tiene subclases"],            "correctAnswer": 1          },          {            "questionId": 28,            "question": "Â¿QuÃ© es la agregaciÃ³n en el modelo EER?",            "options": ["Una relaciÃ³n de herencia", "Una relaciÃ³n de composiciÃ³n", "Una relaciÃ³n de asociaciÃ³n", "Una relaciÃ³n de dependencia"],            "correctAnswer": 1          },          {            "questionId": 29,            "question": "Â¿QuÃ© es un flujograma?",            "options": ["Un diagrama que muestra el flujo de datos entre procesos", "Un diagrama que muestra la secuencia cronolÃ³gica de procesos", "Un diagrama que muestra la estructura de una base de datos", "Un diagrama que muestra la jerarquÃ­a de un sistema"],            "correctAnswer": 1          },          {            "questionId": 30,            "question": "Â¿QuÃ© es el nivel 0 en un DFD?",            "options": ["Un diagrama que muestra todos los detalles del sistema", "Un diagrama que muestra el sistema como un proceso de alto nivel", "Un diagrama que muestra solo los almacenes de datos", "Un diagrama que muestra solo las entidades externas"],            "correctAnswer": 1          }        ]      },      {        "topicId": 2,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© es un lenguaje de programaciÃ³n?",            "options": ["Un sistema operativo para computadoras", "Un conjunto de reglas y sintaxis que permite escribir instrucciones para una computadora", "Un dispositivo de hardware que ejecuta programas", "Un tipo de procesador utilizado en servidores"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿CuÃ¡l de los siguientes lenguajes utiliza un compilador en lugar de un intÃ©rprete?",            "options": ["Python", "JavaScript", "C++", "Ruby"],            "correctAnswer": 2          },          {            "questionId": 3,            "question": "Â¿QuÃ© tipo de traductor ejecuta el cÃ³digo fuente lÃ­nea por lÃ­nea?",            "options": ["Compilador", "IntÃ©rprete", "Ensamblador", "Transpilador"],            "correctAnswer": 1          },          {            "questionId": 4,            "question": "Â¿CuÃ¡l de los siguientes lenguajes combina compilaciÃ³n a bytecode e interpretaciÃ³n en tiempo de ejecuciÃ³n?",            "options": ["C", "Java", "Python", "Go"],            "correctAnswer": 1          },          {            "questionId": 5,            "question": "Â¿CuÃ¡l es la diferencia principal entre sintaxis y semÃ¡ntica en un lenguaje de programaciÃ³n?",            "options": ["La sintaxis define la estructura y la semÃ¡ntica el significado de las instrucciones", "La semÃ¡ntica define la estructura y la sintaxis el significado de las instrucciones", "Ambas son sinÃ³nimos y significan lo mismo", "La sintaxis se aplica solo a lenguajes compilados, y la semÃ¡ntica a lenguajes interpretados"],            "correctAnswer": 0          },          {            "questionId": 6,            "question": "Â¿CuÃ¡l de los siguientes NO es un ejemplo de un compilador?",            "options": ["GCC", "Clang", "JIT", "Git"],            "correctAnswer": 3          },          {            "questionId": 7,            "question": "Â¿QuÃ© caracterÃ­stica define a un algoritmo?",            "options": ["Debe ser indefinido para adaptarse a cualquier problema", "Debe terminar en un tiempo razonable y ser efectivo", "No debe recibir entradas, solo producir salidas", "Solo puede ser implementado en lenguajes compilados"],            "correctAnswer": 1          },          {            "questionId": 8,            "question": "Â¿CuÃ¡l de los siguientes es un entorno de desarrollo integrado (IDE)?",            "options": ["Visual Studio Code", "GitHub", "Django", "Linux"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© hace un compilador cruzado?",            "options": ["Ejecuta cÃ³digo directamente sin necesidad de traducirlo", "Convierte cÃ³digo en lenguaje ensamblador a cÃ³digo mÃ¡quina", "Traduce cÃ³digo de un lenguaje a otro de alto nivel", "Genera cÃ³digo para una arquitectura diferente a la del sistema donde se ejecuta el compilador"],            "correctAnswer": 3          },          {            "questionId": 10,            "question": "Â¿CuÃ¡l de las siguientes herramientas se usa para el control de versiones?",            "options": ["Django", "React", "Git", "Eclipse"],            "correctAnswer": 2          },          {            "questionId": 11,            "question": "Â¿QuÃ© es el cÃ³digo fuente?",            "options": ["El programa ejecutable", "El cÃ³digo que escribe el programador", "El resultado de la compilaciÃ³n", "El cÃ³digo mÃ¡quina"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© hace un compilador?",            "options": ["Traduce el cÃ³digo lÃ­nea por lÃ­nea", "Traduce todo el cÃ³digo de una vez antes de ejecutarlo", "Ejecuta el cÃ³digo directamente sin traducirlo", "Almacena el cÃ³digo en una base de datos"],            "correctAnswer": 1          },          {            "questionId": 13,            "question": "Â¿QuÃ© es un intÃ©rprete?",            "options": ["Un programa que traduce y ejecuta el cÃ³digo lÃ­nea por lÃ­nea", "Un programa que traduce todo el cÃ³digo de una vez antes de ejecutarlo", "Un programa que almacena el cÃ³digo en una base de datos", "Un programa que ejecuta el cÃ³digo directamente sin traducirlo"],            "correctAnswer": 0          },          {            "questionId": 14,            "question": "Â¿CuÃ¡l es la funciÃ³n principal de un framework?",            "options": ["Permitir la ejecuciÃ³n directa del cÃ³digo fuente", "Facilitar el desarrollo de aplicaciones proporcionando herramientas y estructuras", "Gestionar los permisos de los usuarios en un sistema", "Proteger el cÃ³digo de ataques externos"],            "correctAnswer": 1          },          {            "questionId": 15,            "question": "Â¿QuÃ© es un algoritmo?",            "options": ["Una secuencia de pasos para resolver un problema", "Un lenguaje de programaciÃ³n", "Un tipo de dato", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 16,            "question": "Â¿QuÃ© es un programa?",            "options": ["Un conjunto de instrucciones organizadas para realizar una tarea", "Un lenguaje de programaciÃ³n", "Un sistema operativo", "Un tipo de dato"],            "correctAnswer": 0          },          {            "questionId": 17,            "question": "Â¿QuÃ© caracterÃ­stica NO es esencial en un algoritmo?",            "options": ["Debe ser definido", "Debe ser finito", "Debe requerir una gran cantidad de memoria", "Debe tener entrada y salida"],            "correctAnswer": 2          },          {            "questionId": 18,            "question": "Â¿QuÃ© es tipado estÃ¡tico?",            "options": ["El tipo de cada variable se define en tiempo de ejecuciÃ³n", "El tipo de cada variable se define antes de la ejecuciÃ³n", "No se definen tipos para las variables", "Se permiten conversiones automÃ¡ticas entre tipos"],            "correctAnswer": 1          },          {            "questionId": 19,            "question": "Â¿QuÃ© es tipado dinÃ¡mico?",            "options": ["El tipo de cada variable se define antes de la ejecuciÃ³n", "El tipo de cada variable se define en tiempo de ejecuciÃ³n", "No se definen tipos para las variables", "Se permiten conversiones automÃ¡ticas entre tipos"],            "correctAnswer": 1          },          {            "questionId": 20,            "question": "Â¿QuÃ© es un lenguaje de bajo nivel?",            "options": ["Un lenguaje que es fÃ¡cilmente comprensible por humanos", "Un lenguaje que se ejecuta directamente por la CPU", "Un lenguaje que requiere compilaciÃ³n", "Un lenguaje que es interpretado"],            "correctAnswer": 1          },          {            "questionId": 21,            "question": "Â¿CuÃ¡l de los siguientes lenguajes usa un intÃ©rprete?",            "options": ["C", "C++", "Python", "Go"],            "correctAnswer": 2          },          {            "questionId": 22,            "question": "Â¿QuÃ© es un lenguaje de alto nivel?",            "options": ["Un lenguaje que se ejecuta directamente por la CPU", "Un lenguaje que es fÃ¡cilmente comprensible por humanos", "Un lenguaje que requiere ensamblaje", "Un lenguaje que es interpretado"],            "correctAnswer": 1          },          {            "questionId": 23,            "question": "Â¿QuÃ© es un paradigma imperativo?",            "options": ["Un enfoque de programaciÃ³n basado en funciones matemÃ¡ticas", "Un enfoque de programaciÃ³n basado en reglas y relaciones", "Un enfoque de programaciÃ³n que describe pasos secuenciales para modificar el estado del programa", "Un enfoque de programaciÃ³n orientado a objetos"],            "correctAnswer": 2          },          {            "questionId": 24,            "question": "Â¿QuÃ© es un paradigma funcional?",            "options": ["Un enfoque de programaciÃ³n basado en funciones matemÃ¡ticas", "Un enfoque de programaciÃ³n basado en reglas y relaciones", "Un enfoque de programaciÃ³n que describe pasos secuenciales para modificar el estado del programa", "Un enfoque de programaciÃ³n orientado a objetos"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es un vector en programaciÃ³n?",            "options": ["Una estructura de datos que almacena elementos del mismo tipo y puede redimensionarse dinÃ¡micamente", "Una estructura de datos que almacena elementos del mismo tipo y no puede cambiar de tamaÃ±o", "Un tipo de dato primitivo", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 26,            "question": "Â¿QuÃ© es un array en programaciÃ³n?",            "options": ["Una estructura de datos que almacena elementos del mismo tipo y puede redimensionarse dinÃ¡micamente", "Una estructura de datos que almacena elementos del mismo tipo y no puede cambiar de tamaÃ±o", "Un tipo de dato primitivo", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 27,            "question": "Â¿QuÃ© es un parÃ¡metro en programaciÃ³n?",            "options": ["Una variable que se pasa a una funciÃ³n o procedimiento", "Una variable que se declara dentro de una funciÃ³n", "Un tipo de dato", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 28,            "question": "Â¿CuÃ¡l de las siguientes opciones describe mejor un transpilador?",            "options": ["Convierte el cÃ³digo fuente de un lenguaje de alto nivel a otro lenguaje de alto nivel", "Convierte directamente instrucciones en lenguaje mÃ¡quina", "Es un editor de cÃ³digo con funciones avanzadas", "Es un protocolo de seguridad en la web"],            "correctAnswer": 0          },          {            "questionId": 29,            "question": "Â¿QuÃ© es un bucle while?",            "options": ["Un bucle que ejecuta un bloque de cÃ³digo un nÃºmero fijo de veces", "Un bucle que ejecuta un bloque de cÃ³digo mientras una condiciÃ³n es verdadera", "Un bucle que ejecuta un bloque de cÃ³digo al menos una vez y luego continÃºa ejecutando mientras una condiciÃ³n es verdadera", "Un bucle que ejecuta un bloque de cÃ³digo sobre los elementos de una colecciÃ³n"],            "correctAnswer": 1          }        ]      },      {        "topicId": 3,        "questions": [          {            "questionId": 1,            "question": "Â¿CuÃ¡l es el lenguaje mÃ¡s utilizado para gestionar bases de datos relacionales?",            "options": ["GraphQL", "SQL", "SPARQL", "XQuery"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿CuÃ¡l de los siguientes lenguajes es utilizado para bases de datos NoSQL?",            "options": ["T-SQL", "PL/SQL", "Cypher", "HiveQL"],            "correctAnswer": 2          },          {            "questionId": 3,            "question": "Â¿QuÃ© lenguaje se utiliza principalmente en bases de datos de grafos como Neo4j?",            "options": ["GraphQL", "Cypher", "SPARQL", "T-SQL"],            "correctAnswer": 1          },          {            "questionId": 4,            "question": "Â¿CuÃ¡l de los siguientes lenguajes de interrogaciÃ³n es una extensiÃ³n de SQL utilizada en Microsoft SQL Server?",            "options": ["T-SQL", "PL/SQL", "XQuery", "HiveQL"],            "correctAnswer": 0          },          {            "questionId": 5,            "question": "Â¿QuÃ© lenguaje es utilizado en Apache Hive para consultas en entornos de Big Data?",            "options": ["XQuery", "HiveQL", "Cypher", "SPARQL"],            "correctAnswer": 1          },          {            "questionId": 6,            "question": "Â¿CuÃ¡l de los siguientes lenguajes se usa para consultar datos en formato RDF?",            "options": ["GraphQL", "SPARQL", "NoSQL", "Cypher"],            "correctAnswer": 1          },          {            "questionId": 7,            "question": "Â¿CuÃ¡l de los siguientes comandos pertenece al lenguaje DDL (Data Definition Language)?",            "options": ["SELECT", "GRANT", "CREATE", "ROLLBACK"],            "correctAnswer": 2          },          {            "questionId": 8,            "question": "Â¿QuÃ© comando en SQL se utiliza para eliminar registros de una tabla sin eliminar la estructura de la tabla?",            "options": ["DELETE", "DROP", "TRUNCATE", "ALTER"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© tipo de JOIN devuelve todos los registros de la tabla izquierda y solo los coincidentes de la tabla derecha?",            "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],            "correctAnswer": 1          },          {            "questionId": 10,            "question": "Â¿CuÃ¡l es el comando utilizado en SQL para confirmar una transacciÃ³n?",            "options": ["SAVEPOINT", "ROLLBACK", "COMMIT", "GRANT"],            "correctAnswer": 2          },          {            "questionId": 11,            "question": "Â¿QuÃ© clÃ¡usula en SQL se usa para filtrar registros en una consulta?",            "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],            "correctAnswer": 2          },          {            "questionId": 12,            "question": "Â¿CuÃ¡l de las siguientes consultas SQL es vÃ¡lida para seleccionar todos los registros de la tabla 'clientes'?",            "options": ["GET ALL FROM clientes;", "SELECT * FROM clientes;", "SHOW TABLE clientes;", "EXTRACT clientes;"],            "correctAnswer": 1          },          {            "questionId": 13,            "question": "Â¿QuÃ© operador SQL se usa para seleccionar registros que cumplan una condiciÃ³n dentro de un rango?",            "options": ["LIKE", "BETWEEN", "IN", "EXISTS"],            "correctAnswer": 1          },          {            "questionId": 14,            "question": "Â¿QuÃ© funciÃ³n agregada en SQL se usa para contar el nÃºmero de registros en una tabla?",            "options": ["SUM()", "COUNT()", "AVG()", "TOTAL()"],            "correctAnswer": 1          },          {            "questionId": 15,            "question": "Â¿CuÃ¡l de las siguientes sentencias SQL es correcta para obtener la cantidad total de ventas por cada cliente?",            "options": ["SELECT cliente_id, SUM(ventas) FROM pedidos;", "SELECT cliente_id, COUNT(ventas) FROM pedidos GROUP BY cliente_id;", "SELECT cliente_id, SUM(ventas) FROM pedidos GROUP BY cliente_id;", "SELECT cliente_id, SUM(ventas) FROM pedidos WHERE GROUP BY cliente_id;"],            "correctAnswer": 2          },          {            "questionId": 16,            "question": "Â¿QuÃ© es SQL?",            "options": ["Un lenguaje de programaciÃ³n para aplicaciones web", "Un lenguaje de consulta para bases de datos relacionales", "Un sistema operativo", "Un lenguaje de programaciÃ³n para aplicaciones mÃ³viles"],            "correctAnswer": 1          },          {            "questionId": 17,            "question": "Â¿QuÃ© tipo de bases de datos son ideales para NoSQL?",            "options": ["Bases de datos estructuradas", "Bases de datos no estructuradas o semi-estructuradas", "Bases de datos relacionales", "Bases de datos en red"],            "correctAnswer": 1          },          {            "questionId": 18,            "question": "Â¿QuÃ© es GraphQL?",            "options": ["Un lenguaje de consulta para bases de datos relacionales", "Un lenguaje de consulta para APIs", "Un lenguaje de programaciÃ³n para aplicaciones web", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 19,            "question": "Â¿QuÃ© es T-SQL?",            "options": ["Una extensiÃ³n de SQL para MySQL", "Una extensiÃ³n de SQL para Oracle", "Una extensiÃ³n de SQL para Microsoft SQL Server", "Una extensiÃ³n de SQL para PostgreSQL"],            "correctAnswer": 2          },          {            "questionId": 20,            "question": "Â¿QuÃ© es PL/SQL?",            "options": ["Un lenguaje procedimental para MySQL", "Un lenguaje procedimental para Oracle", "Un lenguaje procedimental para PostgreSQL", "Un lenguaje procedimental para Microsoft SQL Server"],            "correctAnswer": 1          },          {            "questionId": 21,            "question": "Â¿QuÃ© es DDL en SQL?",            "options": ["Lenguaje de definiciÃ³n de datos", "Lenguaje de manipulaciÃ³n de datos", "Lenguaje de control de datos", "Lenguaje de transacciÃ³n"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es DML en SQL?",            "options": ["Lenguaje de definiciÃ³n de datos", "Lenguaje de manipulaciÃ³n de datos", "Lenguaje de control de datos", "Lenguaje de transacciÃ³n"],            "correctAnswer": 1          },          {            "questionId": 23,            "question": "Â¿QuÃ© es DCL en SQL?",            "options": ["Lenguaje de definiciÃ³n de datos", "Lenguaje de manipulaciÃ³n de datos", "Lenguaje de control de datos", "Lenguaje de transacciÃ³n"],            "correctAnswer": 2          },          {            "questionId": 24,            "question": "Â¿QuÃ© es TCL en SQL?",            "options": ["Lenguaje de definiciÃ³n de datos", "Lenguaje de manipulaciÃ³n de datos", "Lenguaje de control de datos", "Lenguaje de transacciÃ³n"],            "correctAnswer": 3          },          {            "questionId": 25,            "question": "Â¿QuÃ© es un trigger en SQL?",            "options": ["Un conjunto de instrucciones que se ejecutan automÃ¡ticamente en respuesta a eventos", "Un conjunto de instrucciones que se ejecutan manualmente", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 0          },          {            "questionId": 26,            "question": "Â¿QuÃ© es un procedimiento almacenado en SQL?",            "options": ["Un conjunto de instrucciones SQL precompiladas", "Un conjunto de instrucciones SQL que se ejecutan en tiempo de ejecuciÃ³n", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 0          },          {            "questionId": 27,            "question": "Â¿QuÃ© es una funciÃ³n de agregaciÃ³n en SQL?",            "options": ["Una funciÃ³n que realiza cÃ¡lculos sobre un conjunto de valores y devuelve un valor Ãºnico", "Una funciÃ³n que realiza cÃ¡lculos sobre un valor Ãºnico", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 0          },          {            "questionId": 28,            "question": "Â¿QuÃ© es una subconsulta en SQL?",            "options": ["Una consulta anidada dentro de otra consulta", "Una consulta que se ejecuta de forma independiente", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 0          },          {            "questionId": 29,            "question": "Â¿QuÃ© es una clave primaria en SQL?",            "options": ["Una clave que identifica de forma Ãºnica cada fila en una tabla", "Una clave que relaciona dos tablas", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 0          },          {            "questionId": 30,            "question": "Â¿QuÃ© es una clave forÃ¡nea en SQL?",            "options": ["Una clave que identifica de forma Ãºnica cada fila en una tabla", "Una clave que relaciona dos tablas", "Un tipo de dato en SQL", "Un comando para crear tablas"],            "correctAnswer": 1          },          {            "questionId": 31,            "question": "Â¿QuÃ© es la diferencia entre DELETE y TRUNCATE en SQL?",            "options": ["DELETE elimina filas especÃ­ficas y TRUNCATE elimina todas las filas sin activar triggers", "DELETE elimina todas las filas y TRUNCATE elimina filas especÃ­ficas", "DELETE y TRUNCATE son lo mismo", "DELETE elimina filas sin activar triggers y TRUNCATE elimina filas con triggers"],            "correctAnswer": 0          },          {            "questionId": 32,            "question": "Â¿QuÃ© es el comando ROLLBACK en SQL?",            "options": ["Un comando que deshace los cambios realizados en una transacciÃ³n", "Un comando que confirma los cambios realizados en una transacciÃ³n", "Un comando que crea una tabla", "Un comando que elimina una tabla"],            "correctAnswer": 0          }        ]      },      {        "topicId": 4,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© es un objeto en la programaciÃ³n orientada a objetos?",            "options": ["Una variable que almacena datos de cualquier tipo", "Una instancia de una clase que contiene atributos y mÃ©todos", "Un diagrama UML que representa la relaciÃ³n entre entidades", "Un fragmento de cÃ³digo reutilizable dentro de un programa"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿CuÃ¡l de los siguientes principios permite ocultar los detalles internos de un objeto y exponer solo lo necesario?",            "options": ["Encapsulamiento", "Polimorfismo", "Herencia", "AbstracciÃ³n"],            "correctAnswer": 0          },          {            "questionId": 3,            "question": "Â¿QuÃ© ventaja proporciona la programaciÃ³n orientada a objetos?",            "options": ["Menor consumo de memoria", "Mayor dificultad en la organizaciÃ³n del cÃ³digo", "Mayor reutilizaciÃ³n de cÃ³digo", "Imposibilidad de modelar sistemas grandes"],            "correctAnswer": 2          },          {            "questionId": 4,            "question": "Â¿QuÃ© concepto permite a una clase derivada reutilizar cÃ³digo de una clase base?",            "options": ["Encapsulamiento", "Herencia", "Polimorfismo", "Sobrecarga"],            "correctAnswer": 1          },          {            "questionId": 5,            "question": "Â¿CuÃ¡l de los siguientes NO es un inconveniente de la programaciÃ³n orientada a objetos?",            "options": ["Mayor consumo de memoria", "Complejidad en el diseÃ±o", "ReutilizaciÃ³n del cÃ³digo", "Sobrecarga de rendimiento"],            "correctAnswer": 2          },          {            "questionId": 6,            "question": "Â¿QuÃ© es un diagrama de clases en UML?",            "options": ["Un diagrama que muestra la comunicaciÃ³n entre objetos en tiempo de ejecuciÃ³n", "Un diagrama que representa clases, atributos, mÃ©todos y relaciones", "Un diagrama que modela el flujo de actividades dentro de un proceso", "Un diagrama que describe cÃ³mo se despliega el sistema en hardware"],            "correctAnswer": 1          },          {            "questionId": 7,            "question": "Â¿CuÃ¡l de los siguientes diagramas UML pertenece a los diagramas de interacciÃ³n?",            "options": ["Diagrama de Clases", "Diagrama de Paquetes", "Diagrama de Secuencia", "Diagrama de Componentes"],            "correctAnswer": 2          },          {            "questionId": 8,            "question": "Â¿QuÃ© tipo de polimorfismo permite que un mÃ©todo tenga diferentes implementaciones en clases derivadas?",            "options": ["Polimorfismo de sobrecarga", "Polimorfismo de herencia", "Polimorfismo de compilaciÃ³n", "Polimorfismo de sobreescritura"],            "correctAnswer": 3          },          {            "questionId": 9,            "question": "Â¿QuÃ© diagrama UML muestra cÃ³mo interactÃºan los objetos a lo largo del tiempo?",            "options": ["Diagrama de Secuencia", "Diagrama de Clases", "Diagrama de Casos de Uso", "Diagrama de Despliegue"],            "correctAnswer": 0          },          {            "questionId": 10,            "question": "Â¿CuÃ¡l es una caracterÃ­stica de la sobrecarga de mÃ©todos?",            "options": ["Permite modificar la visibilidad de un mÃ©todo en una subclase", "Permite definir mÃºltiples mÃ©todos con el mismo nombre pero diferentes parÃ¡metros", "Permite ejecutar una funciÃ³n en tiempo de ejecuciÃ³n segÃºn el tipo de objeto", "Impide que dos mÃ©todos tengan el mismo nombre dentro de una clase"],            "correctAnswer": 1          },          {            "questionId": 11,            "question": "Â¿QuÃ© es la programaciÃ³n orientada a objetos (POO)?",            "options": ["Un paradigma que utiliza funciones para resolver problemas", "Un paradigma que utiliza objetos para representar datos y mÃ©todos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es un objeto en POO?",            "options": ["Una clase que define la estructura y el comportamiento", "Una instancia de una clase que contiene estado y comportamiento", "Un tipo de dato primitivo", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 13,            "question": "Â¿QuÃ© es una clase en POO?",            "options": ["Una instancia de una clase", "Una plantilla que define la estructura y el comportamiento de los objetos", "Un tipo de dato primitivo", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 14,            "question": "Â¿QuÃ© es la herencia en POO?",            "options": ["La capacidad de una clase para adoptar diferentes formas", "La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y mÃ©todos de otra clase", "La capacidad de una clase para crear mÃºltiples instancias"],            "correctAnswer": 2          },          {            "questionId": 15,            "question": "Â¿QuÃ© es el polimorfismo en POO?",            "options": ["La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y mÃ©todos de otra clase", "La capacidad de una clase o mÃ©todo para adoptar diferentes formas", "La capacidad de una clase para crear mÃºltiples instancias"],            "correctAnswer": 2          },          {            "questionId": 16,            "question": "Â¿QuÃ© es el encapsulamiento en POO?",            "options": ["La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y mÃ©todos de otra clase", "La capacidad de una clase para adoptar diferentes formas", "La capacidad de una clase para crear mÃºltiples instancias"],            "correctAnswer": 0          },          {            "questionId": 17,            "question": "Â¿QuÃ© es la abstracciÃ³n en POO?",            "options": ["El proceso de simplificar y representar los aspectos esenciales de una entidad", "El proceso de ocultar el estado interno de un objeto", "El proceso de heredar atributos y mÃ©todos de otra clase", "El proceso de adoptar diferentes formas"],            "correctAnswer": 0          },          {            "questionId": 18,            "question": "Â¿QuÃ© es UML?",            "options": ["Un lenguaje de programaciÃ³n orientado a objetos", "Un lenguaje de modelado visual para el diseÃ±o de software", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 1          },          {            "questionId": 19,            "question": "Â¿QuÃ© es un diagrama de clases en UML?",            "options": ["Un diagrama que muestra la interacciÃ³n entre actores y el sistema", "Un diagrama que muestra las clases, atributos, mÃ©todos y relaciones entre ellas", "Un diagrama que muestra la distribuciÃ³n fÃ­sica de los componentes", "Un diagrama que muestra los estados por los que puede pasar un objeto"],            "correctAnswer": 1          },          {            "questionId": 20,            "question": "Â¿QuÃ© es un diagrama de casos de uso en UML?",            "options": ["Un diagrama que muestra las clases y sus relaciones", "Un diagrama que muestra la interacciÃ³n entre actores y el sistema", "Un diagrama que muestra la distribuciÃ³n fÃ­sica de los componentes", "Un diagrama que muestra los estados por los que puede pasar un objeto"],            "correctAnswer": 1          },          {            "questionId": 21,            "question": "Â¿QuÃ© es un patrÃ³n de diseÃ±o?",            "options": ["Un enfoque de programaciÃ³n que utiliza funciones para resolver problemas", "Una soluciÃ³n reutilizable a un problema comÃºn en el diseÃ±o de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 22,            "question": "Â¿QuÃ© es el patrÃ³n Singleton?",            "options": ["Un patrÃ³n que permite que una clase tenga mÃºltiples instancias", "Un patrÃ³n que asegura que una clase tenga una Ãºnica instancia", "Un patrÃ³n que permite que un objeto adopte diferentes formas", "Un patrÃ³n que oculta el estado interno de un objeto"],            "correctAnswer": 1          },          {            "questionId": 23,            "question": "Â¿QuÃ© es el patrÃ³n Factory Method?",            "options": ["Un patrÃ³n que define una interfaz para crear objetos", "Un patrÃ³n que asegura que una clase tenga una Ãºnica instancia", "Un patrÃ³n que permite que un objeto adopte diferentes formas", "Un patrÃ³n que oculta el estado interno de un objeto"],            "correctAnswer": 0          },          {            "questionId": 24,            "question": "Â¿QuÃ© es el patrÃ³n Adapter?",            "options": ["Un patrÃ³n que permite que dos interfaces incompatibles trabajen juntas", "Un patrÃ³n que asegura que una clase tenga una Ãºnica instancia", "Un patrÃ³n que permite que un objeto adopte diferentes formas", "Un patrÃ³n que oculta el estado interno de un objeto"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es el patrÃ³n Observer?",            "options": ["Un patrÃ³n que define una dependencia de uno a muchos entre objetos", "Un patrÃ³n que asegura que una clase tenga una Ãºnica instancia", "Un patrÃ³n que permite que un objeto adopte diferentes formas", "Un patrÃ³n que oculta el estado interno de un objeto"],            "correctAnswer": 0          },          {            "questionId": 26,            "question": "Â¿QuÃ© es la relaciÃ³n de herencia en un diagrama de clases?",            "options": ["Una relaciÃ³n que conecta dos clases sin dependencia fuerte entre ellas", "Una relaciÃ³n jerÃ¡rquica en la que una clase hereda atributos y mÃ©todos de otra", "Una relaciÃ³n que oculta el estado interno de un objeto", "Una relaciÃ³n que permite que un objeto adopte diferentes formas"],            "correctAnswer": 1          },          {            "questionId": 27,            "question": "Â¿QuÃ© es la relaciÃ³n de composiciÃ³n en un diagrama de clases?",            "options": ["Una relaciÃ³n que conecta dos clases sin dependencia fuerte entre ellas", "Una relaciÃ³n fuerte en la que una clase contiene a otra y sus ciclos de vida estÃ¡n ligados", "Una relaciÃ³n que oculta el estado interno de un objeto", "Una relaciÃ³n que permite que un objeto adopte diferentes formas"],            "correctAnswer": 1          },          {            "questionId": 28,            "question": "Â¿QuÃ© es la relaciÃ³n de agregaciÃ³n en un diagrama de clases?",            "options": ["Una relaciÃ³n que conecta dos clases sin dependencia fuerte entre ellas", "Una relaciÃ³n fuerte en la que una clase contiene a otra y sus ciclos de vida estÃ¡n ligados", "Una relaciÃ³n que oculta el estado interno de un objeto", "Una relaciÃ³n que permite que un objeto adopte diferentes formas"],            "correctAnswer": 0          },          {            "questionId": 29,            "question": "Â¿QuÃ© es el lenguaje OCL en UML?",            "options": ["Un lenguaje formal para definir restricciones y condiciones en los modelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un lenguaje de programaciÃ³n orientado a objetos"],            "correctAnswer": 0          },          {            "questionId": 30,            "question": "Â¿QuÃ© es el formato XMI en UML?",            "options": ["Un formato utilizado para el intercambio de modelos entre herramientas de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un lenguaje de programaciÃ³n orientado a objetos"],            "correctAnswer": 0          }        ]      },      {        "topicId": 5,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© es el JDK en Java?",            "options": ["Un entorno de ejecuciÃ³n para programas Java", "Un kit de desarrollo que incluye herramientas para compilar y ejecutar aplicaciones Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿QuÃ© es el JRE en Java?",            "options": ["Un kit de desarrollo que incluye herramientas para compilar aplicaciones Java", "Un entorno de ejecuciÃ³n que incluye la JVM y bibliotecas estÃ¡ndar para ejecutar programas Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 3,            "question": "Â¿QuÃ© es la JVM en Java?",            "options": ["Un compilador que traduce cÃ³digo Java a bytecode", "Una mÃ¡quina virtual que ejecuta el bytecode generado por el compilador de Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 4,            "question": "Â¿QuÃ© es el comando javac en Java?",            "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],            "correctAnswer": 1          },          {            "questionId": 5,            "question": "Â¿QuÃ© es el comando java en Java?",            "options": ["Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],            "correctAnswer": 1          },          {            "questionId": 6,            "question": "Â¿QuÃ© es el comando jdb en Java?",            "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],            "correctAnswer": 2          },          {            "questionId": 7,            "question": "Â¿QuÃ© es el comando javap en Java?",            "options": ["Un comando que descompone archivos .class para mostrar el bytecode en formato legible", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 8,            "question": "Â¿QuÃ© es el comando jconsole en Java?",            "options": ["Un comando que monitorea y gestiona aplicaciones Java en tiempo real", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© es el comando jshell en Java?",            "options": ["Un comando que ejecuta bloques de cÃ³digo de forma interactiva", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 10,            "question": "Â¿QuÃ© es el comando keytool en Java?",            "options": ["Un comando que gestiona claves criptogrÃ¡ficas", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 11,            "question": "Â¿QuÃ© es Java EE/Jakarta EE?",            "options": ["Un conjunto de tecnologÃ­as para desarrollar aplicaciones de escritorio", "Un conjunto de tecnologÃ­as para desarrollar aplicaciones empresariales a gran escala", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es un Servlet en Java EE?",            "options": ["Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web", "Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 13,            "question": "Â¿QuÃ© es JSP en Java EE?",            "options": ["Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web utilizando cÃ³digo Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 14,            "question": "Â¿QuÃ© es EJB en Java EE?",            "options": ["Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web", "Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que procesa la lÃ³gica empresarial distribuida", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 2          },          {            "questionId": 15,            "question": "Â¿QuÃ© es JPA en Java EE?",            "options": ["Un componente que procesa la lÃ³gica empresarial distribuida", "Una API para la gestiÃ³n de bases de datos mediante mapeo objeto-relacional", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 16,            "question": "Â¿QuÃ© es un hilo (thread) en Java?",            "options": ["Una unidad de ejecuciÃ³n independiente que puede correr en paralelo con otros hilos", "Un tipo de dato primitivo en Java", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 0          },          {            "questionId": 17,            "question": "Â¿QuÃ© es la sincronizaciÃ³n en Java?",            "options": ["Un mecanismo para evitar problemas de concurrencia al acceder a recursos compartidos", "Un mecanismo para mejorar el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 18,            "question": "Â¿QuÃ© es el Garbage Collector en Java?",            "options": ["Un mecanismo que gestiona la memoria eliminando objetos no utilizados", "Un mecanismo que mejora el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es una clase abstracta en Java?",            "options": ["Una clase que no puede ser instanciada y define mÃ©todos abstractos", "Una clase que puede ser instanciada y define mÃ©todos concretos", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 20,            "question": "Â¿QuÃ© es el modificador final en Java?",            "options": ["Un modificador que permite que una clase sea heredada", "Un modificador que impide que una clase sea heredada o que un mÃ©todo sea sobrescrito", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 21,            "question": "Â¿QuÃ© es el modificador static en Java?",            "options": ["Un modificador que pertenece a la clase y no a las instancias", "Un modificador que pertenece a las instancias y no a la clase", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es el modificador public en Java?",            "options": ["Un modificador que hace que un atributo o mÃ©todo sea accesible desde cualquier clase", "Un modificador que hace que un atributo o mÃ©todo sea accesible solo dentro del mismo paquete", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 23,            "question": "Â¿QuÃ© es el modificador protected en Java?",            "options": ["Un modificador que hace que un atributo o mÃ©todo sea accesible desde cualquier clase", "Un modificador que hace que un atributo o mÃ©todo sea visible dentro de la misma clase, en el mismo paquete y en las subclases", "Un tipo de dato primitivo en Java", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 24,            "question": "Â¿QuÃ© es el comando jps en Java?",            "options": ["Un comando que muestra informaciÃ³n sobre los procesos Java en ejecuciÃ³n", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es el comando jstat en Java?",            "options": ["Un comando que monitorea el uso de recursos de la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          },          {            "questionId": 26,            "question": "Â¿QuÃ© es el comando jcmd en Java?",            "options": ["Un comando que envÃ­a comandos especÃ­ficos a la JVM para obtener informaciÃ³n o realizar ajustes", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],            "correctAnswer": 0          }        ]      },      {        "topicId": 6,        "question": [          {            "questionId": 1,            "question": "Â¿QuÃ© es la arquitectura cliente/servidor?",            "options": ["Un modelo que organiza el sistema en un solo componente", "Un modelo que organiza el sistema en dos entidades principales: cliente y servidor", "Un modelo que utiliza solo un servidor para todas las tareas", "Un modelo que no utiliza servidores"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿CuÃ¡l es la principal ventaja de la escalabilidad en la arquitectura cliente/servidor?",            "options": ["Permite que el servidor se sobrecargue fÃ¡cilmente", "Permite que el cliente realice todas las tareas", "Permite escalar el servidor de manera independiente a medida que aumenta la demanda de clientes", "No permite la actualizaciÃ³n del servidor"],            "correctAnswer": 2          },          {            "questionId": 3,            "question": "Â¿QuÃ© es un cliente en la arquitectura cliente/servidor?",            "options": ["La entidad que proporciona servicios", "La entidad que solicita servicios al servidor", "La entidad que gestiona la red", "La entidad que almacena datos"],            "correctAnswer": 1          },          {            "questionId": 4,            "question": "Â¿QuÃ© es un servidor en la arquitectura cliente/servidor?",            "options": ["La entidad que solicita servicios", "La entidad que proporciona servicios o recursos solicitados por el cliente", "La entidad que gestiona la red", "La entidad que almacena datos"],            "correctAnswer": 1          },          {            "questionId": 5,            "question": "Â¿QuÃ© es la arquitectura multicapas?",            "options": ["Un modelo que divide el sistema en dos capas", "Un modelo que divide el sistema en mÃºltiples capas independientes", "Un modelo que utiliza solo un servidor para todas las tareas", "Un modelo que no utiliza servidores"],            "correctAnswer": 1          },          {            "questionId": 6,            "question": "Â¿CuÃ¡l es la funciÃ³n de la capa de presentaciÃ³n en una arquitectura multicapas?",            "options": ["Gestionar la lÃ³gica de negocio", "Gestionar el acceso a datos", "Gestionar la interacciÃ³n con el usuario", "Gestionar la seguridad"],            "correctAnswer": 2          },          {            "questionId": 7,            "question": "Â¿CuÃ¡l es la funciÃ³n de la capa de lÃ³gica de negocio en una arquitectura multicapas?",            "options": ["Gestionar la interacciÃ³n con el usuario", "Gestionar el acceso a datos", "Procesar la lÃ³gica que define el comportamiento del sistema", "Gestionar la seguridad"],            "correctAnswer": 2          },          {            "questionId": 8,            "question": "Â¿CuÃ¡l es la funciÃ³n de la capa de acceso a datos en una arquitectura multicapas?",            "options": ["Gestionar la interacciÃ³n con el usuario", "Gestionar la lÃ³gica de negocio", "Interactuar con las bases de datos o sistemas de almacenamiento", "Gestionar la seguridad"],            "correctAnswer": 2          },          {            "questionId": 9,            "question": "Â¿QuÃ© es un servicio web?",            "options": ["Un componente que gestiona la lÃ³gica de negocio", "Un componente que gestiona el acceso a datos", "Un componente que permite la comunicaciÃ³n entre sistemas diferentes a travÃ©s de Internet", "Un componente que gestiona la seguridad"],            "correctAnswer": 2          },          {            "questionId": 10,            "question": "Â¿QuÃ© es SOAP?",            "options": ["Un protocolo basado en HTTP para servicios web", "Un protocolo basado en XML para la comunicaciÃ³n entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 11,            "question": "Â¿QuÃ© es REST?",            "options": ["Un protocolo basado en XML para la comunicaciÃ³n entre aplicaciones", "Un estilo arquitectÃ³nico que utiliza HTTP para acceder y manipular recursos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es GraphQL?",            "options": ["Un protocolo basado en XML para la comunicaciÃ³n entre aplicaciones", "Un lenguaje de consulta para APIs que permite a los clientes especificar los datos que necesitan", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 13,            "question": "Â¿QuÃ© es UDDI?",            "options": ["Un directorio para la publicaciÃ³n y bÃºsqueda de servicios web", "Un protocolo basado en XML para la comunicaciÃ³n entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 14,            "question": "Â¿QuÃ© es WSDL?",            "options": ["Un formato XML que describe las funcionalidades de un servicio web", "Un protocolo basado en XML para la comunicaciÃ³n entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 15,            "question": "Â¿CuÃ¡l es la principal ventaja de la arquitectura de servicios web?",            "options": ["Permite que los sistemas estÃ©n fuertemente acoplados", "Permite la interoperabilidad entre sistemas diferentes", "Permite que solo un sistema acceda a los servicios", "Permite que los servicios sean inseguros"],            "correctAnswer": 1          },          {            "questionId": 16,            "question": "Â¿QuÃ© es un API en el contexto de servicios web?",            "options": ["Un componente que gestiona la lÃ³gica de negocio", "Un componente que gestiona el acceso a datos", "Un puente que permite que aplicaciones interactÃºen entre sÃ­", "Un sistema operativo"],            "correctAnswer": 2          },          {            "questionId": 17,            "question": "Â¿QuÃ© es la seguridad en servicios web?",            "options": ["Un mecanismo que permite que los sistemas estÃ©n desacoplados", "Un mecanismo que permite la interoperabilidad entre sistemas", "Un conjunto de mecanismos para proteger la informaciÃ³n transmitida y accedida", "Un sistema operativo"],            "correctAnswer": 2          },          {            "questionId": 18,            "question": "Â¿QuÃ© es la autenticaciÃ³n en servicios web?",            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que autoriza el acceso a recursos", "Un proceso que cifra la informaciÃ³n", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es la autorizaciÃ³n en servicios web?",            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que determina quÃ© acciones puede realizar un usuario", "Un proceso que cifra la informaciÃ³n", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 20,            "question": "Â¿QuÃ© es el cifrado en servicios web?",            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que autoriza el acceso a recursos", "Un proceso que protege la informaciÃ³n mediante tÃ©cnicas de codificaciÃ³n", "Un sistema operativo"],            "correctAnswer": 2          },          {            "questionId": 21,            "question": "Â¿QuÃ© es un ejemplo de arquitectura cliente/servidor?",            "options": ["Un sistema de correo electrÃ³nico", "Un sistema de gestiÃ³n de inventario", "Un navegador web y un servidor web", "Un sistema operativo"],            "correctAnswer": 2          },          {            "questionId": 22,            "question": "Â¿QuÃ© es un ejemplo de arquitectura multicapas?",            "options": ["Un sistema de gestiÃ³n de inventario", "Un sistema de comercio electrÃ³nico", "Un sistema operativo", "Un sistema de correo electrÃ³nico"],            "correctAnswer": 1          },          {            "questionId": 23,            "question": "Â¿QuÃ© es un protocolo de comunicaciÃ³n comÃºn en servicios web?",            "options": ["HTTP/HTTPS", "FTP", "SMTP", "Todos los anteriores"],            "correctAnswer": 3          },          {            "questionId": 24,            "question": "Â¿QuÃ© es un formato de datos comÃºn en servicios web?",            "options": ["XML", "JSON", "Ambos", "Ninguno"],            "correctAnswer": 2          },          {            "questionId": 25,            "question": "Â¿QuÃ© es un estilo arquitectÃ³nico que utiliza HTTP para acceder y manipular recursos?",            "options": ["SOAP", "REST", "GraphQL", "UDDI"],            "correctAnswer": 1          }        ]      },      {        "topic": 7,        "question": [          {            "questionId": 1,            "question": "Â¿QuÃ© es CGI en el contexto de aplicaciones web?",            "options": ["Un protocolo para servicios web", "Un mÃ©todo para ejecutar scripts en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿CuÃ¡l es la principal limitaciÃ³n de CGI?",            "options": ["No permite la creaciÃ³n de formularios", "Crea un nuevo proceso para cada solicitud, limitando la escalabilidad", "No admite JavaScript", "No es compatible con HTML5"],            "correctAnswer": 1          },          {            "questionId": 3,            "question": "Â¿QuÃ© es SGML?",            "options": ["Un lenguaje de marcado estÃ¡ndar que define la estructura de documentos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 4,            "question": "Â¿QuÃ© es HTML5?",            "options": ["Una versiÃ³n de HTML que incluye etiquetas para multimedia y estructura semÃ¡ntica", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 5,            "question": "Â¿QuÃ© es la estructura semÃ¡ntica en HTML5?",            "options": ["Etiquetas que definen la presentaciÃ³n visual", "Etiquetas que definen el significado de los elementos en una pÃ¡gina", "Etiquetas que definen la interacciÃ³n con el usuario", "Etiquetas que definen la lÃ³gica de negocio"],            "correctAnswer": 1          },          {            "questionId": 6,            "question": "Â¿QuÃ© es WAI-ARIA?",            "options": ["Un conjunto de atributos que mejoran la accesibilidad en aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 7,            "question": "Â¿QuÃ© es WCAG?",            "options": ["Un conjunto de pautas para la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 8,            "question": "Â¿QuÃ© es un motor de renderizado en un navegador web?",            "options": ["Un componente que interpreta HTML, CSS y JavaScript para generar la interfaz visual", "Un componente que gestiona la seguridad del navegador", "Un componente que gestiona la memoria del sistema", "Un componente que gestiona la red"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© es Blink?",            "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Chrome y derivados", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 10,            "question": "Â¿QuÃ© es WebKit?",            "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Safari", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 11,            "question": "Â¿QuÃ© es Gecko?",            "options": ["Un motor de renderizado utilizado por Chrome", "Un motor de renderizado utilizado por Firefox", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es el DOM en el contexto de los navegadores web?",            "options": ["Un modelo de objeto que representa la estructura de un documento HTML", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 13,            "question": "Â¿QuÃ© es el CSSOM?",            "options": ["Un modelo de objeto que representa la estructura de los estilos CSS", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 14,            "question": "Â¿QuÃ© es el Ã¡rbol de renderizado?",            "options": ["Un Ã¡rbol que combina el DOM y el CSSOM para definir el contenido y estilo visible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 15,            "question": "Â¿QuÃ© es JavaScript en el contexto de aplicaciones web?",            "options": ["Un lenguaje de programaciÃ³n que agrega interactividad a las pÃ¡ginas web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 16,            "question": "Â¿QuÃ© es ECMAScript?",            "options": ["Un estÃ¡ndar que define cÃ³mo debe funcionar JavaScript", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 17,            "question": "Â¿QuÃ© es Node.js?",            "options": ["Un entorno que permite ejecutar JavaScript en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 18,            "question": "Â¿QuÃ© es PHP?",            "options": ["Un lenguaje de programaciÃ³n del lado del servidor para aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es Sass?",            "options": ["Un preprocesador CSS que permite escribir cÃ³digo mÃ¡s dinÃ¡mico", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 20,            "question": "Â¿QuÃ© es Bootstrap?",            "options": ["Un framework CSS para crear pÃ¡ginas web responsivas", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 21,            "question": "Â¿QuÃ© es Modernizr?",            "options": ["Una biblioteca JavaScript para detectar capacidades del navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es un polyfill?",            "options": ["Un fragmento de cÃ³digo que proporciona funcionalidad que falta en un navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 23,            "question": "Â¿QuÃ© es BrowserStack?",            "options": ["Una herramienta para probar la compatibilidad de sitios web en diferentes navegadores", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 24,            "question": "Â¿QuÃ© es la accesibilidad web?",            "options": ["La capacidad de que las pÃ¡ginas web sean usables por personas con discapacidades", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es WCAG 2.1?",            "options": ["Un conjunto de pautas para mejorar la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          }        ]      },      {        "topic": 8,        "question": [          {            "questionId": 1,            "question": "Â¿QuÃ© es la accesibilidad universal en el contexto de la Ley 51/2003?",            "options": ["La capacidad de un sistema para ser utilizado solo por personas sin discapacidad", "La condiciÃ³n que deben cumplir los entornos para ser comprensibles y utilizables por todas las personas", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿QuÃ© normativa espaÃ±ola regula la accesibilidad en medios electrÃ³nicos?",            "options": ["Ley 11/2007 y Real Decreto 1112/2018", "Ley 39/2015", "Ley 51/2003", "Todas las anteriores"],            "correctAnswer": 3          },          {            "questionId": 3,            "question": "Â¿QuÃ© son las WCAG?",            "options": ["Directrices de Accesibilidad para el Contenido Web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 4,            "question": "Â¿QuÃ© significa POUR en el contexto de las WCAG?",            "options": ["Perceptible, Operable, Usable, Robusto", "Perceptible, Operable, Usable, Responsivo", "Perceptible, Operable, Usable, RÃ¡pido", "Perceptible, Operable, Usable, Resistente"],            "correctAnswer": 0          },          {            "questionId": 5,            "question": "Â¿QuÃ© es el principio de 'Perceptible' en las WCAG?",            "options": ["La informaciÃ³n debe ser presentada de manera que todos puedan percibirla", "La informaciÃ³n debe ser operable por todos", "La informaciÃ³n debe ser comprensible para todos", "La informaciÃ³n debe ser robusta"],            "correctAnswer": 0          },          {            "questionId": 6,            "question": "Â¿QuÃ© es el texto alternativo para imÃ¡genes en el contexto de la accesibilidad web?",            "options": ["Un texto que se muestra en lugar de la imagen si no se carga", "Un texto que describe la imagen para lectores de pantalla", "Un texto que aparece cuando se pasa el ratÃ³n sobre la imagen", "Un texto que se utiliza para mejorar el SEO"],            "correctAnswer": 1          },          {            "questionId": 7,            "question": "Â¿QuÃ© es ARIA en el contexto de la accesibilidad web?",            "options": ["Un conjunto de herramientas para hacer interactivos y accesibles los elementos de una pÃ¡gina web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 8,            "question": "Â¿QuÃ© son las ATAG?",            "options": ["GuÃ­as para herramientas de creaciÃ³n de contenido accesible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© es el objetivo principal de las UAAG?",            "options": ["Garantizar que los agentes de usuario sean accesibles para personas con discapacidades", "Garantizar que las herramientas de creaciÃ³n sean accesibles", "Garantizar que el contenido web sea accesible", "Garantizar que los sistemas operativos sean accesibles"],            "correctAnswer": 0          },          {            "questionId": 10,            "question": "Â¿QuÃ© es el Observatorio de Accesibilidad Web (OAW)?",            "options": ["Una iniciativa para promover la inclusiÃ³n digital en EspaÃ±a", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 11,            "question": "Â¿QuÃ© es el nivel A de conformidad en las WCAG?",            "options": ["El nivel mÃ¡s alto de accesibilidad", "El nivel mÃ­nimo necesario para que una pÃ¡gina web sea funcional", "El nivel intermedio de accesibilidad", "El nivel mÃ¡s bajo de accesibilidad"],            "correctAnswer": 1          },          {            "questionId": 12,            "question": "Â¿QuÃ© es el nivel AA de conformidad en las WCAG?",            "options": ["El nivel mÃ¡s alto de accesibilidad", "El nivel mÃ­nimo necesario para que una pÃ¡gina web sea funcional", "El nivel intermedio de accesibilidad, recomendado en muchos marcos legales", "El nivel mÃ¡s bajo de accesibilidad"],            "correctAnswer": 2          },          {            "questionId": 13,            "question": "Â¿QuÃ© es el nivel AAA de conformidad en las WCAG?",            "options": ["El nivel mÃ¡s alto de accesibilidad, con requisitos avanzados", "El nivel mÃ­nimo necesario para que una pÃ¡gina web sea funcional", "El nivel intermedio de accesibilidad", "El nivel mÃ¡s bajo de accesibilidad"],            "correctAnswer": 0          },          {            "questionId": 14,            "question": "Â¿QuÃ© es el principio de 'Operable' en las WCAG?",            "options": ["La informaciÃ³n debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "La informaciÃ³n debe ser comprensible para todos", "La informaciÃ³n debe ser robusta"],            "correctAnswer": 1          },          {            "questionId": 15,            "question": "Â¿QuÃ© es el principio de 'Comprensible' en las WCAG?",            "options": ["La informaciÃ³n debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fÃ¡cil de entender", "La informaciÃ³n debe ser robusta"],            "correctAnswer": 2          },          {            "questionId": 16,            "question": "Â¿QuÃ© es el principio de 'Robusto' en las WCAG?",            "options": ["La informaciÃ³n debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fÃ¡cil de entender", "El contenido debe ser accesible y funcionar correctamente con diversas tecnologÃ­as"],            "correctAnswer": 3          },          {            "questionId": 17,            "question": "Â¿QuÃ© es ACT en el contexto de la accesibilidad web?",            "options": ["Un conjunto de reglas para realizar pruebas de conformidad con las WCAG", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 18,            "question": "Â¿QuÃ© es EARL en el contexto de la accesibilidad web?",            "options": ["Un formato de metadatos para describir resultados de evaluaciones de accesibilidad", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es el uso de etiquetas semÃ¡nticas en HTML para la accesibilidad?",            "options": ["Usar etiquetas como <div> y <span> para todo", "Usar etiquetas como <header>, <nav>, <main> para estructurar el contenido", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 20,            "question": "Â¿QuÃ© es la importancia de la compatibilidad con lectores de pantalla en la accesibilidad web?",            "options": ["Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],            "correctAnswer": 0          },          {            "questionId": 21,            "question": "Â¿QuÃ© es la validaciÃ³n del cÃ³digo HTML para la accesibilidad?",            "options": ["Usar herramientas para verificar la sintaxis correcta del cÃ³digo", "Usar herramientas para verificar la presentaciÃ³n visual", "Usar herramientas para verificar la funcionalidad", "No es necesario validar el cÃ³digo"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es el uso de contrastes de color adecuados en la accesibilidad web?",            "options": ["Permite que los usuarios con discapacidad visual puedan ver el contenido de forma clara", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],            "correctAnswer": 0          },          {            "questionId": 23,            "question": "Â¿QuÃ© es la importancia de la navegaciÃ³n consistente en la accesibilidad web?",            "options": ["Permite que los usuarios puedan encontrar fÃ¡cilmente la informaciÃ³n", "Permite que los usuarios puedan acceder al contenido solo mediante teclado", "Permite que los usuarios puedan ver el contenido de forma clara", "No es importante para la accesibilidad"],            "correctAnswer": 0          },          {            "questionId": 24,            "question": "Â¿QuÃ© es el uso de subtÃ­tulos y transcripciones para contenidos audiovisuales en la accesibilidad web?",            "options": ["Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es la importancia de la accesibilidad web para la inclusiÃ³n social?",            "options": ["Permite que todas las personas puedan acceder a la informaciÃ³n y servicios en lÃ­nea sin barreras", "Permite que solo las personas sin discapacidad puedan acceder a la informaciÃ³n", "Permite que solo las personas con discapacidad puedan acceder a la informaciÃ³n", "No es importante para la inclusiÃ³n social"],            "correctAnswer": 0          }        ]      },      {        "topic": 9,        "question": [          {            "questionId": 1,            "question": "Â¿QuÃ© es un repositorio en el contexto del desarrollo de software?",            "options": ["Un lugar donde se almacena el cÃ³digo fuente", "Un sistema que gestiona los cambios en el cÃ³digo a lo largo del tiempo", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 2,            "question": "Â¿QuÃ© son las herramientas CASE?",            "options": ["Un conjunto de programas que ayudan en el desarrollo de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 3,            "question": "Â¿QuÃ© es un metamodelo?",            "options": ["Un modelo de un modelo", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 4,            "question": "Â¿QuÃ© es MOF?",            "options": ["Un metamodelo para definir y estructurar otros metamodelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 5,            "question": "Â¿QuÃ© es MDA?",            "options": ["Una estrategia de desarrollo que genera cÃ³digo a partir de modelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 6,            "question": "Â¿QuÃ© es la ingenierÃ­a directa?",            "options": ["Generar cÃ³digo a partir de modelos", "Inferir modelos a partir del cÃ³digo existente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 0          },          {            "questionId": 7,            "question": "Â¿QuÃ© es la ingenierÃ­a inversa?",            "options": ["Generar cÃ³digo a partir de modelos", "Inferir modelos a partir del cÃ³digo existente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],            "correctAnswer": 1          },          {            "questionId": 8,            "question": "Â¿QuÃ© es un framework de desarrollo low-code?",            "options": ["Un entorno que permite crear aplicaciones con mÃ­nimo cÃ³digo manual", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 9,            "question": "Â¿QuÃ© es Upper CASE?",            "options": ["Herramientas que ayudan en las primeras fases del desarrollo, como planificaciÃ³n y anÃ¡lisis", "Herramientas que ayudan en la fase de diseÃ±o", "Herramientas que ayudan en la programaciÃ³n y pruebas", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 0          },          {            "questionId": 10,            "question": "Â¿QuÃ© es Middle CASE?",            "options": ["Herramientas que ayudan en las primeras fases del desarrollo", "Herramientas que ayudan en la fase de diseÃ±o", "Herramientas que ayudan en la programaciÃ³n y pruebas", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 1          },          {            "questionId": 11,            "question": "Â¿QuÃ© es Lower CASE?",            "options": ["Herramientas que ayudan en las primeras fases del desarrollo", "Herramientas que ayudan en la fase de diseÃ±o", "Herramientas que ayudan en la programaciÃ³n y pruebas", "Un lenguaje de consulta para bases de datos"],            "correctAnswer": 2          },          {            "questionId": 12,            "question": "Â¿QuÃ© es Git?",            "options": ["Un sistema de control de versiones distribuido", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 13,            "question": "Â¿QuÃ© es un commit en Git?",            "options": ["Una instantÃ¡nea del proyecto con un historial de cambios", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 14,            "question": "Â¿QuÃ© es una rama en Git?",            "options": ["Un puntero a un commit especÃ­fico que permite trabajar de forma independiente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],            "correctAnswer": 0          },          {            "questionId": 15,            "question": "Â¿QuÃ© es el comando git init?",            "options": ["Inicializa un nuevo repositorio de Git", "Crea una copia local de un repositorio remoto", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Registra los cambios en el repositorio"],            "correctAnswer": 0          },          {            "questionId": 16,            "question": "Â¿QuÃ© es el comando git clone?",            "options": ["Inicializa un nuevo repositorio de Git", "Crea una copia local de un repositorio remoto", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Registra los cambios en el repositorio"],            "correctAnswer": 1          },          {            "questionId": 17,            "question": "Â¿QuÃ© es el comando git add?",            "options": ["AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Registra los cambios en el repositorio", "Crea una copia local de un repositorio remoto", "Inicializa un nuevo repositorio de Git"],            "correctAnswer": 0          },          {            "questionId": 18,            "question": "Â¿QuÃ© es el comando git commit?",            "options": ["Registra los cambios en el repositorio", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Crea una copia local de un repositorio remoto", "Inicializa un nuevo repositorio de Git"],            "correctAnswer": 0          },          {            "questionId": 19,            "question": "Â¿QuÃ© es el comando git push?",            "options": ["Sube los cambios locales a un repositorio remoto", "Descarga y fusiona los cambios del repositorio remoto", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Registra los cambios en el repositorio"],            "correctAnswer": 0          },          {            "questionId": 20,            "question": "Â¿QuÃ© es el comando git pull?",            "options": ["Descarga y fusiona los cambios del repositorio remoto", "Sube los cambios locales a un repositorio remoto", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Registra los cambios en el repositorio"],            "correctAnswer": 0          },          {            "questionId": 21,            "question": "Â¿QuÃ© es el comando git branch?",            "options": ["Muestra las ramas disponibles en el repositorio", "Crea una nueva rama", "Cambia a otra rama", "Fusiona una rama en la actual"],            "correctAnswer": 0          },          {            "questionId": 22,            "question": "Â¿QuÃ© es el comando git merge?",            "options": ["Fusiona una rama en la actual", "Crea una nueva rama", "Cambia a otra rama", "Muestra las ramas disponibles en el repositorio"],            "correctAnswer": 0          },          {            "questionId": 23,            "question": "Â¿QuÃ© es el comando git log?",            "options": ["Muestra el historial de confirmaciones", "Muestra las diferencias entre archivos", "Registra los cambios en el repositorio", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n"],            "correctAnswer": 0          },          {            "questionId": 24,            "question": "Â¿QuÃ© es el comando git diff?",            "options": ["Muestra las diferencias entre archivos", "Muestra el historial de confirmaciones", "Registra los cambios en el repositorio", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n"],            "correctAnswer": 0          },          {            "questionId": 25,            "question": "Â¿QuÃ© es el comando git reset?",            "options": ["Deshace cambios en el Ã¡rea de preparaciÃ³n o en el commit", "Registra los cambios en el repositorio", "AÃ±ade cambios al Ã¡rea de preparaciÃ³n", "Muestra las diferencias entre archivos"],            "correctAnswer": 0          }        ]      }    ]  },  {    "blockId": 4,    "topics": [      {        "topicId": 1,        "questions": [          {            "questionId": 1,            "question": "Â¿QuÃ© es el modelo OSI?",            "options": ["Modelo de referencia para redes de computadoras", "Modelo para la creaciÃ³n de aplicaciones mÃ³viles", "Modelo de programaciÃ³n en Java", "Modelo de diseÃ±o de interfaces de usuario"],            "correctAnswer": 0          }        ]      }    ]  }]
+[
+  {
+    "blockId": 1,
+    "topics": [
+      {
+        "topicId": 1,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué significa JVM?",
+            "options": ["Java Virtual Machine","Java Variable Management","Java Version Module","Java Visual Method"],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockId": 2,
+    "topics": [
+      {
+        "topicId": 1,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué significa JVM?",
+            "options": ["Java Virtual Machine","Java Variable Management","Java Version Module","Java Visual Method"],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockId": 3,
+    "topics": [
+      {
+        "topicId": 1,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Cuál es el propósito principal del Modelo Conceptual de Datos?",
+            "options": ["Definir la estructura física de la base de datos","Representar la información de manera abstracta sin detalles técnicos", "Especificar cómo se almacenarán los datos en un sistema RDBMS", "Optimizar las consultas SQL en una base de datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Qué elemento es característico del Modelo Lógico de Datos?",
+            "options": ["Jerarquías y subclases", "Atributos y entidades sin estructuras definidas", "Tablas, claves primarias y foráneas", "Comandos de almacenamiento específicos de un DBMS"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué característica distingue al Modelo Físico de Datos?",
+            "options": ["Es independiente de la tecnología específica", "Se centra en la estructura lógica de los datos", "Define las condiciones y restricciones específicas del DBMS", "Representa únicamente relaciones entre entidades"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 4,
+            "question": "¿Cuál de los siguientes modelos se usa para representar datos en una estructura jerárquica?",
+            "options": ["Modelo Relacional", "Modelo Entidad-Relación", "Modelo Jerárquico", "Modelo Orientado a Objetos"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué modelo de datos se basa en tablas con filas y columnas?",
+            "options": ["Modelo Relacional", "Modelo Entidad-Relación Extendido", "Flujograma", "Modelo Jerárquico"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 6,
+            "question": "¿Cuál es el objetivo de la normalización en bases de datos?",
+            "options": ["Mejorar la seguridad de la base de datos", "Reducir la redundancia y mejorar la integridad de los datos", "Aumentar la velocidad de procesamiento de consultas SQL", "Optimizar el almacenamiento físico de los datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué característica define la Primera Forma Normal (1FN)?",
+            "options": ["Los valores deben ser atómicos", "No debe haber dependencias parciales", "No debe haber dependencias transitivas", "Todas las dependencias funcionales deben ser determinadas por una clave candidata"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 8,
+            "question": "¿Cuál de las siguientes herramientas es un Sistema de Gestión de Bases de Datos Relacionales (RDBMS)?",
+            "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué modelo de datos combina conceptos de bases de datos con la Programación Orientada a Objetos?",
+            "options": ["Modelo Relacional", "Modelo Orientado a Objetos", "Modelo Entidad-Relación", "Modelo Jerárquico"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 10,
+            "question": "¿Cuál de las siguientes opciones NO es un RDBMS?",
+            "options": ["PostgreSQL", "Oracle Database", "MariaDB", "MongoDB"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es una entidad débil en el modelo E/R?",
+            "options": ["Una entidad que existe por sí misma", "Una entidad cuya existencia depende de otra entidad", "Una entidad que no tiene atributos", "Una entidad que no tiene relaciones"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es la cardinalidad en el modelo E/R?",
+            "options": ["El número de atributos de una entidad", "El número de relaciones entre entidades", "El número mínimo y máximo de ocurrencias de una entidad en una relación", "El tipo de dato de un atributo"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es un diagrama de contexto en un DFD?",
+            "options": ["Un diagrama que muestra todos los detalles del sistema", "Un diagrama que muestra el sistema como un proceso de alto nivel", "Un diagrama que muestra solo los almacenes de datos", "Un diagrama que muestra solo las entidades externas"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es una relación ISA en el modelo EER?",
+            "options": ["Una relación de herencia", "Una relación de agregación", "Una relación de composición", "Una relación de asociación"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es la especialización en el modelo EER?",
+            "options": ["El proceso de combinar varias entidades en una", "El proceso de definir subclases a partir de una superclase", "El proceso de eliminar subclases", "El proceso de crear nuevas entidades"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es un almacén de datos en un DFD?",
+            "options": ["Un proceso que transforma los datos", "Un lugar donde se guardan los datos", "Una entidad externa", "Un flujo de datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es una entidad externa en un DFD?",
+            "options": ["Un proceso interno del sistema", "Un almacén de datos", "Un actor fuera del sistema que interactúa con él", "Un flujo de datos"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué representa un flujo de datos en un DFD?",
+            "options": ["El movimiento de los datos entre componentes del sistema", "Un proceso que transforma los datos", "Un almacén de datos", "Una entidad externa"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es el modelo relacional de bases de datos?",
+            "options": ["Un modelo que organiza los datos en tablas y relaciones", "Un modelo que organiza los datos en jerarquías", "Un modelo que organiza los datos en redes", "Un modelo que organiza los datos en grafos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es una clave primaria en el modelo relacional?",
+            "options": ["Una clave que relaciona dos tablas", "Una clave que identifica de forma única una fila en una tabla", "Una clave que permite valores nulos", "Una clave que no es única"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es una restricción en el modelo relacional?",
+            "options": ["Una regla que controla los valores permitidos en los datos", "Una regla que elimina los datos duplicados", "Una regla que permite valores nulos", "Una regla que no permite valores únicos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es un dominio en el modelo E/R?",
+            "options": ["El conjunto de valores que un atributo puede tener", "El conjunto de atributos de una entidad", "El conjunto de relaciones entre entidades", "El conjunto de entidades del sistema"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es una relación forzosa en el modelo E/R?",
+            "options": ["Una relación donde una entidad puede existir sin la otra", "Una relación donde una entidad debe existir con la otra", "Una relación donde no hay dependencia entre entidades", "Una relación donde solo una entidad puede existir"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es un atributo propio de una relación en el modelo E/R?",
+            "options": ["Un atributo que describe a una entidad", "Un atributo que describe la relación entre entidades", "Un atributo que no tiene valor", "Un atributo que siempre es nulo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es la generalización en el modelo EER?",
+            "options": ["El proceso de combinar varias entidades en una más general", "El proceso de definir subclases a partir de una superclase", "El proceso de eliminar subclases", "El proceso de crear nuevas entidades"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 26,
+            "question": "¿Qué es una superclase en el modelo EER?",
+            "options": ["Una entidad más específica", "Una entidad más general", "Una entidad que no tiene subclases", "Una entidad que no tiene superclases"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 27,
+            "question": "¿Qué es una subclase en el modelo EER?",
+            "options": ["Una entidad más general", "Una entidad más específica", "Una entidad que no tiene superclases", "Una entidad que no tiene subclases"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 28,
+            "question": "¿Qué es la agregación en el modelo EER?",
+            "options": ["Una relación de herencia", "Una relación de composición", "Una relación de asociación", "Una relación de dependencia"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 29,
+            "question": "¿Qué es un flujograma?",
+            "options": ["Un diagrama que muestra el flujo de datos entre procesos", "Un diagrama que muestra la secuencia cronológica de procesos", "Un diagrama que muestra la estructura de una base de datos", "Un diagrama que muestra la jerarquía de un sistema"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 30,
+            "question": "¿Qué es el nivel 0 en un DFD?",
+            "options": ["Un diagrama que muestra todos los detalles del sistema", "Un diagrama que muestra el sistema como un proceso de alto nivel", "Un diagrama que muestra solo los almacenes de datos", "Un diagrama que muestra solo las entidades externas"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "topicId": 2,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es un lenguaje de programación?",
+            "options": ["Un sistema operativo para computadoras", "Un conjunto de reglas y sintaxis que permite escribir instrucciones para una computadora", "Un dispositivo de hardware que ejecuta programas", "Un tipo de procesador utilizado en servidores"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Cuál de los siguientes lenguajes utiliza un compilador en lugar de un intérprete?",
+            "options": ["Python", "JavaScript", "C++", "Ruby"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué tipo de traductor ejecuta el código fuente línea por línea?",
+            "options": ["Compilador", "Intérprete", "Ensamblador", "Transpilador"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 4,
+            "question": "¿Cuál de los siguientes lenguajes combina compilación a bytecode e interpretación en tiempo de ejecución?",
+            "options": ["C", "Java", "Python", "Go"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 5,
+            "question": "¿Cuál es la diferencia principal entre sintaxis y semántica en un lenguaje de programación?",
+            "options": ["La sintaxis define la estructura y la semántica el significado de las instrucciones", "La semántica define la estructura y la sintaxis el significado de las instrucciones", "Ambas son sinónimos y significan lo mismo", "La sintaxis se aplica solo a lenguajes compilados, y la semántica a lenguajes interpretados"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 6,
+            "question": "¿Cuál de los siguientes NO es un ejemplo de un compilador?",
+            "options": ["GCC", "Clang", "JIT", "Git"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué característica define a un algoritmo?",
+            "options": ["Debe ser indefinido para adaptarse a cualquier problema", "Debe terminar en un tiempo razonable y ser efectivo", "No debe recibir entradas, solo producir salidas", "Solo puede ser implementado en lenguajes compilados"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 8,
+            "question": "¿Cuál de los siguientes es un entorno de desarrollo integrado (IDE)?",
+            "options": ["Visual Studio Code", "GitHub", "Django", "Linux"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué hace un compilador cruzado?",
+            "options": ["Ejecuta código directamente sin necesidad de traducirlo", "Convierte código en lenguaje ensamblador a código máquina", "Traduce código de un lenguaje a otro de alto nivel", "Genera código para una arquitectura diferente a la del sistema donde se ejecuta el compilador"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 10,
+            "question": "¿Cuál de las siguientes herramientas se usa para el control de versiones?",
+            "options": ["Django", "React", "Git", "Eclipse"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es el código fuente?",
+            "options": ["El programa ejecutable", "El código que escribe el programador", "El resultado de la compilación", "El código máquina"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué hace un compilador?",
+            "options": ["Traduce el código línea por línea", "Traduce todo el código de una vez antes de ejecutarlo", "Ejecuta el código directamente sin traducirlo", "Almacena el código en una base de datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es un intérprete?",
+            "options": ["Un programa que traduce y ejecuta el código línea por línea", "Un programa que traduce todo el código de una vez antes de ejecutarlo", "Un programa que almacena el código en una base de datos", "Un programa que ejecuta el código directamente sin traducirlo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 14,
+            "question": "¿Cuál es la función principal de un framework?",
+            "options": ["Permitir la ejecución directa del código fuente", "Facilitar el desarrollo de aplicaciones proporcionando herramientas y estructuras", "Gestionar los permisos de los usuarios en un sistema", "Proteger el código de ataques externos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es un algoritmo?",
+            "options": ["Una secuencia de pasos para resolver un problema", "Un lenguaje de programación", "Un tipo de dato", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es un programa?",
+            "options": ["Un conjunto de instrucciones organizadas para realizar una tarea", "Un lenguaje de programación", "Un sistema operativo", "Un tipo de dato"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué característica NO es esencial en un algoritmo?",
+            "options": ["Debe ser definido", "Debe ser finito", "Debe requerir una gran cantidad de memoria", "Debe tener entrada y salida"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es tipado estático?",
+            "options": ["El tipo de cada variable se define en tiempo de ejecución", "El tipo de cada variable se define antes de la ejecución", "No se definen tipos para las variables", "Se permiten conversiones automáticas entre tipos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es tipado dinámico?",
+            "options": ["El tipo de cada variable se define antes de la ejecución", "El tipo de cada variable se define en tiempo de ejecución", "No se definen tipos para las variables", "Se permiten conversiones automáticas entre tipos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es un lenguaje de bajo nivel?",
+            "options": ["Un lenguaje que es fácilmente comprensible por humanos", "Un lenguaje que se ejecuta directamente por la CPU", "Un lenguaje que requiere compilación", "Un lenguaje que es interpretado"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 21,
+            "question": "¿Cuál de los siguientes lenguajes usa un intérprete?",
+            "options": ["C", "C++", "Python", "Go"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es un lenguaje de alto nivel?",
+            "options": ["Un lenguaje que se ejecuta directamente por la CPU", "Un lenguaje que es fácilmente comprensible por humanos", "Un lenguaje que requiere ensamblaje", "Un lenguaje que es interpretado"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es un paradigma imperativo?",
+            "options": ["Un enfoque de programación basado en funciones matemáticas", "Un enfoque de programación basado en reglas y relaciones", "Un enfoque de programación que describe pasos secuenciales para modificar el estado del programa", "Un enfoque de programación orientado a objetos"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es un paradigma funcional?",
+            "options": ["Un enfoque de programación basado en funciones matemáticas", "Un enfoque de programación basado en reglas y relaciones", "Un enfoque de programación que describe pasos secuenciales para modificar el estado del programa", "Un enfoque de programación orientado a objetos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es un vector en programación?",
+            "options": ["Una estructura de datos que almacena elementos del mismo tipo y puede redimensionarse dinámicamente", "Una estructura de datos que almacena elementos del mismo tipo y no puede cambiar de tamaño", "Un tipo de dato primitivo", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 26,
+            "question": "¿Qué es un array en programación?",
+            "options": ["Una estructura de datos que almacena elementos del mismo tipo y puede redimensionarse dinámicamente", "Una estructura de datos que almacena elementos del mismo tipo y no puede cambiar de tamaño", "Un tipo de dato primitivo", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 27,
+            "question": "¿Qué es un parámetro en programación?",
+            "options": ["Una variable que se pasa a una función o procedimiento", "Una variable que se declara dentro de una función", "Un tipo de dato", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 28,
+            "question": "¿Cuál de las siguientes opciones describe mejor un transpilador?",
+            "options": ["Convierte el código fuente de un lenguaje de alto nivel a otro lenguaje de alto nivel", "Convierte directamente instrucciones en lenguaje máquina", "Es un editor de código con funciones avanzadas", "Es un protocolo de seguridad en la web"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 29,
+            "question": "¿Qué es un bucle while?",
+            "options": ["Un bucle que ejecuta un bloque de código un número fijo de veces", "Un bucle que ejecuta un bloque de código mientras una condición es verdadera", "Un bucle que ejecuta un bloque de código al menos una vez y luego continúa ejecutando mientras una condición es verdadera", "Un bucle que ejecuta un bloque de código sobre los elementos de una colección"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "topicId": 3,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Cuál es el lenguaje más utilizado para gestionar bases de datos relacionales?",
+            "options": ["GraphQL", "SQL", "SPARQL", "XQuery"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Cuál de los siguientes lenguajes es utilizado para bases de datos NoSQL?",
+            "options": ["T-SQL", "PL/SQL", "Cypher", "HiveQL"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué lenguaje se utiliza principalmente en bases de datos de grafos como Neo4j?",
+            "options": ["GraphQL", "Cypher", "SPARQL", "T-SQL"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 4,
+            "question": "¿Cuál de los siguientes lenguajes de interrogación es una extensión de SQL utilizada en Microsoft SQL Server?",
+            "options": ["T-SQL", "PL/SQL", "XQuery", "HiveQL"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué lenguaje es utilizado en Apache Hive para consultas en entornos de Big Data?",
+            "options": ["XQuery", "HiveQL", "Cypher", "SPARQL"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 6,
+            "question": "¿Cuál de los siguientes lenguajes se usa para consultar datos en formato RDF?",
+            "options": ["GraphQL", "SPARQL", "NoSQL", "Cypher"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 7,
+            "question": "¿Cuál de los siguientes comandos pertenece al lenguaje DDL (Data Definition Language)?",
+            "options": ["SELECT", "GRANT", "CREATE", "ROLLBACK"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué comando en SQL se utiliza para eliminar registros de una tabla sin eliminar la estructura de la tabla?",
+            "options": ["DELETE", "DROP", "TRUNCATE", "ALTER"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué tipo de JOIN devuelve todos los registros de la tabla izquierda y solo los coincidentes de la tabla derecha?",
+            "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 10,
+            "question": "¿Cuál es el comando utilizado en SQL para confirmar una transacción?",
+            "options": ["SAVEPOINT", "ROLLBACK", "COMMIT", "GRANT"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué cláusula en SQL se usa para filtrar registros en una consulta?",
+            "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 12,
+            "question": "¿Cuál de las siguientes consultas SQL es válida para seleccionar todos los registros de la tabla 'clientes'?",
+            "options": ["GET ALL FROM clientes;", "SELECT * FROM clientes;", "SHOW TABLE clientes;", "EXTRACT clientes;"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué operador SQL se usa para seleccionar registros que cumplan una condición dentro de un rango?",
+            "options": ["LIKE", "BETWEEN", "IN", "EXISTS"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué función agregada en SQL se usa para contar el número de registros en una tabla?",
+            "options": ["SUM()", "COUNT()", "AVG()", "TOTAL()"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 15,
+            "question": "¿Cuál de las siguientes sentencias SQL es correcta para obtener la cantidad total de ventas por cada cliente?",
+            "options": ["SELECT cliente_id, SUM(ventas) FROM pedidos;", "SELECT cliente_id, COUNT(ventas) FROM pedidos GROUP BY cliente_id;", "SELECT cliente_id, SUM(ventas) FROM pedidos GROUP BY cliente_id;", "SELECT cliente_id, SUM(ventas) FROM pedidos WHERE GROUP BY cliente_id;"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es SQL?",
+            "options": ["Un lenguaje de programación para aplicaciones web", "Un lenguaje de consulta para bases de datos relacionales", "Un sistema operativo", "Un lenguaje de programación para aplicaciones móviles"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué tipo de bases de datos son ideales para NoSQL?",
+            "options": ["Bases de datos estructuradas", "Bases de datos no estructuradas o semi-estructuradas", "Bases de datos relacionales", "Bases de datos en red"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es GraphQL?",
+            "options": ["Un lenguaje de consulta para bases de datos relacionales", "Un lenguaje de consulta para APIs", "Un lenguaje de programación para aplicaciones web", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es T-SQL?",
+            "options": ["Una extensión de SQL para MySQL", "Una extensión de SQL para Oracle", "Una extensión de SQL para Microsoft SQL Server", "Una extensión de SQL para PostgreSQL"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es PL/SQL?",
+            "options": ["Un lenguaje procedimental para MySQL", "Un lenguaje procedimental para Oracle", "Un lenguaje procedimental para PostgreSQL", "Un lenguaje procedimental para Microsoft SQL Server"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es DDL en SQL?",
+            "options": ["Lenguaje de definición de datos", "Lenguaje de manipulación de datos", "Lenguaje de control de datos", "Lenguaje de transacción"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es DML en SQL?",
+            "options": ["Lenguaje de definición de datos", "Lenguaje de manipulación de datos", "Lenguaje de control de datos", "Lenguaje de transacción"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es DCL en SQL?",
+            "options": ["Lenguaje de definición de datos", "Lenguaje de manipulación de datos", "Lenguaje de control de datos", "Lenguaje de transacción"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es TCL en SQL?",
+            "options": ["Lenguaje de definición de datos", "Lenguaje de manipulación de datos", "Lenguaje de control de datos", "Lenguaje de transacción"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es un trigger en SQL?",
+            "options": ["Un conjunto de instrucciones que se ejecutan automáticamente en respuesta a eventos", "Un conjunto de instrucciones que se ejecutan manualmente", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 26,
+            "question": "¿Qué es un procedimiento almacenado en SQL?",
+            "options": ["Un conjunto de instrucciones SQL precompiladas", "Un conjunto de instrucciones SQL que se ejecutan en tiempo de ejecución", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 27,
+            "question": "¿Qué es una función de agregación en SQL?",
+            "options": ["Una función que realiza cálculos sobre un conjunto de valores y devuelve un valor único", "Una función que realiza cálculos sobre un valor único", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 28,
+            "question": "¿Qué es una subconsulta en SQL?",
+            "options": ["Una consulta anidada dentro de otra consulta", "Una consulta que se ejecuta de forma independiente", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 29,
+            "question": "¿Qué es una clave primaria en SQL?",
+            "options": ["Una clave que identifica de forma única cada fila en una tabla", "Una clave que relaciona dos tablas", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 30,
+            "question": "¿Qué es una clave foránea en SQL?",
+            "options": ["Una clave que identifica de forma única cada fila en una tabla", "Una clave que relaciona dos tablas", "Un tipo de dato en SQL", "Un comando para crear tablas"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 31,
+            "question": "¿Qué es la diferencia entre DELETE y TRUNCATE en SQL?",
+            "options": ["DELETE elimina filas específicas y TRUNCATE elimina todas las filas sin activar triggers", "DELETE elimina todas las filas y TRUNCATE elimina filas específicas", "DELETE y TRUNCATE son lo mismo", "DELETE elimina filas sin activar triggers y TRUNCATE elimina filas con triggers"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 32,
+            "question": "¿Qué es el comando ROLLBACK en SQL?",
+            "options": ["Un comando que deshace los cambios realizados en una transacción", "Un comando que confirma los cambios realizados en una transacción", "Un comando que crea una tabla", "Un comando que elimina una tabla"],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      {
+        "topicId": 4,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es un objeto en la programación orientada a objetos?",
+            "options": ["Una variable que almacena datos de cualquier tipo", "Una instancia de una clase que contiene atributos y métodos", "Un diagrama UML que representa la relación entre entidades", "Un fragmento de código reutilizable dentro de un programa"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Cuál de los siguientes principios permite ocultar los detalles internos de un objeto y exponer solo lo necesario?",
+            "options": ["Encapsulamiento", "Polimorfismo", "Herencia", "Abstracción"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué ventaja proporciona la programación orientada a objetos?",
+            "options": ["Menor consumo de memoria", "Mayor dificultad en la organización del código", "Mayor reutilización de código", "Imposibilidad de modelar sistemas grandes"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué concepto permite a una clase derivada reutilizar código de una clase base?",
+            "options": ["Encapsulamiento", "Herencia", "Polimorfismo", "Sobrecarga"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 5,
+            "question": "¿Cuál de los siguientes NO es un inconveniente de la programación orientada a objetos?",
+            "options": ["Mayor consumo de memoria", "Complejidad en el diseño", "Reutilización del código", "Sobrecarga de rendimiento"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 6,
+            "question": "¿Qué es un diagrama de clases en UML?",
+            "options": ["Un diagrama que muestra la comunicación entre objetos en tiempo de ejecución", "Un diagrama que representa clases, atributos, métodos y relaciones", "Un diagrama que modela el flujo de actividades dentro de un proceso", "Un diagrama que describe cómo se despliega el sistema en hardware"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 7,
+            "question": "¿Cuál de los siguientes diagramas UML pertenece a los diagramas de interacción?",
+            "options": ["Diagrama de Clases", "Diagrama de Paquetes", "Diagrama de Secuencia", "Diagrama de Componentes"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué tipo de polimorfismo permite que un método tenga diferentes implementaciones en clases derivadas?",
+            "options": ["Polimorfismo de sobrecarga", "Polimorfismo de herencia", "Polimorfismo de compilación", "Polimorfismo de sobreescritura"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué diagrama UML muestra cómo interactúan los objetos a lo largo del tiempo?",
+            "options": ["Diagrama de Secuencia", "Diagrama de Clases", "Diagrama de Casos de Uso", "Diagrama de Despliegue"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 10,
+            "question": "¿Cuál es una característica de la sobrecarga de métodos?",
+            "options": ["Permite modificar la visibilidad de un método en una subclase", "Permite definir múltiples métodos con el mismo nombre pero diferentes parámetros", "Permite ejecutar una función en tiempo de ejecución según el tipo de objeto", "Impide que dos métodos tengan el mismo nombre dentro de una clase"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es la programación orientada a objetos (POO)?",
+            "options": ["Un paradigma que utiliza funciones para resolver problemas", "Un paradigma que utiliza objetos para representar datos y métodos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es un objeto en POO?",
+            "options": ["Una clase que define la estructura y el comportamiento", "Una instancia de una clase que contiene estado y comportamiento", "Un tipo de dato primitivo", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es una clase en POO?",
+            "options": ["Una instancia de una clase", "Una plantilla que define la estructura y el comportamiento de los objetos", "Un tipo de dato primitivo", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es la herencia en POO?",
+            "options": ["La capacidad de una clase para adoptar diferentes formas", "La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y métodos de otra clase", "La capacidad de una clase para crear múltiples instancias"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es el polimorfismo en POO?",
+            "options": ["La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y métodos de otra clase", "La capacidad de una clase o método para adoptar diferentes formas", "La capacidad de una clase para crear múltiples instancias"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es el encapsulamiento en POO?",
+            "options": ["La capacidad de una clase para ocultar su estado interno", "La capacidad de una clase para heredar atributos y métodos de otra clase", "La capacidad de una clase para adoptar diferentes formas", "La capacidad de una clase para crear múltiples instancias"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es la abstracción en POO?",
+            "options": ["El proceso de simplificar y representar los aspectos esenciales de una entidad", "El proceso de ocultar el estado interno de un objeto", "El proceso de heredar atributos y métodos de otra clase", "El proceso de adoptar diferentes formas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es UML?",
+            "options": ["Un lenguaje de programación orientado a objetos", "Un lenguaje de modelado visual para el diseño de software", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es un diagrama de clases en UML?",
+            "options": ["Un diagrama que muestra la interacción entre actores y el sistema", "Un diagrama que muestra las clases, atributos, métodos y relaciones entre ellas", "Un diagrama que muestra la distribución física de los componentes", "Un diagrama que muestra los estados por los que puede pasar un objeto"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es un diagrama de casos de uso en UML?",
+            "options": ["Un diagrama que muestra las clases y sus relaciones", "Un diagrama que muestra la interacción entre actores y el sistema", "Un diagrama que muestra la distribución física de los componentes", "Un diagrama que muestra los estados por los que puede pasar un objeto"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es un patrón de diseño?",
+            "options": ["Un enfoque de programación que utiliza funciones para resolver problemas", "Una solución reutilizable a un problema común en el diseño de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es el patrón Singleton?",
+            "options": ["Un patrón que permite que una clase tenga múltiples instancias", "Un patrón que asegura que una clase tenga una única instancia", "Un patrón que permite que un objeto adopte diferentes formas", "Un patrón que oculta el estado interno de un objeto"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es el patrón Factory Method?",
+            "options": ["Un patrón que define una interfaz para crear objetos", "Un patrón que asegura que una clase tenga una única instancia", "Un patrón que permite que un objeto adopte diferentes formas", "Un patrón que oculta el estado interno de un objeto"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es el patrón Adapter?",
+            "options": ["Un patrón que permite que dos interfaces incompatibles trabajen juntas", "Un patrón que asegura que una clase tenga una única instancia", "Un patrón que permite que un objeto adopte diferentes formas", "Un patrón que oculta el estado interno de un objeto"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es el patrón Observer?",
+            "options": ["Un patrón que define una dependencia de uno a muchos entre objetos", "Un patrón que asegura que una clase tenga una única instancia", "Un patrón que permite que un objeto adopte diferentes formas", "Un patrón que oculta el estado interno de un objeto"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 26,
+            "question": "¿Qué es la relación de herencia en un diagrama de clases?",
+            "options": ["Una relación que conecta dos clases sin dependencia fuerte entre ellas", "Una relación jerárquica en la que una clase hereda atributos y métodos de otra", "Una relación que oculta el estado interno de un objeto", "Una relación que permite que un objeto adopte diferentes formas"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 27,
+            "question": "¿Qué es la relación de composición en un diagrama de clases?",
+            "options": ["Una relación que conecta dos clases sin dependencia fuerte entre ellas", "Una relación fuerte en la que una clase contiene a otra y sus ciclos de vida están ligados", "Una relación que oculta el estado interno de un objeto", "Una relación que permite que un objeto adopte diferentes formas"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 28,
+            "question": "¿Qué es la relación de agregación en un diagrama de clases?",
+            "options": ["Una relación que conecta dos clases sin dependencia fuerte entre ellas", "Una relación fuerte en la que una clase contiene a otra y sus ciclos de vida están ligados", "Una relación que oculta el estado interno de un objeto", "Una relación que permite que un objeto adopte diferentes formas"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 29,
+            "question": "¿Qué es el lenguaje OCL en UML?",
+            "options": ["Un lenguaje formal para definir restricciones y condiciones en los modelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un lenguaje de programación orientado a objetos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 30,
+            "question": "¿Qué es el formato XMI en UML?",
+            "options": ["Un formato utilizado para el intercambio de modelos entre herramientas de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un lenguaje de programación orientado a objetos"],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      {
+        "topicId": 5,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es el JDK en Java?",
+            "options": ["Un entorno de ejecución para programas Java", "Un kit de desarrollo que incluye herramientas para compilar y ejecutar aplicaciones Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Qué es el JRE en Java?",
+            "options": ["Un kit de desarrollo que incluye herramientas para compilar aplicaciones Java", "Un entorno de ejecución que incluye la JVM y bibliotecas estándar para ejecutar programas Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué es la JVM en Java?",
+            "options": ["Un compilador que traduce código Java a bytecode", "Una máquina virtual que ejecuta el bytecode generado por el compilador de Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué es el comando javac en Java?",
+            "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué es el comando java en Java?",
+            "options": ["Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 6,
+            "question": "¿Qué es el comando jdb en Java?",
+            "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué es el comando javap en Java?",
+            "options": ["Un comando que descompone archivos .class para mostrar el bytecode en formato legible", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué es el comando jconsole en Java?",
+            "options": ["Un comando que monitorea y gestiona aplicaciones Java en tiempo real", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué es el comando jshell en Java?",
+            "options": ["Un comando que ejecuta bloques de código de forma interactiva", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 10,
+            "question": "¿Qué es el comando keytool en Java?",
+            "options": ["Un comando que gestiona claves criptográficas", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es Java EE/Jakarta EE?",
+            "options": ["Un conjunto de tecnologías para desarrollar aplicaciones de escritorio", "Un conjunto de tecnologías para desarrollar aplicaciones empresariales a gran escala", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es un Servlet en Java EE?",
+            "options": ["Un componente que genera contenido dinámico para páginas web", "Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es JSP en Java EE?",
+            "options": ["Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que genera contenido dinámico para páginas web utilizando código Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es EJB en Java EE?",
+            "options": ["Un componente que genera contenido dinámico para páginas web", "Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que procesa la lógica empresarial distribuida", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es JPA en Java EE?",
+            "options": ["Un componente que procesa la lógica empresarial distribuida", "Una API para la gestión de bases de datos mediante mapeo objeto-relacional", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es un hilo (thread) en Java?",
+            "options": ["Una unidad de ejecución independiente que puede correr en paralelo con otros hilos", "Un tipo de dato primitivo en Java", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es la sincronización en Java?",
+            "options": ["Un mecanismo para evitar problemas de concurrencia al acceder a recursos compartidos", "Un mecanismo para mejorar el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es el Garbage Collector en Java?",
+            "options": ["Un mecanismo que gestiona la memoria eliminando objetos no utilizados", "Un mecanismo que mejora el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es una clase abstracta en Java?",
+            "options": ["Una clase que no puede ser instanciada y define métodos abstractos", "Una clase que puede ser instanciada y define métodos concretos", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es el modificador final en Java?",
+            "options": ["Un modificador que permite que una clase sea heredada", "Un modificador que impide que una clase sea heredada o que un método sea sobrescrito", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es el modificador static en Java?",
+            "options": ["Un modificador que pertenece a la clase y no a las instancias", "Un modificador que pertenece a las instancias y no a la clase", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es el modificador public en Java?",
+            "options": ["Un modificador que hace que un atributo o método sea accesible desde cualquier clase", "Un modificador que hace que un atributo o método sea accesible solo dentro del mismo paquete", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es el modificador protected en Java?",
+            "options": ["Un modificador que hace que un atributo o método sea accesible desde cualquier clase", "Un modificador que hace que un atributo o método sea visible dentro de la misma clase, en el mismo paquete y en las subclases", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es el comando jps en Java?",
+            "options": ["Un comando que muestra información sobre los procesos Java en ejecución", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es el comando jstat en Java?",
+            "options": ["Un comando que monitorea el uso de recursos de la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 26,
+            "question": "¿Qué es el comando jcmd en Java?",
+            "options": ["Un comando que envía comandos específicos a la JVM para obtener información o realizar ajustes", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      {
+        "topicId": 6,
+        "question": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es la arquitectura cliente/servidor?",
+            "options": ["Un modelo que organiza el sistema en un solo componente", "Un modelo que organiza el sistema en dos entidades principales: cliente y servidor", "Un modelo que utiliza solo un servidor para todas las tareas", "Un modelo que no utiliza servidores"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Cuál es la principal ventaja de la escalabilidad en la arquitectura cliente/servidor?",
+            "options": ["Permite que el servidor se sobrecargue fácilmente", "Permite que el cliente realice todas las tareas", "Permite escalar el servidor de manera independiente a medida que aumenta la demanda de clientes", "No permite la actualización del servidor"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué es un cliente en la arquitectura cliente/servidor?",
+            "options": ["La entidad que proporciona servicios", "La entidad que solicita servicios al servidor", "La entidad que gestiona la red", "La entidad que almacena datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué es un servidor en la arquitectura cliente/servidor?",
+            "options": ["La entidad que solicita servicios", "La entidad que proporciona servicios o recursos solicitados por el cliente", "La entidad que gestiona la red", "La entidad que almacena datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué es la arquitectura multicapas?",
+            "options": ["Un modelo que divide el sistema en dos capas", "Un modelo que divide el sistema en múltiples capas independientes", "Un modelo que utiliza solo un servidor para todas las tareas", "Un modelo que no utiliza servidores"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 6,
+            "question": "¿Cuál es la función de la capa de presentación en una arquitectura multicapas?",
+            "options": ["Gestionar la lógica de negocio", "Gestionar el acceso a datos", "Gestionar la interacción con el usuario", "Gestionar la seguridad"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 7,
+            "question": "¿Cuál es la función de la capa de lógica de negocio en una arquitectura multicapas?",
+            "options": ["Gestionar la interacción con el usuario", "Gestionar el acceso a datos", "Procesar la lógica que define el comportamiento del sistema", "Gestionar la seguridad"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 8,
+            "question": "¿Cuál es la función de la capa de acceso a datos en una arquitectura multicapas?",
+            "options": ["Gestionar la interacción con el usuario", "Gestionar la lógica de negocio", "Interactuar con las bases de datos o sistemas de almacenamiento", "Gestionar la seguridad"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué es un servicio web?",
+            "options": ["Un componente que gestiona la lógica de negocio", "Un componente que gestiona el acceso a datos", "Un componente que permite la comunicación entre sistemas diferentes a través de Internet", "Un componente que gestiona la seguridad"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 10,
+            "question": "¿Qué es SOAP?",
+            "options": ["Un protocolo basado en HTTP para servicios web", "Un protocolo basado en XML para la comunicación entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es REST?",
+            "options": ["Un protocolo basado en XML para la comunicación entre aplicaciones", "Un estilo arquitectónico que utiliza HTTP para acceder y manipular recursos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es GraphQL?",
+            "options": ["Un protocolo basado en XML para la comunicación entre aplicaciones", "Un lenguaje de consulta para APIs que permite a los clientes especificar los datos que necesitan", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es UDDI?",
+            "options": ["Un directorio para la publicación y búsqueda de servicios web", "Un protocolo basado en XML para la comunicación entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es WSDL?",
+            "options": ["Un formato XML que describe las funcionalidades de un servicio web", "Un protocolo basado en XML para la comunicación entre aplicaciones", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 15,
+            "question": "¿Cuál es la principal ventaja de la arquitectura de servicios web?",
+            "options": ["Permite que los sistemas estén fuertemente acoplados", "Permite la interoperabilidad entre sistemas diferentes", "Permite que solo un sistema acceda a los servicios", "Permite que los servicios sean inseguros"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es un API en el contexto de servicios web?",
+            "options": ["Un componente que gestiona la lógica de negocio", "Un componente que gestiona el acceso a datos", "Un puente que permite que aplicaciones interactúen entre sí", "Un sistema operativo"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es la seguridad en servicios web?",
+            "options": ["Un mecanismo que permite que los sistemas estén desacoplados", "Un mecanismo que permite la interoperabilidad entre sistemas", "Un conjunto de mecanismos para proteger la información transmitida y accedida", "Un sistema operativo"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es la autenticación en servicios web?",
+            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que autoriza el acceso a recursos", "Un proceso que cifra la información", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es la autorización en servicios web?",
+            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que determina qué acciones puede realizar un usuario", "Un proceso que cifra la información", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es el cifrado en servicios web?",
+            "options": ["Un proceso que verifica la identidad de los usuarios", "Un proceso que autoriza el acceso a recursos", "Un proceso que protege la información mediante técnicas de codificación", "Un sistema operativo"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es un ejemplo de arquitectura cliente/servidor?",
+            "options": ["Un sistema de correo electrónico", "Un sistema de gestión de inventario", "Un navegador web y un servidor web", "Un sistema operativo"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es un ejemplo de arquitectura multicapas?",
+            "options": ["Un sistema de gestión de inventario", "Un sistema de comercio electrónico", "Un sistema operativo", "Un sistema de correo electrónico"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es un protocolo de comunicación común en servicios web?",
+            "options": ["HTTP/HTTPS", "FTP", "SMTP", "Todos los anteriores"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es un formato de datos común en servicios web?",
+            "options": ["XML", "JSON", "Ambos", "Ninguno"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es un estilo arquitectónico que utiliza HTTP para acceder y manipular recursos?",
+            "options": ["SOAP", "REST", "GraphQL", "UDDI"],
+            "correctAnswer": 1
+          }
+        ]
+      },
+      {
+        "topic": 7,
+        "question": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es CGI en el contexto de aplicaciones web?",
+            "options": ["Un protocolo para servicios web", "Un método para ejecutar scripts en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Cuál es la principal limitación de CGI?",
+            "options": ["No permite la creación de formularios", "Crea un nuevo proceso para cada solicitud, limitando la escalabilidad", "No admite JavaScript", "No es compatible con HTML5"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué es SGML?",
+            "options": ["Un lenguaje de marcado estándar que define la estructura de documentos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué es HTML5?",
+            "options": ["Una versión de HTML que incluye etiquetas para multimedia y estructura semántica", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué es la estructura semántica en HTML5?",
+            "options": ["Etiquetas que definen la presentación visual", "Etiquetas que definen el significado de los elementos en una página", "Etiquetas que definen la interacción con el usuario", "Etiquetas que definen la lógica de negocio"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 6,
+            "question": "¿Qué es WAI-ARIA?",
+            "options": ["Un conjunto de atributos que mejoran la accesibilidad en aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué es WCAG?",
+            "options": ["Un conjunto de pautas para la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué es un motor de renderizado en un navegador web?",
+            "options": ["Un componente que interpreta HTML, CSS y JavaScript para generar la interfaz visual", "Un componente que gestiona la seguridad del navegador", "Un componente que gestiona la memoria del sistema", "Un componente que gestiona la red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué es Blink?",
+            "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Chrome y derivados", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 10,
+            "question": "¿Qué es WebKit?",
+            "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Safari", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es Gecko?",
+            "options": ["Un motor de renderizado utilizado por Chrome", "Un motor de renderizado utilizado por Firefox", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es el DOM en el contexto de los navegadores web?",
+            "options": ["Un modelo de objeto que representa la estructura de un documento HTML", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es el CSSOM?",
+            "options": ["Un modelo de objeto que representa la estructura de los estilos CSS", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es el árbol de renderizado?",
+            "options": ["Un árbol que combina el DOM y el CSSOM para definir el contenido y estilo visible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es JavaScript en el contexto de aplicaciones web?",
+            "options": ["Un lenguaje de programación que agrega interactividad a las páginas web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es ECMAScript?",
+            "options": ["Un estándar que define cómo debe funcionar JavaScript", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es Node.js?",
+            "options": ["Un entorno que permite ejecutar JavaScript en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es PHP?",
+            "options": ["Un lenguaje de programación del lado del servidor para aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es Sass?",
+            "options": ["Un preprocesador CSS que permite escribir código más dinámico", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es Bootstrap?",
+            "options": ["Un framework CSS para crear páginas web responsivas", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es Modernizr?",
+            "options": ["Una biblioteca JavaScript para detectar capacidades del navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es un polyfill?",
+            "options": ["Un fragmento de código que proporciona funcionalidad que falta en un navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es BrowserStack?",
+            "options": ["Una herramienta para probar la compatibilidad de sitios web en diferentes navegadores", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es la accesibilidad web?",
+            "options": ["La capacidad de que las páginas web sean usables por personas con discapacidades", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es WCAG 2.1?",
+            "options": ["Un conjunto de pautas para mejorar la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          }
+        ]
+
+      },
+      {
+        "topic": 8,
+        "question": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es la accesibilidad universal en el contexto de la Ley 51/2003?",
+            "options": ["La capacidad de un sistema para ser utilizado solo por personas sin discapacidad", "La condición que deben cumplir los entornos para ser comprensibles y utilizables por todas las personas", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Qué normativa española regula la accesibilidad en medios electrónicos?",
+            "options": ["Ley 11/2007 y Real Decreto 1112/2018", "Ley 39/2015", "Ley 51/2003", "Todas las anteriores"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué son las WCAG?",
+            "options": ["Directrices de Accesibilidad para el Contenido Web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué significa POUR en el contexto de las WCAG?",
+            "options": ["Perceptible, Operable, Usable, Robusto", "Perceptible, Operable, Usable, Responsivo", "Perceptible, Operable, Usable, Rápido", "Perceptible, Operable, Usable, Resistente"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué es el principio de 'Perceptible' en las WCAG?",
+            "options": ["La información debe ser presentada de manera que todos puedan percibirla", "La información debe ser operable por todos", "La información debe ser comprensible para todos", "La información debe ser robusta"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 6,
+            "question": "¿Qué es el texto alternativo para imágenes en el contexto de la accesibilidad web?",
+            "options": ["Un texto que se muestra en lugar de la imagen si no se carga", "Un texto que describe la imagen para lectores de pantalla", "Un texto que aparece cuando se pasa el ratón sobre la imagen", "Un texto que se utiliza para mejorar el SEO"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué es ARIA en el contexto de la accesibilidad web?",
+            "options": ["Un conjunto de herramientas para hacer interactivos y accesibles los elementos de una página web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué son las ATAG?",
+            "options": ["Guías para herramientas de creación de contenido accesible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué es el objetivo principal de las UAAG?",
+            "options": ["Garantizar que los agentes de usuario sean accesibles para personas con discapacidades", "Garantizar que las herramientas de creación sean accesibles", "Garantizar que el contenido web sea accesible", "Garantizar que los sistemas operativos sean accesibles"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 10,
+            "question": "¿Qué es el Observatorio de Accesibilidad Web (OAW)?",
+            "options": ["Una iniciativa para promover la inclusión digital en España", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es el nivel A de conformidad en las WCAG?",
+            "options": ["El nivel más alto de accesibilidad", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad", "El nivel más bajo de accesibilidad"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es el nivel AA de conformidad en las WCAG?",
+            "options": ["El nivel más alto de accesibilidad", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad, recomendado en muchos marcos legales", "El nivel más bajo de accesibilidad"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es el nivel AAA de conformidad en las WCAG?",
+            "options": ["El nivel más alto de accesibilidad, con requisitos avanzados", "El nivel mínimo necesario para que una página web sea funcional", "El nivel intermedio de accesibilidad", "El nivel más bajo de accesibilidad"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es el principio de 'Operable' en las WCAG?",
+            "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "La información debe ser comprensible para todos", "La información debe ser robusta"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es el principio de 'Comprensible' en las WCAG?",
+            "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fácil de entender", "La información debe ser robusta"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es el principio de 'Robusto' en las WCAG?",
+            "options": ["La información debe ser presentada de manera que todos puedan percibirla", "Los usuarios deben poder navegar e interactuar sin problemas", "El contenido debe ser claro y fácil de entender", "El contenido debe ser accesible y funcionar correctamente con diversas tecnologías"],
+            "correctAnswer": 3
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es ACT en el contexto de la accesibilidad web?",
+            "options": ["Un conjunto de reglas para realizar pruebas de conformidad con las WCAG", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es EARL en el contexto de la accesibilidad web?",
+            "options": ["Un formato de metadatos para describir resultados de evaluaciones de accesibilidad", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es el uso de etiquetas semánticas en HTML para la accesibilidad?",
+            "options": ["Usar etiquetas como <div> y <span> para todo", "Usar etiquetas como <header>, <nav>, <main> para estructurar el contenido", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es la importancia de la compatibilidad con lectores de pantalla en la accesibilidad web?",
+            "options": ["Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es la validación del código HTML para la accesibilidad?",
+            "options": ["Usar herramientas para verificar la sintaxis correcta del código", "Usar herramientas para verificar la presentación visual", "Usar herramientas para verificar la funcionalidad", "No es necesario validar el código"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es el uso de contrastes de color adecuados en la accesibilidad web?",
+            "options": ["Permite que los usuarios con discapacidad visual puedan ver el contenido de forma clara", "Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es la importancia de la navegación consistente en la accesibilidad web?",
+            "options": ["Permite que los usuarios puedan encontrar fácilmente la información", "Permite que los usuarios puedan acceder al contenido solo mediante teclado", "Permite que los usuarios puedan ver el contenido de forma clara", "No es importante para la accesibilidad"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es el uso de subtítulos y transcripciones para contenidos audiovisuales en la accesibilidad web?",
+            "options": ["Permite que los usuarios con discapacidad auditiva puedan acceder al contenido", "Permite que los usuarios con discapacidad visual puedan acceder al contenido", "Permite que los usuarios con discapacidad motora puedan acceder al contenido", "No es importante para la accesibilidad"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es la importancia de la accesibilidad web para la inclusión social?",
+            "options": ["Permite que todas las personas puedan acceder a la información y servicios en línea sin barreras", "Permite que solo las personas sin discapacidad puedan acceder a la información", "Permite que solo las personas con discapacidad puedan acceder a la información", "No es importante para la inclusión social"],
+            "correctAnswer": 0
+          }
+        ]
+      },
+      {
+        "topic": 9,
+        "question": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es un repositorio en el contexto del desarrollo de software?",
+            "options": ["Un lugar donde se almacena el código fuente", "Un sistema que gestiona los cambios en el código a lo largo del tiempo", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 2,
+            "question": "¿Qué son las herramientas CASE?",
+            "options": ["Un conjunto de programas que ayudan en el desarrollo de software", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 3,
+            "question": "¿Qué es un metamodelo?",
+            "options": ["Un modelo de un modelo", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 4,
+            "question": "¿Qué es MOF?",
+            "options": ["Un metamodelo para definir y estructurar otros metamodelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 5,
+            "question": "¿Qué es MDA?",
+            "options": ["Una estrategia de desarrollo que genera código a partir de modelos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 6,
+            "question": "¿Qué es la ingeniería directa?",
+            "options": ["Generar código a partir de modelos", "Inferir modelos a partir del código existente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 7,
+            "question": "¿Qué es la ingeniería inversa?",
+            "options": ["Generar código a partir de modelos", "Inferir modelos a partir del código existente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 8,
+            "question": "¿Qué es un framework de desarrollo low-code?",
+            "options": ["Un entorno que permite crear aplicaciones con mínimo código manual", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 9,
+            "question": "¿Qué es Upper CASE?",
+            "options": ["Herramientas que ayudan en las primeras fases del desarrollo, como planificación y análisis", "Herramientas que ayudan en la fase de diseño", "Herramientas que ayudan en la programación y pruebas", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 10,
+            "question": "¿Qué es Middle CASE?",
+            "options": ["Herramientas que ayudan en las primeras fases del desarrollo", "Herramientas que ayudan en la fase de diseño", "Herramientas que ayudan en la programación y pruebas", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 11,
+            "question": "¿Qué es Lower CASE?",
+            "options": ["Herramientas que ayudan en las primeras fases del desarrollo", "Herramientas que ayudan en la fase de diseño", "Herramientas que ayudan en la programación y pruebas", "Un lenguaje de consulta para bases de datos"],
+            "correctAnswer": 2
+          },
+          {
+            "questionId": 12,
+            "question": "¿Qué es Git?",
+            "options": ["Un sistema de control de versiones distribuido", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 13,
+            "question": "¿Qué es un commit en Git?",
+            "options": ["Una instantánea del proyecto con un historial de cambios", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 14,
+            "question": "¿Qué es una rama en Git?",
+            "options": ["Un puntero a un commit específico que permite trabajar de forma independiente", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 15,
+            "question": "¿Qué es el comando git init?",
+            "options": ["Inicializa un nuevo repositorio de Git", "Crea una copia local de un repositorio remoto", "Añade cambios al área de preparación", "Registra los cambios en el repositorio"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 16,
+            "question": "¿Qué es el comando git clone?",
+            "options": ["Inicializa un nuevo repositorio de Git", "Crea una copia local de un repositorio remoto", "Añade cambios al área de preparación", "Registra los cambios en el repositorio"],
+            "correctAnswer": 1
+          },
+          {
+            "questionId": 17,
+            "question": "¿Qué es el comando git add?",
+            "options": ["Añade cambios al área de preparación", "Registra los cambios en el repositorio", "Crea una copia local de un repositorio remoto", "Inicializa un nuevo repositorio de Git"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 18,
+            "question": "¿Qué es el comando git commit?",
+            "options": ["Registra los cambios en el repositorio", "Añade cambios al área de preparación", "Crea una copia local de un repositorio remoto", "Inicializa un nuevo repositorio de Git"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 19,
+            "question": "¿Qué es el comando git push?",
+            "options": ["Sube los cambios locales a un repositorio remoto", "Descarga y fusiona los cambios del repositorio remoto", "Añade cambios al área de preparación", "Registra los cambios en el repositorio"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 20,
+            "question": "¿Qué es el comando git pull?",
+            "options": ["Descarga y fusiona los cambios del repositorio remoto", "Sube los cambios locales a un repositorio remoto", "Añade cambios al área de preparación", "Registra los cambios en el repositorio"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 21,
+            "question": "¿Qué es el comando git branch?",
+            "options": ["Muestra las ramas disponibles en el repositorio", "Crea una nueva rama", "Cambia a otra rama", "Fusiona una rama en la actual"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 22,
+            "question": "¿Qué es el comando git merge?",
+            "options": ["Fusiona una rama en la actual", "Crea una nueva rama", "Cambia a otra rama", "Muestra las ramas disponibles en el repositorio"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 23,
+            "question": "¿Qué es el comando git log?",
+            "options": ["Muestra el historial de confirmaciones", "Muestra las diferencias entre archivos", "Registra los cambios en el repositorio", "Añade cambios al área de preparación"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 24,
+            "question": "¿Qué es el comando git diff?",
+            "options": ["Muestra las diferencias entre archivos", "Muestra el historial de confirmaciones", "Registra los cambios en el repositorio", "Añade cambios al área de preparación"],
+            "correctAnswer": 0
+          },
+          {
+            "questionId": 25,
+            "question": "¿Qué es el comando git reset?",
+            "options": ["Deshace cambios en el área de preparación o en el commit", "Registra los cambios en el repositorio", "Añade cambios al área de preparación", "Muestra las diferencias entre archivos"],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "blockId": 4,
+    "topics": [
+      {
+        "topicId": 1,
+        "questions": [
+          {
+            "questionId": 1,
+            "question": "¿Qué es el modelo OSI?",
+            "options": ["Modelo de referencia para redes de computadoras", "Modelo para la creación de aplicaciones móviles", "Modelo de programación en Java", "Modelo de diseño de interfaces de usuario"],
+            "correctAnswer": 0
+          }
+        ]
+      }
+    ]
+  }
+]

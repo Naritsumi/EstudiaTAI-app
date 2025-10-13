@@ -1,1 +1,195 @@
-﻿{  "topicId": 2,  "questions": [    {      "questionId": 1,      "question": "Â¿QuÃ© es un lenguaje de programaciÃ³n?",      "options": [        "Un sistema operativo para computadoras",        "Un conjunto de reglas y sintaxis que permite escribir instrucciones para una computadora",        "Un dispositivo de hardware que ejecuta programas",        "Un tipo de procesador utilizado en servidores"      ],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿CuÃ¡l de los siguientes lenguajes utiliza un compilador en lugar de un intÃ©rprete?",      "options": ["Python", "JavaScript", "C++", "Ruby"],      "correctAnswer": 2    },    {      "questionId": 3,      "question": "Â¿QuÃ© tipo de traductor ejecuta el cÃ³digo fuente lÃ­nea por lÃ­nea?",      "options": ["Compilador", "IntÃ©rprete", "Ensamblador", "Transpilador"],      "correctAnswer": 1    },    {      "questionId": 4,      "question": "Â¿CuÃ¡l de los siguientes lenguajes combina compilaciÃ³n a bytecode e interpretaciÃ³n en tiempo de ejecuciÃ³n?",      "options": ["C", "Java", "Python", "Go"],      "correctAnswer": 1    },    {      "questionId": 5,      "question": "Â¿CuÃ¡l es la diferencia principal entre sintaxis y semÃ¡ntica en un lenguaje de programaciÃ³n?",      "options": [        "La sintaxis define la estructura y la semÃ¡ntica el significado de las instrucciones",        "La semÃ¡ntica define la estructura y la sintaxis el significado de las instrucciones",        "Ambas son sinÃ³nimos y significan lo mismo",        "La sintaxis se aplica solo a lenguajes compilados, y la semÃ¡ntica a lenguajes interpretados"      ],      "correctAnswer": 0    },    {      "questionId": 6,      "question": "Â¿CuÃ¡l de los siguientes NO es un ejemplo de un compilador?",      "options": ["GCC", "Clang", "JIT", "Git"],      "correctAnswer": 3    },    {      "questionId": 7,      "question": "Â¿QuÃ© caracterÃ­stica define a un algoritmo?",      "options": [        "Debe ser indefinido para adaptarse a cualquier problema",        "Debe terminar en un tiempo razonable y ser efectivo",        "No debe recibir entradas, solo producir salidas",        "Solo puede ser implementado en lenguajes compilados"      ],      "correctAnswer": 1    },    {      "questionId": 8,      "question": "Â¿CuÃ¡l de los siguientes es un entorno de desarrollo integrado (IDE)?",      "options": ["Visual Studio Code", "GitHub", "Django", "Linux"],      "correctAnswer": 0    },    {      "questionId": 9,      "question": "Â¿QuÃ© hace un compilador cruzado?",      "options": [        "Ejecuta cÃ³digo directamente sin necesidad de traducirlo",        "Convierte cÃ³digo en lenguaje ensamblador a cÃ³digo mÃ¡quina",        "Traduce cÃ³digo de un lenguaje a otro de alto nivel",        "Genera cÃ³digo para una arquitectura diferente a la del sistema donde se ejecuta el compilador"      ],      "correctAnswer": 3    },    {      "questionId": 10,      "question": "Â¿CuÃ¡l de las siguientes herramientas se usa para el control de versiones?",      "options": ["Django", "React", "Git", "Eclipse"],      "correctAnswer": 2    },    {      "questionId": 11,      "question": "Â¿QuÃ© es el cÃ³digo fuente?",      "options": [        "El programa ejecutable",        "El cÃ³digo que escribe el programador",        "El resultado de la compilaciÃ³n",        "El cÃ³digo mÃ¡quina"      ],      "correctAnswer": 1    },    {      "questionId": 12,      "question": "Â¿QuÃ© hace un compilador?",      "options": [        "Traduce el cÃ³digo lÃ­nea por lÃ­nea",        "Traduce todo el cÃ³digo de una vez antes de ejecutarlo",        "Ejecuta el cÃ³digo directamente sin traducirlo",        "Almacena el cÃ³digo en una base de datos"      ],      "correctAnswer": 1    },    {      "questionId": 13,      "question": "Â¿QuÃ© es un intÃ©rprete?",      "options": [        "Un programa que traduce y ejecuta el cÃ³digo lÃ­nea por lÃ­nea",        "Un programa que traduce todo el cÃ³digo de una vez antes de ejecutarlo",        "Un programa que almacena el cÃ³digo en una base de datos",        "Un programa que ejecuta el cÃ³digo directamente sin traducirlo"      ],      "correctAnswer": 0    },    {      "questionId": 14,      "question": "Â¿CuÃ¡l es la funciÃ³n principal de un framework?",      "options": [        "Permitir la ejecuciÃ³n directa del cÃ³digo fuente",        "Facilitar el desarrollo de aplicaciones proporcionando herramientas y estructuras",        "Gestionar los permisos de los usuarios en un sistema",        "Proteger el cÃ³digo de ataques externos"      ],      "correctAnswer": 1    },    {      "questionId": 15,      "question": "Â¿QuÃ© es un algoritmo?",      "options": [        "Una secuencia de pasos para resolver un problema",        "Un lenguaje de programaciÃ³n",        "Un tipo de dato",        "Un sistema operativo"      ],      "correctAnswer": 0    },    {      "questionId": 16,      "question": "Â¿QuÃ© es un programa?",      "options": [        "Un conjunto de instrucciones organizadas para realizar una tarea",        "Un lenguaje de programaciÃ³n",        "Un sistema operativo",        "Un tipo de dato"      ],      "correctAnswer": 0    },    {      "questionId": 17,      "question": "Â¿QuÃ© caracterÃ­stica NO es esencial en un algoritmo?",      "options": [        "Debe ser definido",        "Debe ser finito",        "Debe requerir una gran cantidad de memoria",        "Debe tener entrada y salida"      ],      "correctAnswer": 2    },    {      "questionId": 18,      "question": "Â¿QuÃ© es tipado estÃ¡tico?",      "options": [        "El tipo de cada variable se define en tiempo de ejecuciÃ³n",        "El tipo de cada variable se define antes de la ejecuciÃ³n",        "No se definen tipos para las variables",        "Se permiten conversiones automÃ¡ticas entre tipos"      ],      "correctAnswer": 1    },    {      "questionId": 19,      "question": "Â¿QuÃ© es tipado dinÃ¡mico?",      "options": [        "El tipo de cada variable se define antes de la ejecuciÃ³n",        "El tipo de cada variable se define en tiempo de ejecuciÃ³n",        "No se definen tipos para las variables",        "Se permiten conversiones automÃ¡ticas entre tipos"      ],      "correctAnswer": 1    },    {      "questionId": 20,      "question": "Â¿QuÃ© es un lenguaje de bajo nivel?",      "options": [        "Un lenguaje que es fÃ¡cilmente comprensible por humanos",        "Un lenguaje que se ejecuta directamente por la CPU",        "Un lenguaje que requiere compilaciÃ³n",        "Un lenguaje que es interpretado"      ],      "correctAnswer": 1    }  ]}
+{
+  "topicId": 2,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué es un lenguaje de programación?",
+      "options": [
+        "Un sistema operativo para computadoras",
+        "Un conjunto de reglas y sintaxis que permite escribir instrucciones para una computadora",
+        "Un dispositivo de hardware que ejecuta programas",
+        "Un tipo de procesador utilizado en servidores"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Cuál de los siguientes lenguajes utiliza un compilador en lugar de un intérprete?",
+      "options": ["Python", "JavaScript", "C++", "Ruby"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué tipo de traductor ejecuta el código fuente línea por línea?",
+      "options": ["Compilador", "Intérprete", "Ensamblador", "Transpilador"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 4,
+      "question": "¿Cuál de los siguientes lenguajes combina compilación a bytecode e interpretación en tiempo de ejecución?",
+      "options": ["C", "Java", "Python", "Go"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 5,
+      "question": "¿Cuál es la diferencia principal entre sintaxis y semántica en un lenguaje de programación?",
+      "options": [
+        "La sintaxis define la estructura y la semántica el significado de las instrucciones",
+        "La semántica define la estructura y la sintaxis el significado de las instrucciones",
+        "Ambas son sinónimos y significan lo mismo",
+        "La sintaxis se aplica solo a lenguajes compilados, y la semántica a lenguajes interpretados"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 6,
+      "question": "¿Cuál de los siguientes NO es un ejemplo de un compilador?",
+      "options": ["GCC", "Clang", "JIT", "Git"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué característica define a un algoritmo?",
+      "options": [
+        "Debe ser indefinido para adaptarse a cualquier problema",
+        "Debe terminar en un tiempo razonable y ser efectivo",
+        "No debe recibir entradas, solo producir salidas",
+        "Solo puede ser implementado en lenguajes compilados"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 8,
+      "question": "¿Cuál de los siguientes es un entorno de desarrollo integrado (IDE)?",
+      "options": ["Visual Studio Code", "GitHub", "Django", "Linux"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué hace un compilador cruzado?",
+      "options": [
+        "Ejecuta código directamente sin necesidad de traducirlo",
+        "Convierte código en lenguaje ensamblador a código máquina",
+        "Traduce código de un lenguaje a otro de alto nivel",
+        "Genera código para una arquitectura diferente a la del sistema donde se ejecuta el compilador"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 10,
+      "question": "¿Cuál de las siguientes herramientas se usa para el control de versiones?",
+      "options": ["Django", "React", "Git", "Eclipse"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué es el código fuente?",
+      "options": [
+        "El programa ejecutable",
+        "El código que escribe el programador",
+        "El resultado de la compilación",
+        "El código máquina"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué hace un compilador?",
+      "options": [
+        "Traduce el código línea por línea",
+        "Traduce todo el código de una vez antes de ejecutarlo",
+        "Ejecuta el código directamente sin traducirlo",
+        "Almacena el código en una base de datos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué es un intérprete?",
+      "options": [
+        "Un programa que traduce y ejecuta el código línea por línea",
+        "Un programa que traduce todo el código de una vez antes de ejecutarlo",
+        "Un programa que almacena el código en una base de datos",
+        "Un programa que ejecuta el código directamente sin traducirlo"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 14,
+      "question": "¿Cuál es la función principal de un framework?",
+      "options": [
+        "Permitir la ejecución directa del código fuente",
+        "Facilitar el desarrollo de aplicaciones proporcionando herramientas y estructuras",
+        "Gestionar los permisos de los usuarios en un sistema",
+        "Proteger el código de ataques externos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué es un algoritmo?",
+      "options": [
+        "Una secuencia de pasos para resolver un problema",
+        "Un lenguaje de programación",
+        "Un tipo de dato",
+        "Un sistema operativo"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es un programa?",
+      "options": [
+        "Un conjunto de instrucciones organizadas para realizar una tarea",
+        "Un lenguaje de programación",
+        "Un sistema operativo",
+        "Un tipo de dato"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué característica NO es esencial en un algoritmo?",
+      "options": [
+        "Debe ser definido",
+        "Debe ser finito",
+        "Debe requerir una gran cantidad de memoria",
+        "Debe tener entrada y salida"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué es tipado estático?",
+      "options": [
+        "El tipo de cada variable se define en tiempo de ejecución",
+        "El tipo de cada variable se define antes de la ejecución",
+        "No se definen tipos para las variables",
+        "Se permiten conversiones automáticas entre tipos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es tipado dinámico?",
+      "options": [
+        "El tipo de cada variable se define antes de la ejecución",
+        "El tipo de cada variable se define en tiempo de ejecución",
+        "No se definen tipos para las variables",
+        "Se permiten conversiones automáticas entre tipos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es un lenguaje de bajo nivel?",
+      "options": [
+        "Un lenguaje que es fácilmente comprensible por humanos",
+        "Un lenguaje que se ejecuta directamente por la CPU",
+        "Un lenguaje que requiere compilación",
+        "Un lenguaje que es interpretado"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+}

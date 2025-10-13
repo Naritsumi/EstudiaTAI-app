@@ -1,1 +1,95 @@
-﻿{  "topicId": 4,  "questions": [    {      "questionId": 1,      "question": "Â¿CuÃ¡l es el objetivo principal de la administraciÃ³n de redes?",      "options": ["Instalar impresoras", "Gestionar y monitorizar dispositivos y recursos de red", "Configurar cuentas de usuario", "Actualizar navegadores web"],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿QuÃ© protocolo se utiliza para supervisar y gestionar dispositivos de red?",      "options": ["HTTP", "FTP", "SNMP", "LDAP"],      "correctAnswer": 2    },    {      "questionId": 3,      "question": "Â¿QuÃ© puerto utiliza SNMP para que el agente escuche las peticiones?",      "options": ["80/TCP", "161/UDP", "143/TCP", "25/TCP"],      "correctAnswer": 1    },    {      "questionId": 4,      "question": "Â¿QuÃ© herramienta es una plataforma avanzada de monitorizaciÃ³n de redes?",      "options": ["Zabbix", "Excel", "Apache", "Outlook"],      "correctAnswer": 0    },    {      "questionId": 5,      "question": "Â¿QuÃ© RFC definiÃ³ la primera versiÃ³n de SNMP?",      "options": ["RFC 1918", "RFC 1441", "RFC 1450","RFC 1157"],      "correctAnswer": 3    },    {      "questionId": 6,      "question": "Â¿QuÃ© comandos bÃ¡sicos soporta SNMPv1?",      "options": ["PING, TRACEROUTE y NETSTAT",  "ADDUSER, DELUSER y PASSWD", "COPY, MOVE y DELETE","GET, SET y TRAP"],      "correctAnswer": 3    },    {      "questionId": 7,      "question": "Â¿QuÃ© caracterÃ­stica de seguridad le faltaba a SNMPv1?",      "options": ["Soporte de IPv4", "Compatibilidad con routers", "EncriptaciÃ³n y autenticaciÃ³n segura", "GestiÃ³n de impresoras"],      "correctAnswer": 2    },    {      "questionId": 8,      "question": "Â¿CuÃ¡l es la versiÃ³n mÃ¡s utilizada de SNMPv2?",      "options": ["SNMPv2u", "SNMPv2*", "SNMPv2c", "SNMPv2s"],      "correctAnswer": 2    },    {      "questionId": 9,      "question": "Â¿QuÃ© ventaja introdujo SNMPv3 frente a versiones anteriores?",      "options": ["Mayor velocidad de red", "Compatibilidad con IPv6", "AutenticaciÃ³n y encriptaciÃ³n avanzadas", "Uso de comandos SQL"],      "correctAnswer": 2    },    {      "questionId": 10,      "question": "Â¿QuÃ© significa LDAP?",      "options": ["Local Data Application Program", "Linux Data Access Process", "Low Delay Authentication Protocol","Lightweight Directory Access Protocol"],      "correctAnswer": 3    },    {      "questionId": 11,      "question": "Â¿QuÃ© versiÃ³n de LDAP es la mÃ¡s utilizada actualmente?",      "options": ["VersiÃ³n 1", "VersiÃ³n 2", "VersiÃ³n 3", "VersiÃ³n 4"],      "correctAnswer": 2    },    {      "questionId": 12,      "question": "Â¿Sobre quÃ© protocolo de transporte funciona LDAP?",      "options": ["UDP", "TCP/IP", "ICMP", "HTTP"],      "correctAnswer": 1    },    {      "questionId": 13,      "question": "Â¿QuÃ© servicio de directorio de Microsoft se basa en LDAP?",      "options": ["Nagios", "Active Directory", "SolarWinds", "Zabbix"],      "correctAnswer": 1    },    {      "questionId": 14,      "question": "Â¿QuÃ© protocolo se utiliza para asegurar las comunicaciones LDAP?",      "options": ["LDAPS", "SNMPv3", "SFTP", "TLS-POP3"],      "correctAnswer": 0    },    {      "questionId": 15,      "question": "Â¿QuÃ© elemento en LDAP se usa para controlar permisos de acceso a los directorios?",      "options": ["RFC", "DNS", "ACL (Access Control Lists)", "SMTP"],      "correctAnswer": 2    }  ]}
+{
+  "topicId": 4,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Cuál es el objetivo principal de la administración de redes?",
+      "options": ["Instalar impresoras", "Gestionar y monitorizar dispositivos y recursos de red", "Configurar cuentas de usuario", "Actualizar navegadores web"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué protocolo se utiliza para supervisar y gestionar dispositivos de red?",
+      "options": ["HTTP", "FTP", "SNMP", "LDAP"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué puerto utiliza SNMP para que el agente escuche las peticiones?",
+      "options": ["80/TCP", "161/UDP", "143/TCP", "25/TCP"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué herramienta es una plataforma avanzada de monitorización de redes?",
+      "options": ["Zabbix", "Excel", "Apache", "Outlook"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué RFC definió la primera versión de SNMP?",
+      "options": ["RFC 1918", "RFC 1441", "RFC 1450","RFC 1157"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué comandos básicos soporta SNMPv1?",
+      "options": ["PING, TRACEROUTE y NETSTAT",  "ADDUSER, DELUSER y PASSWD", "COPY, MOVE y DELETE","GET, SET y TRAP"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué característica de seguridad le faltaba a SNMPv1?",
+      "options": ["Soporte de IPv4", "Compatibilidad con routers", "Encriptación y autenticación segura", "Gestión de impresoras"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 8,
+      "question": "¿Cuál es la versión más utilizada de SNMPv2?",
+      "options": ["SNMPv2u", "SNMPv2*", "SNMPv2c", "SNMPv2s"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué ventaja introdujo SNMPv3 frente a versiones anteriores?",
+      "options": ["Mayor velocidad de red", "Compatibilidad con IPv6", "Autenticación y encriptación avanzadas", "Uso de comandos SQL"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué significa LDAP?",
+      "options": ["Local Data Application Program", "Linux Data Access Process", "Low Delay Authentication Protocol","Lightweight Directory Access Protocol"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué versión de LDAP es la más utilizada actualmente?",
+      "options": ["Versión 1", "Versión 2", "Versión 3", "Versión 4"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 12,
+      "question": "¿Sobre qué protocolo de transporte funciona LDAP?",
+      "options": ["UDP", "TCP/IP", "ICMP", "HTTP"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué servicio de directorio de Microsoft se basa en LDAP?",
+      "options": ["Nagios", "Active Directory", "SolarWinds", "Zabbix"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué protocolo se utiliza para asegurar las comunicaciones LDAP?",
+      "options": ["LDAPS", "SNMPv3", "SFTP", "TLS-POP3"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué elemento en LDAP se usa para controlar permisos de acceso a los directorios?",
+      "options": ["RFC", "DNS", "ACL (Access Control Lists)", "SMTP"],
+      "correctAnswer": 2
+    }
+  ]
+}

@@ -1,1 +1,161 @@
-﻿{  "topicId": 5,  "questions": [    {      "questionId": 1,      "question": "Â¿QuÃ© es el JDK en Java?",      "options": ["Un entorno de ejecuciÃ³n para programas Java", "Un kit de desarrollo que incluye herramientas para compilar y ejecutar aplicaciones Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿QuÃ© es el JRE en Java?",      "options": ["Un kit de desarrollo que incluye herramientas para compilar aplicaciones Java", "Un entorno de ejecuciÃ³n que incluye la JVM y bibliotecas estÃ¡ndar para ejecutar programas Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 3,      "question": "Â¿QuÃ© es la JVM en Java?",      "options": ["Un compilador que traduce cÃ³digo Java a bytecode", "Una mÃ¡quina virtual que ejecuta el bytecode generado por el compilador de Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 4,      "question": "Â¿QuÃ© es el comando javac en Java?",      "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],      "correctAnswer": 1    },    {      "questionId": 5,      "question": "Â¿QuÃ© es el comando java en Java?",      "options": ["Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],      "correctAnswer": 1    },    {      "questionId": 6,      "question": "Â¿QuÃ© es el comando jdb en Java?",      "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentaciÃ³n"],      "correctAnswer": 2    },    {      "questionId": 7,      "question": "Â¿QuÃ© es el comando javap en Java?",      "options": ["Un comando que descompone archivos .class para mostrar el bytecode en formato legible", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 8,      "question": "Â¿QuÃ© es el comando jconsole en Java?",      "options": ["Un comando que monitorea y gestiona aplicaciones Java en tiempo real", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 9,      "question": "Â¿QuÃ© es el comando jshell en Java?",      "options": ["Un comando que ejecuta bloques de cÃ³digo de forma interactiva", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 10,      "question": "Â¿QuÃ© es el comando keytool en Java?",      "options": ["Un comando que gestiona claves criptogrÃ¡ficas", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 11,      "question": "Â¿QuÃ© es Java EE/Jakarta EE?",      "options": ["Un conjunto de tecnologÃ­as para desarrollar aplicaciones de escritorio", "Un conjunto de tecnologÃ­as para desarrollar aplicaciones empresariales a gran escala", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 12,      "question": "Â¿QuÃ© es un Servlet en Java EE?",      "options": ["Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web", "Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 13,      "question": "Â¿QuÃ© es JSP en Java EE?",      "options": ["Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web utilizando cÃ³digo Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 14,      "question": "Â¿QuÃ© es EJB en Java EE?",      "options": ["Un componente que genera contenido dinÃ¡mico para pÃ¡ginas web", "Un componente que actÃºa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que procesa la lÃ³gica empresarial distribuida", "Un lenguaje de consulta para bases de datos"],      "correctAnswer": 2    },    {      "questionId": 15,      "question": "Â¿QuÃ© es JPA en Java EE?",      "options": ["Un componente que procesa la lÃ³gica empresarial distribuida", "Una API para la gestiÃ³n de bases de datos mediante mapeo objeto-relacional", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 16,      "question": "Â¿QuÃ© es un hilo (thread) en Java?",      "options": ["Una unidad de ejecuciÃ³n independiente que puede correr en paralelo con otros hilos", "Un tipo de dato primitivo en Java", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],      "correctAnswer": 0    },    {      "questionId": 17,      "question": "Â¿QuÃ© es la sincronizaciÃ³n en Java?",      "options": ["Un mecanismo para evitar problemas de concurrencia al acceder a recursos compartidos", "Un mecanismo para mejorar el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 0    },    {      "questionId": 18,      "question": "Â¿QuÃ© es el Garbage Collector en Java?",      "options": ["Un mecanismo que gestiona la memoria eliminando objetos no utilizados", "Un mecanismo que mejora el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 0    },    {      "questionId": 19,      "question": "Â¿QuÃ© es una clase abstracta en Java?",      "options": ["Una clase que no puede ser instanciada y define mÃ©todos abstractos", "Una clase que puede ser instanciada y define mÃ©todos concretos", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 0    },    {      "questionId": 20,      "question": "Â¿QuÃ© es el modificador final en Java?",      "options": ["Un modificador que permite que una clase sea heredada", "Un modificador que impide que una clase sea heredada o que un mÃ©todo sea sobrescrito", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 21,      "question": "Â¿QuÃ© es el modificador static en Java?",      "options": ["Un modificador que pertenece a la clase y no a las instancias", "Un modificador que pertenece a las instancias y no a la clase", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 0    },    {      "questionId": 22,      "question": "Â¿QuÃ© es el modificador public en Java?",      "options": ["Un modificador que hace que un atributo o mÃ©todo sea accesible desde cualquier clase", "Un modificador que hace que un atributo o mÃ©todo sea accesible solo dentro del mismo paquete", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 0    },    {      "questionId": 23,      "question": "Â¿QuÃ© es el modificador protected en Java?",      "options": ["Un modificador que hace que un atributo o mÃ©todo sea accesible desde cualquier clase", "Un modificador que hace que un atributo o mÃ©todo sea visible dentro de la misma clase, en el mismo paquete y en las subclases", "Un tipo de dato primitivo en Java", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 24,      "question": "Â¿QuÃ© es el comando jps en Java?",      "options": ["Un comando que muestra informaciÃ³n sobre los procesos Java en ejecuciÃ³n", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 25,      "question": "Â¿QuÃ© es el comando jstat en Java?",      "options": ["Un comando que monitorea el uso de recursos de la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    },    {      "questionId": 26,      "question": "Â¿QuÃ© es el comando jcmd en Java?",      "options": ["Un comando que envÃ­a comandos especÃ­ficos a la JVM para obtener informaciÃ³n o realizar ajustes", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],      "correctAnswer": 0    }  ]}
+{
+  "topicId": 5,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué es el JDK en Java?",
+      "options": ["Un entorno de ejecución para programas Java", "Un kit de desarrollo que incluye herramientas para compilar y ejecutar aplicaciones Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué es el JRE en Java?",
+      "options": ["Un kit de desarrollo que incluye herramientas para compilar aplicaciones Java", "Un entorno de ejecución que incluye la JVM y bibliotecas estándar para ejecutar programas Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué es la JVM en Java?",
+      "options": ["Un compilador que traduce código Java a bytecode", "Una máquina virtual que ejecuta el bytecode generado por el compilador de Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué es el comando javac en Java?",
+      "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué es el comando java en Java?",
+      "options": ["Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué es el comando jdb en Java?",
+      "options": ["Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que depura aplicaciones Java", "Un comando que genera documentación"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué es el comando javap en Java?",
+      "options": ["Un comando que descompone archivos .class para mostrar el bytecode en formato legible", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué es el comando jconsole en Java?",
+      "options": ["Un comando que monitorea y gestiona aplicaciones Java en tiempo real", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué es el comando jshell en Java?",
+      "options": ["Un comando que ejecuta bloques de código de forma interactiva", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué es el comando keytool en Java?",
+      "options": ["Un comando que gestiona claves criptográficas", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué es Java EE/Jakarta EE?",
+      "options": ["Un conjunto de tecnologías para desarrollar aplicaciones de escritorio", "Un conjunto de tecnologías para desarrollar aplicaciones empresariales a gran escala", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué es un Servlet en Java EE?",
+      "options": ["Un componente que genera contenido dinámico para páginas web", "Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué es JSP en Java EE?",
+      "options": ["Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que genera contenido dinámico para páginas web utilizando código Java", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué es EJB en Java EE?",
+      "options": ["Un componente que genera contenido dinámico para páginas web", "Un componente que actúa como puente entre el navegador y el servidor para procesar solicitudes HTTP", "Un componente que procesa la lógica empresarial distribuida", "Un lenguaje de consulta para bases de datos"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué es JPA en Java EE?",
+      "options": ["Un componente que procesa la lógica empresarial distribuida", "Una API para la gestión de bases de datos mediante mapeo objeto-relacional", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es un hilo (thread) en Java?",
+      "options": ["Una unidad de ejecución independiente que puede correr en paralelo con otros hilos", "Un tipo de dato primitivo en Java", "Un sistema operativo", "Un lenguaje de consulta para bases de datos"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué es la sincronización en Java?",
+      "options": ["Un mecanismo para evitar problemas de concurrencia al acceder a recursos compartidos", "Un mecanismo para mejorar el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué es el Garbage Collector en Java?",
+      "options": ["Un mecanismo que gestiona la memoria eliminando objetos no utilizados", "Un mecanismo que mejora el rendimiento de los programas", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es una clase abstracta en Java?",
+      "options": ["Una clase que no puede ser instanciada y define métodos abstractos", "Una clase que puede ser instanciada y define métodos concretos", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es el modificador final en Java?",
+      "options": ["Un modificador que permite que una clase sea heredada", "Un modificador que impide que una clase sea heredada o que un método sea sobrescrito", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 21,
+      "question": "¿Qué es el modificador static en Java?",
+      "options": ["Un modificador que pertenece a la clase y no a las instancias", "Un modificador que pertenece a las instancias y no a la clase", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 22,
+      "question": "¿Qué es el modificador public en Java?",
+      "options": ["Un modificador que hace que un atributo o método sea accesible desde cualquier clase", "Un modificador que hace que un atributo o método sea accesible solo dentro del mismo paquete", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 23,
+      "question": "¿Qué es el modificador protected en Java?",
+      "options": ["Un modificador que hace que un atributo o método sea accesible desde cualquier clase", "Un modificador que hace que un atributo o método sea visible dentro de la misma clase, en el mismo paquete y en las subclases", "Un tipo de dato primitivo en Java", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 24,
+      "question": "¿Qué es el comando jps en Java?",
+      "options": ["Un comando que muestra información sobre los procesos Java en ejecución", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 25,
+      "question": "¿Qué es el comando jstat en Java?",
+      "options": ["Un comando que monitorea el uso de recursos de la JVM", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 26,
+      "question": "¿Qué es el comando jcmd en Java?",
+      "options": ["Un comando que envía comandos específicos a la JVM para obtener información o realizar ajustes", "Un comando que compila archivos .java a bytecode (.class)", "Un comando que ejecuta archivos .class utilizando la JVM", "Un comando que depura aplicaciones Java"],
+      "correctAnswer": 0
+    }
+  ]
+}

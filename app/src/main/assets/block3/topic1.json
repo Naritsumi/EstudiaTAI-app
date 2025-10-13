@@ -1,1 +1,314 @@
-﻿{  "topicId": 1,  "questions": [    {      "questionId": 1,      "question": "Â¿CuÃ¡l es el propÃ³sito principal del Modelo Conceptual de Datos?",      "options": [        "Definir la estructura fÃ­sica de la base de datos",        "Representar la informaciÃ³n de manera abstracta sin detalles tÃ©cnicos",        "Especificar cÃ³mo se almacenarÃ¡n los datos en un sistema RDBMS",        "Optimizar las consultas SQL en una base de datos"      ],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿QuÃ© elemento es caracterÃ­stico del Modelo LÃ³gico de Datos?",      "options": [        "JerarquÃ­as y subclases",        "Atributos y entidades sin estructuras definidas",        "Tablas, claves primarias y forÃ¡neas",        "Comandos de almacenamiento especÃ­ficos de un DBMS"      ],      "correctAnswer": 2    },    {      "questionId": 3,      "question": "Â¿QuÃ© caracterÃ­stica distingue al Modelo FÃ­sico de Datos?",      "options": [        "Es independiente de la tecnologÃ­a especÃ­fica",        "Se centra en la estructura lÃ³gica de los datos",        "Define las condiciones y restricciones especÃ­ficas del DBMS",        "Representa Ãºnicamente relaciones entre entidades"      ],      "correctAnswer": 2    },    {      "questionId": 4,      "question": "Â¿CuÃ¡l de los siguientes modelos se usa para representar datos en una estructura jerÃ¡rquica?",      "options": [        "Modelo Relacional",        "Modelo Entidad-RelaciÃ³n",        "Modelo JerÃ¡rquico",        "Modelo Orientado a Objetos"      ],      "correctAnswer": 2    },    {      "questionId": 5,      "question": "Â¿QuÃ© modelo de datos se basa en tablas con filas y columnas?",      "options": [        "Modelo Relacional",        "Modelo Entidad-RelaciÃ³n Extendido",        "Flujograma",        "Modelo JerÃ¡rquico"      ],      "correctAnswer": 0    },    {      "questionId": 6,      "question": "Â¿CuÃ¡l es el objetivo de la normalizaciÃ³n en bases de datos?",      "options": [        "Mejorar la seguridad de la base de datos",        "Reducir la redundancia y mejorar la integridad de los datos",        "Aumentar la velocidad de procesamiento de consultas SQL",        "Optimizar el almacenamiento fÃ­sico de los datos"      ],      "correctAnswer": 1    },    {      "questionId": 7,      "question": "Â¿QuÃ© caracterÃ­stica define la Primera Forma Normal (1FN)?",      "options": [        "Los valores deben ser atÃ³micos",        "No debe haber dependencias parciales",        "No debe haber dependencias transitivas",        "Todas las dependencias funcionales deben ser determinadas por una clave candidata"      ],      "correctAnswer": 0    },    {      "questionId": 8,      "question": "Â¿CuÃ¡l de las siguientes herramientas es un Sistema de GestiÃ³n de Bases de Datos Relacionales (RDBMS)?",      "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],      "correctAnswer": 1    },    {      "questionId": 9,      "question": "Â¿QuÃ© modelo de datos combina conceptos de bases de datos con la ProgramaciÃ³n Orientada a Objetos?",      "options": [        "Modelo Relacional",        "Modelo Orientado a Objetos",        "Modelo Entidad-RelaciÃ³n",        "Modelo JerÃ¡rquico"      ],      "correctAnswer": 1    },    {      "questionId": 10,      "question": "Â¿CuÃ¡l de las siguientes opciones NO es un RDBMS?",      "options": ["PostgreSQL", "Oracle Database", "MariaDB", "MongoDB"],      "correctAnswer": 3    },    {      "questionId": 11,      "question": "Â¿QuÃ© es una entidad dÃ©bil en el modelo E/R?",      "options": [        "Una entidad que existe por sÃ­ misma",        "Una entidad cuya existencia depende de otra entidad",        "Una entidad que no tiene atributos",        "Una entidad que no tiene relaciones"      ],      "correctAnswer": 1    },    {      "questionId": 12,      "question": "Â¿QuÃ© es la cardinalidad en el modelo E/R?",      "options": [        "El nÃºmero de atributos de una entidad",        "El nÃºmero de relaciones entre entidades",        "El nÃºmero mÃ­nimo y mÃ¡ximo de ocurrencias de una entidad en una relaciÃ³n",        "El tipo de dato de un atributo"      ],      "correctAnswer": 2    },    {      "questionId": 13,      "question": "Â¿QuÃ© es un diagrama de contexto en un DFD?",      "options": [        "Un diagrama que muestra todos los detalles del sistema",        "Un diagrama que muestra el sistema como un proceso de alto nivel",        "Un diagrama que muestra solo los almacenes de datos",        "Un diagrama que muestra solo las entidades externas"      ],      "correctAnswer": 1    },    {      "questionId": 14,      "question": "Â¿QuÃ© es una relaciÃ³n ISA en el modelo EER?",      "options": [        "Una relaciÃ³n de herencia",        "Una relaciÃ³n de agregaciÃ³n",        "Una relaciÃ³n de composiciÃ³n",        "Una relaciÃ³n de asociaciÃ³n"      ],      "correctAnswer": 0    },    {      "questionId": 15,      "question": "Â¿QuÃ© es la especializaciÃ³n en el modelo EER?",      "options": [        "El proceso de combinar varias entidades en una",        "El proceso de definir subclases a partir de una superclase",        "El proceso de eliminar subclases",        "El proceso de crear nuevas entidades"      ],      "correctAnswer": 1    },    {      "questionId": 16,      "question": "Â¿QuÃ© es un almacÃ©n de datos en un DFD?",      "options": [        "Un proceso que transforma los datos",        "Un lugar donde se guardan los datos",        "Una entidad externa",        "Un flujo de datos"      ],      "correctAnswer": 1    },    {      "questionId": 17,      "question": "Â¿QuÃ© es una entidad externa en un DFD?",      "options": [        "Un proceso interno del sistema",        "Un almacÃ©n de datos",        "Un actor fuera del sistema que interactÃºa con Ã©l",        "Un flujo de datos"      ],      "correctAnswer": 2    },    {      "questionId": 18,      "question": "Â¿QuÃ© representa un flujo de datos en un DFD?",      "options": [        "El movimiento de los datos entre componentes del sistema",        "Un proceso que transforma los datos",        "Un almacÃ©n de datos",        "Una entidad externa"      ],      "correctAnswer": 0    },    {      "questionId": 19,      "question": "Â¿QuÃ© es el modelo relacional de bases de datos?",      "options": [        "Un modelo que organiza los datos en tablas y relaciones",        "Un modelo que organiza los datos en jerarquÃ­as",        "Un modelo que organiza los datos en redes",        "Un modelo que organiza los datos en grafos"      ],      "correctAnswer": 0    },    {      "questionId": 20,      "question": "Â¿QuÃ© es una clave primaria en el modelo relacional?",      "options": [        "Una clave que relaciona dos tablas",        "Una clave que identifica de forma Ãºnica una fila en una tabla",        "Una clave que permite valores nulos",        "Una clave que no es Ãºnica"      ],      "correctAnswer": 1    },    {      "questionId": 21,      "question": "Â¿QuÃ© es una restricciÃ³n en el modelo relacional?",      "options": [        "Una regla que controla los valores permitidos en los datos",        "Una regla que elimina los datos duplicados",        "Una regla que permite valores nulos",        "Una regla que no permite valores Ãºnicos"      ],      "correctAnswer": 0    },    {      "questionId": 22,      "question": "Â¿QuÃ© es un dominio en el modelo E/R?",      "options": [        "El conjunto de valores que un atributo puede tener",        "El conjunto de atributos de una entidad",        "El conjunto de relaciones entre entidades",        "El conjunto de entidades del sistema"      ],      "correctAnswer": 0    },    {      "questionId": 23,      "question": "Â¿QuÃ© es una relaciÃ³n forzosa en el modelo E/R?",      "options": [        "Una relaciÃ³n donde una entidad puede existir sin la otra",        "Una relaciÃ³n donde una entidad debe existir con la otra",        "Una relaciÃ³n donde no hay dependencia entre entidades",        "Una relaciÃ³n donde solo una entidad puede existir"      ],      "correctAnswer": 1    },    {      "questionId": 24,      "question": "Â¿QuÃ© es un atributo propio de una relaciÃ³n en el modelo E/R?",      "options": [        "Un atributo que describe a una entidad",        "Un atributo que describe la relaciÃ³n entre entidades",        "Un atributo que no tiene valor",        "Un atributo que siempre es nulo"      ],      "correctAnswer": 1    },    {      "questionId": 25,      "question": "Â¿QuÃ© es la generalizaciÃ³n en el modelo EER?",      "options": [        "El proceso de combinar varias entidades en una mÃ¡s general",        "El proceso de definir subclases a partir de una superclase",        "El proceso de eliminar subclases",        "El proceso de crear nuevas entidades"      ],      "correctAnswer": 0    },    {      "questionId": 26,      "question": "Â¿QuÃ© es una subclase en el modelo EER?",      "options": [        "Una entidad mÃ¡s especÃ­fica",        "Una entidad mÃ¡s general",        "Una entidad que no tiene superclases",        "Una entidad que no tiene subclases"      ],      "correctAnswer": 0    },    {      "questionId": 27,      "question": "Â¿QuÃ© es la agregaciÃ³n en el modelo EER?",      "options": [        "Una relaciÃ³n de herencia",        "Una relaciÃ³n de composiciÃ³n",        "Una relaciÃ³n de asociaciÃ³n",        "Una relaciÃ³n de dependencia"      ],      "correctAnswer": 1    },    {      "questionId": 28,      "question": "Â¿QuÃ© es un flujograma?",      "options": [        "Un diagrama que muestra el flujo de datos entre procesos",        "Un diagrama que muestra la estructura de una base de datos",        "Un diagrama que muestra la secuencia cronolÃ³gica de procesos",        "Un diagrama que muestra la jerarquÃ­a de un sistema"      ],      "correctAnswer": 2    },    {      "questionId": 29,      "question": "Â¿QuÃ© es el nivel 0 en un DFD?",      "options": [        "Un diagrama que muestra el sistema como un proceso de alto nivel",        "Un diagrama que muestra todos los detalles del sistema",        "Un diagrama que muestra solo los almacenes de datos",        "Un diagrama que muestra solo las entidades externas"      ],      "correctAnswer": 0    }  ]}
+{
+  "topicId": 1,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Cuál es el propósito principal del Modelo Conceptual de Datos?",
+      "options": [
+        "Definir la estructura física de la base de datos",
+        "Representar la información de manera abstracta sin detalles técnicos",
+        "Especificar cómo se almacenarán los datos en un sistema RDBMS",
+        "Optimizar las consultas SQL en una base de datos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué elemento es característico del Modelo Lógico de Datos?",
+      "options": [
+        "Jerarquías y subclases",
+        "Atributos y entidades sin estructuras definidas",
+        "Tablas, claves primarias y foráneas",
+        "Comandos de almacenamiento específicos de un DBMS"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué característica distingue al Modelo Físico de Datos?",
+      "options": [
+        "Es independiente de la tecnología específica",
+        "Se centra en la estructura lógica de los datos",
+        "Define las condiciones y restricciones específicas del DBMS",
+        "Representa únicamente relaciones entre entidades"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 4,
+      "question": "¿Cuál de los siguientes modelos se usa para representar datos en una estructura jerárquica?",
+      "options": [
+        "Modelo Relacional",
+        "Modelo Entidad-Relación",
+        "Modelo Jerárquico",
+        "Modelo Orientado a Objetos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué modelo de datos se basa en tablas con filas y columnas?",
+      "options": [
+        "Modelo Relacional",
+        "Modelo Entidad-Relación Extendido",
+        "Flujograma",
+        "Modelo Jerárquico"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 6,
+      "question": "¿Cuál es el objetivo de la normalización en bases de datos?",
+      "options": [
+        "Mejorar la seguridad de la base de datos",
+        "Reducir la redundancia y mejorar la integridad de los datos",
+        "Aumentar la velocidad de procesamiento de consultas SQL",
+        "Optimizar el almacenamiento físico de los datos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué característica define la Primera Forma Normal (1FN)?",
+      "options": [
+        "Los valores deben ser atómicos",
+        "No debe haber dependencias parciales",
+        "No debe haber dependencias transitivas",
+        "Todas las dependencias funcionales deben ser determinadas por una clave candidata"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 8,
+      "question": "¿Cuál de las siguientes herramientas es un Sistema de Gestión de Bases de Datos Relacionales (RDBMS)?",
+      "options": ["MongoDB", "MySQL", "Redis", "Cassandra"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué modelo de datos combina conceptos de bases de datos con la Programación Orientada a Objetos?",
+      "options": [
+        "Modelo Relacional",
+        "Modelo Orientado a Objetos",
+        "Modelo Entidad-Relación",
+        "Modelo Jerárquico"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 10,
+      "question": "¿Cuál de las siguientes opciones NO es un RDBMS?",
+      "options": ["PostgreSQL", "Oracle Database", "MariaDB", "MongoDB"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué es una entidad débil en el modelo E/R?",
+      "options": [
+        "Una entidad que existe por sí misma",
+        "Una entidad cuya existencia depende de otra entidad",
+        "Una entidad que no tiene atributos",
+        "Una entidad que no tiene relaciones"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué es la cardinalidad en el modelo E/R?",
+      "options": [
+        "El número de atributos de una entidad",
+        "El número de relaciones entre entidades",
+        "El número mínimo y máximo de ocurrencias de una entidad en una relación",
+        "El tipo de dato de un atributo"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué es un diagrama de contexto en un DFD?",
+      "options": [
+        "Un diagrama que muestra todos los detalles del sistema",
+        "Un diagrama que muestra el sistema como un proceso de alto nivel",
+        "Un diagrama que muestra solo los almacenes de datos",
+        "Un diagrama que muestra solo las entidades externas"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué es una relación ISA en el modelo EER?",
+      "options": [
+        "Una relación de herencia",
+        "Una relación de agregación",
+        "Una relación de composición",
+        "Una relación de asociación"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué es la especialización en el modelo EER?",
+      "options": [
+        "El proceso de combinar varias entidades en una",
+        "El proceso de definir subclases a partir de una superclase",
+        "El proceso de eliminar subclases",
+        "El proceso de crear nuevas entidades"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es un almacén de datos en un DFD?",
+      "options": [
+        "Un proceso que transforma los datos",
+        "Un lugar donde se guardan los datos",
+        "Una entidad externa",
+        "Un flujo de datos"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué es una entidad externa en un DFD?",
+      "options": [
+        "Un proceso interno del sistema",
+        "Un almacén de datos",
+        "Un actor fuera del sistema que interactúa con él",
+        "Un flujo de datos"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué representa un flujo de datos en un DFD?",
+      "options": [
+        "El movimiento de los datos entre componentes del sistema",
+        "Un proceso que transforma los datos",
+        "Un almacén de datos",
+        "Una entidad externa"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es el modelo relacional de bases de datos?",
+      "options": [
+        "Un modelo que organiza los datos en tablas y relaciones",
+        "Un modelo que organiza los datos en jerarquías",
+        "Un modelo que organiza los datos en redes",
+        "Un modelo que organiza los datos en grafos"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es una clave primaria en el modelo relacional?",
+      "options": [
+        "Una clave que relaciona dos tablas",
+        "Una clave que identifica de forma única una fila en una tabla",
+        "Una clave que permite valores nulos",
+        "Una clave que no es única"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 21,
+      "question": "¿Qué es una restricción en el modelo relacional?",
+      "options": [
+        "Una regla que controla los valores permitidos en los datos",
+        "Una regla que elimina los datos duplicados",
+        "Una regla que permite valores nulos",
+        "Una regla que no permite valores únicos"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 22,
+      "question": "¿Qué es un dominio en el modelo E/R?",
+      "options": [
+        "El conjunto de valores que un atributo puede tener",
+        "El conjunto de atributos de una entidad",
+        "El conjunto de relaciones entre entidades",
+        "El conjunto de entidades del sistema"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 23,
+      "question": "¿Qué es una relación forzosa en el modelo E/R?",
+      "options": [
+        "Una relación donde una entidad puede existir sin la otra",
+        "Una relación donde una entidad debe existir con la otra",
+        "Una relación donde no hay dependencia entre entidades",
+        "Una relación donde solo una entidad puede existir"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 24,
+      "question": "¿Qué es un atributo propio de una relación en el modelo E/R?",
+      "options": [
+        "Un atributo que describe a una entidad",
+        "Un atributo que describe la relación entre entidades",
+        "Un atributo que no tiene valor",
+        "Un atributo que siempre es nulo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 25,
+      "question": "¿Qué es la generalización en el modelo EER?",
+      "options": [
+        "El proceso de combinar varias entidades en una más general",
+        "El proceso de definir subclases a partir de una superclase",
+        "El proceso de eliminar subclases",
+        "El proceso de crear nuevas entidades"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 26,
+      "question": "¿Qué es una subclase en el modelo EER?",
+      "options": [
+        "Una entidad más específica",
+        "Una entidad más general",
+        "Una entidad que no tiene superclases",
+        "Una entidad que no tiene subclases"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 27,
+      "question": "¿Qué es la agregación en el modelo EER?",
+      "options": [
+        "Una relación de herencia",
+        "Una relación de composición",
+        "Una relación de asociación",
+        "Una relación de dependencia"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 28,
+      "question": "¿Qué es un flujograma?",
+      "options": [
+        "Un diagrama que muestra el flujo de datos entre procesos",
+        "Un diagrama que muestra la estructura de una base de datos",
+        "Un diagrama que muestra la secuencia cronológica de procesos",
+        "Un diagrama que muestra la jerarquía de un sistema"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 29,
+      "question": "¿Qué es el nivel 0 en un DFD?",
+      "options": [
+        "Un diagrama que muestra el sistema como un proceso de alto nivel",
+        "Un diagrama que muestra todos los detalles del sistema",
+        "Un diagrama que muestra solo los almacenes de datos",
+        "Un diagrama que muestra solo las entidades externas"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}

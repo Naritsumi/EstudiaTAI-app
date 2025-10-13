@@ -1,1 +1,95 @@
-﻿{  "topicId": 2,  "questions": [    {      "questionId": 1,      "question": "Â¿QuÃ© funciÃ³n cumplen los controladores (drivers) en los perifÃ©ricos?",      "options": ["Actualizar el firmware del procesador", "Actuar como intermediarios entre hardware y sistema operativo", "Reducir el consumo energÃ©tico de la CPU", "Reemplazar la memoria RAM"],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿QuÃ© componente gestiona la recepciÃ³n y respuesta de las interrupciones de los perifÃ©ricos?",      "options": ["GPU", "DMA", "PIC (Programmable Interrupt Controller)", "Kernel"],      "correctAnswer": 2    },    {      "questionId": 3,      "question": "Â¿QuÃ© hace la CPU cuando recibe una interrupciÃ³n?",      "options": ["Ignora la seÃ±al", "Pausa su tarea actual, atiende la interrupciÃ³n y regresa a la tarea", "Se apaga temporalmente", "Ejecuta DMA automÃ¡ticamente"],      "correctAnswer": 1    },    {      "questionId": 4,      "question": "Â¿QuÃ© son los buses en un sistema informÃ¡tico?",      "options": ["Canales de comunicaciÃ³n para intercambiar informaciÃ³n", "Unidades de almacenamiento masivo", "Puertos exclusivos de entrada", "Sistemas de refrigeraciÃ³n de CPU"],      "correctAnswer": 0    },    {      "questionId": 5,      "question": "Â¿QuÃ© elemento del sistema operativo gestiona recursos, drivers e interrupciones?",      "options": ["BIOS", "Northbridge", "Kernel", "DMA"],      "correctAnswer": 2    },    {      "questionId": 6,      "question": "Â¿QuÃ© tipo de interrupciÃ³n se genera por un teclado o ratÃ³n?",      "options": ["De hardware", "De software", "De excepciÃ³n", "De DMA"],      "correctAnswer": 0    },    {      "questionId": 7,      "question": "Â¿QuÃ© tÃ©cnica permite que un perifÃ©rico avise a la CPU que necesita atenciÃ³n inmediata?",      "options": ["Polling", "Mapeo de memoria", "DMA","InterrupciÃ³n"],      "correctAnswer": 3    },    {      "questionId": 8,      "question": "Â¿QuÃ© es el DMA (Acceso Directo a Memoria)?",      "options": ["Un puerto de E/S", "Un mecanismo que transfiere datos a memoria sin sobrecargar la CPU", "Una interrupciÃ³n de software", "Un controlador grÃ¡fico"],      "correctAnswer": 1    },    {      "questionId": 9,      "question": "Â¿QuÃ© ventaja principal ofrecen los discos SSD frente a los discos duros tradicionales?",      "options": ["Mayor capacidad de almacenamiento",  "Costo mÃ¡s bajo por GB", "Mayor dependencia de partes mecÃ¡nicas", "MÃ¡s velocidad y durabilidad"],      "correctAnswer": 3    },    {      "questionId": 10,      "question": "Â¿QuÃ© es un SoC (System on Chip)?",      "options": ["Un chip que integra CPU, GPU y memoria", "Un tipo de GPU para juegos", "Un controlador de puertos USB", "Un bus de comunicaciÃ³n paralelo"],      "correctAnswer": 0    },    {      "questionId": 11,      "question": "Â¿QuÃ© medio de almacenamiento se utiliza principalmente para backups a largo plazo?",      "options": ["Discos SSD", "Cintas magnÃ©ticas", "Memoria cachÃ©", "Flash USB"],      "correctAnswer": 1    },    {      "questionId": 12,      "question": "Â¿QuÃ© interfaz de almacenamiento es mÃ¡s rÃ¡pida que PATA y alcanza hasta 6 Gbps?",      "options": ["IDE/PATA", "SATA", "mSATA", "SAS"],      "correctAnswer": 1    },    {      "questionId": 13,      "question": "Â¿QuÃ© tipo de dispositivo de almacenamiento es mÃ¡s rÃ¡pido y duradero que un disco duro tradicional?",      "options": ["Cintas magnÃ©ticas", "CD/DVD", "Discos mecÃ¡nicos","SSD"],      "correctAnswer": 3    },    {      "questionId": 14,      "question": "Â¿QuÃ© tipo de USB ofrece hasta 20 Gbits/s y requiere conector tipo C?",      "options": ["USB 3.0", "USB 3.2", "USB 3.1", "USB4 2.0"],      "correctAnswer": 1    },    {      "questionId": 15,      "question": "Â¿QuÃ© color identifica generalmente un puerto USB 3.1?",      "options": ["Negro", "Blanco", "Azul claro", "Rojo"],      "correctAnswer": 2    }  ]}
+{
+  "topicId": 2,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué función cumplen los controladores (drivers) en los periféricos?",
+      "options": ["Actualizar el firmware del procesador", "Actuar como intermediarios entre hardware y sistema operativo", "Reducir el consumo energético de la CPU", "Reemplazar la memoria RAM"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Qué componente gestiona la recepción y respuesta de las interrupciones de los periféricos?",
+      "options": ["GPU", "DMA", "PIC (Programmable Interrupt Controller)", "Kernel"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué hace la CPU cuando recibe una interrupción?",
+      "options": ["Ignora la señal", "Pausa su tarea actual, atiende la interrupción y regresa a la tarea", "Se apaga temporalmente", "Ejecuta DMA automáticamente"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué son los buses en un sistema informático?",
+      "options": ["Canales de comunicación para intercambiar información", "Unidades de almacenamiento masivo", "Puertos exclusivos de entrada", "Sistemas de refrigeración de CPU"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué elemento del sistema operativo gestiona recursos, drivers e interrupciones?",
+      "options": ["BIOS", "Northbridge", "Kernel", "DMA"],
+      "correctAnswer": 2
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué tipo de interrupción se genera por un teclado o ratón?",
+      "options": ["De hardware", "De software", "De excepción", "De DMA"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué técnica permite que un periférico avise a la CPU que necesita atención inmediata?",
+      "options": ["Polling", "Mapeo de memoria", "DMA","Interrupción"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué es el DMA (Acceso Directo a Memoria)?",
+      "options": ["Un puerto de E/S", "Un mecanismo que transfiere datos a memoria sin sobrecargar la CPU", "Una interrupción de software", "Un controlador gráfico"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué ventaja principal ofrecen los discos SSD frente a los discos duros tradicionales?",
+      "options": ["Mayor capacidad de almacenamiento",  "Costo más bajo por GB", "Mayor dependencia de partes mecánicas", "Más velocidad y durabilidad"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué es un SoC (System on Chip)?",
+      "options": ["Un chip que integra CPU, GPU y memoria", "Un tipo de GPU para juegos", "Un controlador de puertos USB", "Un bus de comunicación paralelo"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué medio de almacenamiento se utiliza principalmente para backups a largo plazo?",
+      "options": ["Discos SSD", "Cintas magnéticas", "Memoria caché", "Flash USB"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué interfaz de almacenamiento es más rápida que PATA y alcanza hasta 6 Gbps?",
+      "options": ["IDE/PATA", "SATA", "mSATA", "SAS"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué tipo de dispositivo de almacenamiento es más rápido y duradero que un disco duro tradicional?",
+      "options": ["Cintas magnéticas", "CD/DVD", "Discos mecánicos","SSD"],
+      "correctAnswer": 3
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué tipo de USB ofrece hasta 20 Gbits/s y requiere conector tipo C?",
+      "options": ["USB 3.0", "USB 3.2", "USB 3.1", "USB4 2.0"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué color identifica generalmente un puerto USB 3.1?",
+      "options": ["Negro", "Blanco", "Azul claro", "Rojo"],
+      "correctAnswer": 2
+    }
+  ]
+}

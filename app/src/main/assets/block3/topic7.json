@@ -1,1 +1,156 @@
-﻿{  "topicId": 7,  "questions": [    {      "questionId": 1,      "question": "Â¿QuÃ© es CGI en el contexto de aplicaciones web?",      "options": ["Un protocolo para servicios web", "Un mÃ©todo para ejecutar scripts en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 2,      "question": "Â¿CuÃ¡l es la principal limitaciÃ³n de CGI?",      "options": ["No permite la creaciÃ³n de formularios", "Crea un nuevo proceso para cada solicitud, limitando la escalabilidad", "No admite JavaScript", "No es compatible con HTML5"],      "correctAnswer": 1    },    {      "questionId": 3,      "question": "Â¿QuÃ© es SGML?",      "options": ["Un lenguaje de marcado estÃ¡ndar que define la estructura de documentos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 4,      "question": "Â¿QuÃ© es HTML5?",      "options": ["Una versiÃ³n de HTML que incluye etiquetas para multimedia y estructura semÃ¡ntica", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 5,      "question": "Â¿QuÃ© es la estructura semÃ¡ntica en HTML5?",      "options": ["Etiquetas que definen la presentaciÃ³n visual", "Etiquetas que definen el significado de los elementos en una pÃ¡gina", "Etiquetas que definen la interacciÃ³n con el usuario", "Etiquetas que definen la lÃ³gica de negocio"],      "correctAnswer": 1    },    {      "questionId": 6,      "question": "Â¿QuÃ© es WAI-ARIA?",      "options": ["Un conjunto de atributos que mejoran la accesibilidad en aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 7,      "question": "Â¿QuÃ© es WCAG?",      "options": ["Un conjunto de pautas para la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 8,      "question": "Â¿QuÃ© es un motor de renderizado en un navegador web?",      "options": ["Un componente que interpreta HTML, CSS y JavaScript para generar la interfaz visual", "Un componente que gestiona la seguridad del navegador", "Un componente que gestiona la memoria del sistema", "Un componente que gestiona la red"],      "correctAnswer": 0    },    {      "questionId": 9,      "question": "Â¿QuÃ© es Blink?",      "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Chrome y derivados", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 10,      "question": "Â¿QuÃ© es WebKit?",      "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Safari", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 11,      "question": "Â¿QuÃ© es Gecko?",      "options": ["Un motor de renderizado utilizado por Chrome", "Un motor de renderizado utilizado por Firefox", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],      "correctAnswer": 1    },    {      "questionId": 12,      "question": "Â¿QuÃ© es el DOM en el contexto de los navegadores web?",      "options": ["Un modelo de objeto que representa la estructura de un documento HTML", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 13,      "question": "Â¿QuÃ© es el CSSOM?",      "options": ["Un modelo de objeto que representa la estructura de los estilos CSS", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 14,      "question": "Â¿QuÃ© es el Ã¡rbol de renderizado?",      "options": ["Un Ã¡rbol que combina el DOM y el CSSOM para definir el contenido y estilo visible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 15,      "question": "Â¿QuÃ© es JavaScript en el contexto de aplicaciones web?",      "options": ["Un lenguaje de programaciÃ³n que agrega interactividad a las pÃ¡ginas web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 16,      "question": "Â¿QuÃ© es ECMAScript?",      "options": ["Un estÃ¡ndar que define cÃ³mo debe funcionar JavaScript", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 17,      "question": "Â¿QuÃ© es Node.js?",      "options": ["Un entorno que permite ejecutar JavaScript en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 18,      "question": "Â¿QuÃ© es PHP?",      "options": ["Un lenguaje de programaciÃ³n del lado del servidor para aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 19,      "question": "Â¿QuÃ© es Sass?",      "options": ["Un preprocesador CSS que permite escribir cÃ³digo mÃ¡s dinÃ¡mico", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 20,      "question": "Â¿QuÃ© es Bootstrap?",      "options": ["Un framework CSS para crear pÃ¡ginas web responsivas", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 21,      "question": "Â¿QuÃ© es Modernizr?",      "options": ["Una biblioteca JavaScript para detectar capacidades del navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 22,      "question": "Â¿QuÃ© es un polyfill?",      "options": ["Un fragmento de cÃ³digo que proporciona funcionalidad que falta en un navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 23,      "question": "Â¿QuÃ© es BrowserStack?",      "options": ["Una herramienta para probar la compatibilidad de sitios web en diferentes navegadores", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 24,      "question": "Â¿QuÃ© es la accesibilidad web?",      "options": ["La capacidad de que las pÃ¡ginas web sean usables por personas con discapacidades", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    },    {      "questionId": 25,      "question": "Â¿QuÃ© es WCAG 2.1?",      "options": ["Un conjunto de pautas para mejorar la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],      "correctAnswer": 0    }  ]}
+{
+  "topicId": 7,
+  "questions": [
+    {
+      "questionId": 1,
+      "question": "¿Qué es CGI en el contexto de aplicaciones web?",
+      "options": ["Un protocolo para servicios web", "Un método para ejecutar scripts en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 2,
+      "question": "¿Cuál es la principal limitación de CGI?",
+      "options": ["No permite la creación de formularios", "Crea un nuevo proceso para cada solicitud, limitando la escalabilidad", "No admite JavaScript", "No es compatible con HTML5"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 3,
+      "question": "¿Qué es SGML?",
+      "options": ["Un lenguaje de marcado estándar que define la estructura de documentos", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 4,
+      "question": "¿Qué es HTML5?",
+      "options": ["Una versión de HTML que incluye etiquetas para multimedia y estructura semántica", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 5,
+      "question": "¿Qué es la estructura semántica en HTML5?",
+      "options": ["Etiquetas que definen la presentación visual", "Etiquetas que definen el significado de los elementos en una página", "Etiquetas que definen la interacción con el usuario", "Etiquetas que definen la lógica de negocio"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 6,
+      "question": "¿Qué es WAI-ARIA?",
+      "options": ["Un conjunto de atributos que mejoran la accesibilidad en aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 7,
+      "question": "¿Qué es WCAG?",
+      "options": ["Un conjunto de pautas para la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 8,
+      "question": "¿Qué es un motor de renderizado en un navegador web?",
+      "options": ["Un componente que interpreta HTML, CSS y JavaScript para generar la interfaz visual", "Un componente que gestiona la seguridad del navegador", "Un componente que gestiona la memoria del sistema", "Un componente que gestiona la red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 9,
+      "question": "¿Qué es Blink?",
+      "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Chrome y derivados", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 10,
+      "question": "¿Qué es WebKit?",
+      "options": ["Un motor de renderizado utilizado por Firefox", "Un motor de renderizado utilizado por Safari", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 11,
+      "question": "¿Qué es Gecko?",
+      "options": ["Un motor de renderizado utilizado por Chrome", "Un motor de renderizado utilizado por Firefox", "Un lenguaje de consulta para bases de datos", "Un sistema operativo"],
+      "correctAnswer": 1
+    },
+    {
+      "questionId": 12,
+      "question": "¿Qué es el DOM en el contexto de los navegadores web?",
+      "options": ["Un modelo de objeto que representa la estructura de un documento HTML", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 13,
+      "question": "¿Qué es el CSSOM?",
+      "options": ["Un modelo de objeto que representa la estructura de los estilos CSS", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 14,
+      "question": "¿Qué es el árbol de renderizado?",
+      "options": ["Un árbol que combina el DOM y el CSSOM para definir el contenido y estilo visible", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 15,
+      "question": "¿Qué es JavaScript en el contexto de aplicaciones web?",
+      "options": ["Un lenguaje de programación que agrega interactividad a las páginas web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 16,
+      "question": "¿Qué es ECMAScript?",
+      "options": ["Un estándar que define cómo debe funcionar JavaScript", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 17,
+      "question": "¿Qué es Node.js?",
+      "options": ["Un entorno que permite ejecutar JavaScript en el servidor", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 18,
+      "question": "¿Qué es PHP?",
+      "options": ["Un lenguaje de programación del lado del servidor para aplicaciones web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 19,
+      "question": "¿Qué es Sass?",
+      "options": ["Un preprocesador CSS que permite escribir código más dinámico", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 20,
+      "question": "¿Qué es Bootstrap?",
+      "options": ["Un framework CSS para crear páginas web responsivas", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 21,
+      "question": "¿Qué es Modernizr?",
+      "options": ["Una biblioteca JavaScript para detectar capacidades del navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 22,
+      "question": "¿Qué es un polyfill?",
+      "options": ["Un fragmento de código que proporciona funcionalidad que falta en un navegador", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 23,
+      "question": "¿Qué es BrowserStack?",
+      "options": ["Una herramienta para probar la compatibilidad de sitios web en diferentes navegadores", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 24,
+      "question": "¿Qué es la accesibilidad web?",
+      "options": ["La capacidad de que las páginas web sean usables por personas con discapacidades", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    },
+    {
+      "questionId": 25,
+      "question": "¿Qué es WCAG 2.1?",
+      "options": ["Un conjunto de pautas para mejorar la accesibilidad web", "Un lenguaje de consulta para bases de datos", "Un sistema operativo", "Un protocolo de red"],
+      "correctAnswer": 0
+    }
+  ]
+
+}
