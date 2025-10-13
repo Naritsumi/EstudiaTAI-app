@@ -22,7 +22,7 @@ La aplicación está disponible en **F-Droid**:
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/naritsumi/EstudiaTAI.git
+git clone https://github.com/naritsumi/EstudiaTAI-app.git
 ```
 
 ## Configuración del proyecto
