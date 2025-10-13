@@ -9,7 +9,7 @@ La aplicación está en constante mantenimiento, y las preguntas incluidas son d
 
 ## 📥 Descarga
 
-La aplicación está disponible en **F-Droid**:  
+La aplicación estará disponible en **F-Droid**:  
 
 <a href="https://f-droid.org/" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/>
