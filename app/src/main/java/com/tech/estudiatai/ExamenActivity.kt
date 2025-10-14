@@ -265,6 +265,7 @@ class ExamenActivity : ComponentActivity() {
         onFinishExam: () -> Unit,
         examTitle: String
     ) {
+        val scrollState = rememberScrollState()
 
         var showExitDialog by remember { mutableStateOf(false) }
         var showRestartDialog by remember { mutableStateOf(false) }
@@ -302,6 +303,7 @@ class ExamenActivity : ComponentActivity() {
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(24.dp)
+                    .verticalScroll(scrollState)
             ) {
                 // Barra superior con título y botones de acción
                 Row(

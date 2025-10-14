@@ -34,6 +34,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.core.net.toUri
 
@@ -118,7 +119,6 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
         )
     }
 }
-
 @SuppressLint("UseKtx")
 @Composable
 fun KoFiAndCoffeeButtons() {
@@ -131,76 +131,55 @@ fun KoFiAndCoffeeButtons() {
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
+        val buttonModifier = Modifier
+            .width(160.dp) // un poco más compacto, mejor equilibrio visual
+            .height(56.dp)
+            .shadow(5.dp, shape = RoundedCornerShape(16.dp))
+
         Button(
             onClick = {
-                val intent = Intent(
-                    Intent.ACTION_VIEW,
-                    "https://ko-fi.com/tech_racoon".toUri()
-                )
-                context.startActivity(intent)
+                context.startActivity(Intent(Intent.ACTION_VIEW, "https://ko-fi.com/tech_racoon".toUri()))
             },
-            modifier = Modifier
-                .width(180.dp)
-                .height(60.dp)
-                .shadow(5.dp, shape = RoundedCornerShape(16.dp)),
+            modifier = buttonModifier,
             shape = RoundedCornerShape(16.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.secondary,
                 contentColor = MaterialTheme.colorScheme.onSecondary
             )
         ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Image(
-                    painter = painterResource(id = R.drawable.kofi_symbol),
-                    contentDescription = "Ko-fi",
-                    modifier = Modifier.size(24.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("Apóyame en Ko-fi")
-            }
+            Image(
+                painter = painterResource(id = R.drawable.kofi_symbol),
+                contentDescription = "Ko-fi",
+                modifier = Modifier.size(20.dp)
+
+            )
+            Spacer(modifier = Modifier.width(6.dp))
+            Text("Ko-fi", fontSize = 15.sp)
         }
 
-        Spacer(modifier = Modifier.width(6.dp))
+        Spacer(modifier = Modifier.width(10.dp))
 
         Button(
             onClick = {
-                val intent = Intent(
-                    Intent.ACTION_VIEW,
-                    "https://buymeacoffee.com/tech_racoon".toUri()
-                )
-                context.startActivity(intent)
+                context.startActivity(Intent(Intent.ACTION_VIEW, "https://buymeacoffee.com/tech_racoon".toUri()))
             },
-            modifier = Modifier
-                .width(180.dp)
-                .height(60.dp)
-                .shadow(5.dp, shape = RoundedCornerShape(16.dp)),
+            modifier = buttonModifier,
             shape = RoundedCornerShape(16.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.tertiary,
                 contentColor = MaterialTheme.colorScheme.onTertiary
             )
         ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Icon(
-                    painter = painterResource(id = R.drawable.bmc_logo),
-                    contentDescription = "Buy Me a Coffee",
-                    modifier = Modifier.size(24.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text("Invítame a un café")
-            }
+            Icon(
+                painter = painterResource(id = R.drawable.bmc_logo),
+                contentDescription = "Buy Me a Coffee",
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(modifier = Modifier.width(6.dp))
+            Text("Invítame a un café", fontSize = 15.sp)
         }
     }
 }
-
 
 @SuppressLint("UseKtx")
 @Composable

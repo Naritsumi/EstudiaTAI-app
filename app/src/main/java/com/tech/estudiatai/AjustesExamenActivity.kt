@@ -13,8 +13,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.addCallback
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -58,6 +60,7 @@ fun SettingsScreen(tituloTema: String, block: Int, topic: Int, onFinish: () -> U
     var examDuration by remember { mutableStateOf(TextFieldValue("3")) }
     var questionCount by remember { mutableStateOf(TextFieldValue("10")) }
 
+    val scrollState = rememberScrollState()
     val context = LocalContext.current
 
     val additionalInfo =
@@ -74,7 +77,8 @@ fun SettingsScreen(tituloTema: String, block: Int, topic: Int, onFinish: () -> U
             modifier = Modifier
                 .padding(paddingValues)
                 .padding(24.dp)
-                .fillMaxSize(),
+                .fillMaxSize()
+                .verticalScroll(scrollState),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             // Barra superior con título y botones de acción
@@ -210,35 +214,8 @@ fun SettingsScreen(tituloTema: String, block: Int, topic: Int, onFinish: () -> U
                     modifier = Modifier.padding(start = 16.dp)
                 )
             }
-
-            // Información adicional
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 6.dp)
-                    .shadow(4.dp, shape = RoundedCornerShape(8.dp)),
-                shape = RoundedCornerShape(8.dp),
-                colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surface)//CardDefaults.cardColors(containerColor = Color.White)
-            ) {
-                Column(
-                    modifier = Modifier.padding(16.dp)
-                ) {
-                    Text(
-                        text = "A tener en cuenta:",
-                        fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onTertiary,
-                        modifier = Modifier.padding(bottom = 8.dp)
-                    )
-                    Text(
-                        text = additionalInfo,
-                        fontSize = 16.sp,
-                        color = MaterialTheme.colorScheme.onTertiary
-                    )
-                }
-            }
             // Para enviar el botón al final
-            Spacer(modifier = Modifier.weight(1f))
+            //Spacer(modifier = Modifier.weight(1f))
             Button(
                 onClick = {
                     val intent = Intent(context, ExamenActivity::class.java)
@@ -264,6 +241,32 @@ fun SettingsScreen(tituloTema: String, block: Int, topic: Int, onFinish: () -> U
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Bold
                 )
+            }
+            // Información adicional
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 6.dp)
+                    .shadow(4.dp, shape = RoundedCornerShape(8.dp)),
+                shape = RoundedCornerShape(8.dp),
+                colors = CardDefaults.cardColors(MaterialTheme.colorScheme.surface)//CardDefaults.cardColors(containerColor = Color.White)
+            ) {
+                Column(
+                    modifier = Modifier.padding(16.dp)
+                ) {
+                    Text(
+                        text = "A tener en cuenta:",
+                        fontSize = 20.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onTertiary,
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                    Text(
+                        text = additionalInfo,
+                        fontSize = 16.sp,
+                        color = MaterialTheme.colorScheme.onTertiary
+                    )
+                }
             }
         }
     }
