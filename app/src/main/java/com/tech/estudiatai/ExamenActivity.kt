@@ -63,10 +63,10 @@ import com.google.gson.JsonObject
 import kotlinx.coroutines.delay
 
 // Clases necesarias para poder leer la estructura json
-data class Topic(
+/*data class Topic(
     val topicId: Int,
     val questions: List<Question>
-)
+)*/
 
 data class Question(
     val questionId: Int,
@@ -479,7 +479,7 @@ class ExamenActivity : ComponentActivity() {
             grade = 0.0
         }
 
-        val context = LocalContext.current as? Activity
+        //val context = LocalContext.current as? Activity
 
         val scrollState = rememberScrollState()
 

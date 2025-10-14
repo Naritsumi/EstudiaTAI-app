@@ -89,7 +89,7 @@ fun MainScreen(
     }
 }
 
-@Composable
+/*@Composable
 // Queda pendiente:
 fun ToggleThemeButton(isDarkTheme: Boolean, onToggleTheme: () -> Unit) {
     Button(
@@ -108,7 +108,7 @@ fun ToggleThemeButton(isDarkTheme: Boolean, onToggleTheme: () -> Unit) {
             textAlign = TextAlign.Center
         )
     }
-}
+}*/
 
 @Composable
 fun GreetingText() {
