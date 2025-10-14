@@ -1,6 +1,6 @@
-# 📚 App de Estudios TAI AGE
+# 📚 App de estudios TAI AGE
 
-Esta es una aplicación desarrollada en **Kotlin** como parte de mi portfolio.  
+Esta es una aplicación de código abierto desarrollada en **Kotlin** como parte de mi portfolio.  
 El objetivo es ayudar a preparar oposiciones, en concreto la **convocatoria AGE para Técnicos Auxiliares de Informática (TAI)**, a través de tests temáticos sobre el temario de la convocatoria 2024.
 
 La aplicación está en constante mantenimiento, y las preguntas incluidas son de elaboración propia.  
