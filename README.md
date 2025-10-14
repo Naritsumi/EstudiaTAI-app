@@ -15,6 +15,19 @@ La aplicación estará disponible en **F-Droid**:
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/>
 </a>
 
+## ☕
+
+Si te gusta el proyecto o quieres invitarme a un café, puedes hacerlo aquí:
+
+<p align="center">
+  <a href="https://ko-fi.com/tech_racoon" target="_blank">
+    <img src="https://storage.ko-fi.com/cdn/kofi5.png" alt="Ko-fi" width="200"/>
+  </a>  
+  <a href="https://buymeacoffee.com/tech_racoon" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="200"/>
+  </a>
+</p>
+
 ---
 
 ## ¿Quieres trastear tú mismo con la aplicación?
