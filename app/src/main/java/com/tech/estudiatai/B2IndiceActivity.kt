@@ -197,7 +197,7 @@ fun B2IndiceButtons() {
                             onClick = {
                                 val intent = Intent(context, AjustesExamenActivity::class.java)
                                 intent.putExtra("TITULO", label)
-                                intent.putExtra("BLOCK_ID", 3)
+                                intent.putExtra("BLOCK_ID", 2)
                                 intent.putExtra("TOPIC_ID", index)
                                 context.startActivity(intent)
                             },
