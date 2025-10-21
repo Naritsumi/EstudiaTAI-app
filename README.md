@@ -9,13 +9,18 @@ La aplicación está en constante mantenimiento, y las preguntas incluidas son d
 
 ## 📥 Descarga
 
-La aplicación estará disponible en **F-Droid**:  
+Puedes descargar la última versión de **EstudiaTAI App** desde los enlaces disponibles a continuación:
 
-<a href="https://f-droid.org/" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/>
-</a>
+- **Versión v1.0.5**  
+  🔗 [Descargar desde GitHub Releases](https://github.com/Naritsumi/EstudiaTAI-app/releases/tag/v1.0.5)
 
-## ☕
+> También puedes encontrar versiones anteriores o futuras actualizaciones en la sección [Releases](https://github.com/Naritsumi/EstudiaTAI-app/releases) del repositorio oficial.
+
+La aplicación estará disponible en **F-Droid**  
+
+<!--<a href="https://f-droid.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/> </a>-->
+
+## ☕ Donaciones
 
 Si te gusta el proyecto o quieres invitarme a un café, puedes hacerlo aquí:
 
