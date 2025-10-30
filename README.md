@@ -18,7 +18,7 @@ Puedes descargar la última versión de **EstudiaTAI App** desde los enlaces dis
 
 La aplicación estará disponible en **F-Droid**  
 
-<!--<a href="https://f-droid.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/> </a>-->
+<a href="https://gitlab.com/fdroid/fdroiddata/-/merge_requests/28033" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/> </a>
 
 ## ☕ Donaciones
 
