@@ -1,6 +1,7 @@
 package com.tech.estudiatai
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -34,6 +35,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.compose.runtime.*
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import androidx.core.net.toUri
@@ -46,7 +49,6 @@ class MainActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-            var updateInfo by remember { mutableStateOf<UpdateInfo?>(null) }
             var showUpdateDialog by remember { mutableStateOf(false) }
 
             // Verificar actualizaciones al iniciar
@@ -54,7 +56,6 @@ class MainActivity : ComponentActivity() {
                 lifecycleScope.launch {
                     val update = UpdateChecker.checkForUpdates(BuildConfig.VERSION_NAME)
                     if (update != null) {
-                        updateInfo = update
                         showUpdateDialog = true
                     }
                 }
@@ -70,14 +71,16 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(innerPadding)
                     )
 
-                    // Diálogo de actualización
-                    if (showUpdateDialog && updateInfo != null) {
+                    // Actualización
+                    if (showUpdateDialog) {
                         UpdateDialog(
-                            updateInfo = updateInfo!!,
                             onDismiss = { showUpdateDialog = false },
                             onUpdate = {
-                                val intent = Intent(Intent.ACTION_VIEW,
-                                    updateInfo!!.downloadUrl.toUri())
+                                // Abro la web directamente
+                                val intent = Intent(
+                                    Intent.ACTION_VIEW,
+                                    "https://estudiatai.es/".toUri()
+                                )
                                 startActivity(intent)
                                 showUpdateDialog = false
                             }
@@ -125,10 +128,8 @@ fun MainScreen(
     }
 }
 
-
 @Composable
 fun UpdateDialog(
-    updateInfo: UpdateInfo,
     onDismiss: () -> Unit,
     onUpdate: () -> Unit
 ) {
@@ -141,19 +142,23 @@ fun UpdateDialog(
             )
         },
         title = {
-            Text(text = "Nueva versión disponible")
+            Text(
+                text = "Nueva versión disponible",
+                color = Color.Black
+            )
         },
         text = {
             Column {
                 Text(
-                    text = "Versión ${updateInfo.latestVersion} está disponible.",
-                    style = MaterialTheme.typography.bodyLarge
+                    text = "Hay una nueva versión disponible. Pulsa Aceptar para descargarla desde la web.",
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = Color.Black
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = "Versión actual: ${BuildConfig.VERSION_NAME}",
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    color = Color.Black
                 )
             }
         },
