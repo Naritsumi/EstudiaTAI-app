@@ -11,12 +11,19 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
@@ -26,6 +33,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tech.estudiatai.ui.theme.AppTheme
+import androidx.compose.runtime.*
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
+import androidx.core.net.toUri
+
 class MainActivity : ComponentActivity() {
     //private var isDarkTheme = mutableStateOf(false) // Estado global para alternar el tema
 
@@ -34,18 +46,43 @@ class MainActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-            // Pasa el estado actual del tema a EstudiaTAITheme
-            AppTheme { //darkTheme = isDarkTheme.value
+            var updateInfo by remember { mutableStateOf<UpdateInfo?>(null) }
+            var showUpdateDialog by remember { mutableStateOf(false) }
+
+            // Verificar actualizaciones al iniciar
+            LaunchedEffect(Unit) {
+                lifecycleScope.launch {
+                    val update = UpdateChecker.checkForUpdates(BuildConfig.VERSION_NAME)
+                    if (update != null) {
+                        updateInfo = update
+                        showUpdateDialog = true
+                    }
+                }
+            }
+
+            AppTheme {
                 Scaffold(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(MaterialTheme.colorScheme.background) //Por fin color del fondo
+                        .background(MaterialTheme.colorScheme.background)
                 ) { innerPadding ->
                     MainScreen(
                         modifier = Modifier.padding(innerPadding)
-                        //isDarkTheme = isDarkTheme.value,
-                        //onToggleTheme = { isDarkTheme.value = !isDarkTheme.value } // Alterna el tema
                     )
+
+                    // Diálogo de actualización
+                    if (showUpdateDialog && updateInfo != null) {
+                        UpdateDialog(
+                            updateInfo = updateInfo!!,
+                            onDismiss = { showUpdateDialog = false },
+                            onUpdate = {
+                                val intent = Intent(Intent.ACTION_VIEW,
+                                    updateInfo!!.downloadUrl.toUri())
+                                startActivity(intent)
+                                showUpdateDialog = false
+                            }
+                        )
+                    }
                 }
             }
         }
@@ -88,26 +125,50 @@ fun MainScreen(
     }
 }
 
-/*@Composable
-// Queda pendiente:
-fun ToggleThemeButton(isDarkTheme: Boolean, onToggleTheme: () -> Unit) {
-    Button(
-        onClick = onToggleTheme,
-        modifier = Modifier
-            .width(50.dp)
-            .height(50.dp),
-        shape = RoundedCornerShape(16.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = if (isDarkTheme) Color.White else Color.DarkGray
-        )
-    ) {
-        Text(
-            text = if (isDarkTheme) "☀\uFE0F" else "\uD83C\uDF19",
-            fontSize = 16.sp,
-            textAlign = TextAlign.Center
-        )
-    }
-}*/
+
+@Composable
+fun UpdateDialog(
+    updateInfo: UpdateInfo,
+    onDismiss: () -> Unit,
+    onUpdate: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        icon = {
+            Icon(
+                imageVector = androidx.compose.material.icons.Icons.Default.Info,
+                contentDescription = "Actualización disponible"
+            )
+        },
+        title = {
+            Text(text = "Nueva versión disponible")
+        },
+        text = {
+            Column {
+                Text(
+                    text = "Versión ${updateInfo.latestVersion} está disponible.",
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "Versión actual: ${BuildConfig.VERSION_NAME}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        },
+        confirmButton = {
+            Button(onClick = onUpdate) {
+                Text("Descargar")
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text("Más tarde")
+            }
+        }
+    )
+}
 
 @Composable
 fun GreetingText() {
@@ -206,3 +267,25 @@ fun CustomButton(text: String, onClick: () -> Unit) {
 fun showToast(context: android.content.Context) {
     Toast.makeText(context, "¡Pronto estará disponible!", Toast.LENGTH_SHORT).show()
 }
+
+
+/*@Composable
+// Queda pendiente:
+fun ToggleThemeButton(isDarkTheme: Boolean, onToggleTheme: () -> Unit) {
+    Button(
+        onClick = onToggleTheme,
+        modifier = Modifier
+            .width(50.dp)
+            .height(50.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = ButtonDefaults.buttonColors(
+            containerColor = if (isDarkTheme) Color.White else Color.DarkGray
+        )
+    ) {
+        Text(
+            text = if (isDarkTheme) "☀\uFE0F" else "\uD83C\uDF19",
+            fontSize = 16.sp,
+            textAlign = TextAlign.Center
+        )
+    }
+}*/
