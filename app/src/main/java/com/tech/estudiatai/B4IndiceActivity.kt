@@ -66,7 +66,7 @@ fun B4IndiceButtons() {
     var showDropdown by remember { mutableStateOf(false) }
 
     // Lista de temas deshabilitados (índices de los botones 7 y 10)
-    val disabledTopics = listOf(5, 6, 9)
+    val disabledTopics = listOf(6, 9)
 
     Column(
         modifier = Modifier
