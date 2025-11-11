@@ -2,7 +2,6 @@ package com.tech.estudiatai
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -38,7 +37,6 @@ import androidx.compose.ui.unit.sp
 import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
@@ -170,7 +168,7 @@ fun UpdateDialog(
         },
         confirmButton = {
             Button(onClick = onUpdate) {
-                Text("Descargar")
+                Text("Aceptar")
             }
         },
         dismissButton = {
