@@ -21,7 +21,7 @@ La aplicación estará disponible en **F-Droid**
 
 Si te gusta el proyecto o quieres invitarme a un café, puedes hacerlo aquí:
 
-<p align="center">
+<p align="left">
   <a href="https://ko-fi.com/tech_racoon" target="_blank">
     <img src="https://storage.ko-fi.com/cdn/kofi5.png" alt="Ko-fi" width="200"/>
   </a>  
