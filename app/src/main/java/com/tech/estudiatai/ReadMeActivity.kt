@@ -26,6 +26,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
@@ -36,6 +37,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.core.net.toUri
+import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import androidx.compose.runtime.*
+import kotlinx.coroutines.launch
+import androidx.datastore.preferences.core.edit
 
 
 class ReadMeActivity : ComponentActivity() {
@@ -75,7 +85,6 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxWidth(),
             color = MaterialTheme.colorScheme.onSecondary
         )
-
         Text(
             text = """
                 Esta es una aplicación desarrollada como proyecto personal y hobby para ayudar a la gente que quiere prepararse la oposición, ya que yo también he pasado por ahí y sé lo difícil que es. 
@@ -88,97 +97,22 @@ fun ReadMeScreen(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(16.dp),
             color = MaterialTheme.colorScheme.onSecondary
         )
-
-        KoFiAndCoffeeButtons()
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Text(
-            text = """
-                ¡Gracias por tu apoyo! :) 
-                
-                Si tienes algún comentario, sugerencia, encuentras algún problema o información errada, no dudes en contactarme.                                
-            """.trimIndent(),
-            style = MaterialTheme.typography.bodyLarge,
-            textAlign = TextAlign.Justify,
-            modifier = Modifier.padding(16.dp),
-            color = MaterialTheme.colorScheme.onSecondary
-        )
-        
+        Spacer(modifier = Modifier.height(4.dp))
         EmailButton()
-
+        Spacer(modifier = Modifier.height(4.dp))
         Text(
             text = """
-                IMPORTANTE: Los apuntes aportados en esta aplicación NO están sujetos a derechos de autor.                 
+               Los apuntes aportados en esta aplicación NO están sujetos a derechos de autor.                 
             """.trimIndent(),
             style = MaterialTheme.typography.bodyLarge,
             textAlign = TextAlign.Justify,
             modifier = Modifier.padding(16.dp),
             color = MaterialTheme.colorScheme.onSecondary
         )
+        UpdatePreferenceToggle()
     }
 }
-@SuppressLint("UseKtx")
-@Composable
-fun KoFiAndCoffeeButtons() {
-    val context = LocalContext.current
 
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(top = 16.dp),
-        horizontalArrangement = Arrangement.Center,
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        val buttonModifier = Modifier
-            .width(160.dp) // un poco más compacto, mejor equilibrio visual
-            .height(56.dp)
-            .shadow(5.dp, shape = RoundedCornerShape(16.dp))
-
-        Button(
-            onClick = {
-                context.startActivity(Intent(Intent.ACTION_VIEW, "https://ko-fi.com/tech_racoon".toUri()))
-            },
-            modifier = buttonModifier,
-            shape = RoundedCornerShape(16.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondary,
-                contentColor = MaterialTheme.colorScheme.onSecondary
-            )
-        ) {
-            Image(
-                painter = painterResource(id = R.drawable.kofi_symbol),
-                contentDescription = "Ko-fi",
-                modifier = Modifier.size(20.dp)
-
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text("Ko-fi", fontSize = 15.sp)
-        }
-
-        Spacer(modifier = Modifier.width(10.dp))
-
-        Button(
-            onClick = {
-                context.startActivity(Intent(Intent.ACTION_VIEW, "https://buymeacoffee.com/tech_racoon".toUri()))
-            },
-            modifier = buttonModifier,
-            shape = RoundedCornerShape(16.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.tertiary,
-                contentColor = MaterialTheme.colorScheme.onTertiary
-            )
-        ) {
-            Icon(
-                painter = painterResource(id = R.drawable.bmc_logo),
-                contentDescription = "Buy Me a Coffee",
-                modifier = Modifier.size(20.dp)
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text("Invítame a un café", fontSize = 15.sp)
-        }
-    }
-}
 
 @SuppressLint("UseKtx")
 @Composable
@@ -223,6 +157,56 @@ fun EmailButton() {
         }
     }
 }
+val android.content.Context.dataStore by preferencesDataStore("settings")
+val CHECK_UPDATES_KEY = booleanPreferencesKey("check_updates")
+
+@Composable
+fun UpdatePreferenceToggle() {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    val prefFlow = context.dataStore.data.map { it[CHECK_UPDATES_KEY] ?: false }
+    val isEnabled by prefFlow.collectAsState(initial = false)
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(16.dp)
+    ) {
+        Text(
+            text = "Si esta opción está activada, la app consultará GitHub para saber si hay una nueva versión disponible.",
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSecondary.copy(alpha = 0.7f),
+            modifier = Modifier.padding(top = 8.dp)
+        )
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(
+                text = "Comprobar actualizaciones en GitHub",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSecondary,
+                modifier = Modifier.weight(1f)
+            )
+
+            Switch(
+                checked = isEnabled,
+                onCheckedChange = { checked ->
+                    scope.launch {
+                        context.dataStore.edit { prefs ->
+                            prefs[CHECK_UPDATES_KEY] = checked
+                        }
+                    }
+                },
+                colors = SwitchDefaults.colors(
+                    checkedThumbColor = MaterialTheme.colorScheme.primary
+                )
+            )
+        }
+    }
+}
+
 
 /*
 @Preview(showBackground = true)

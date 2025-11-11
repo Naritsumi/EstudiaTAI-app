@@ -1,5 +1,6 @@
 package com.tech.estudiatai
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -7,6 +8,7 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -37,9 +39,11 @@ import com.tech.estudiatai.ui.theme.AppTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import androidx.core.net.toUri
+import kotlinx.coroutines.flow.first
 
 class MainActivity : ComponentActivity() {
     //private var isDarkTheme = mutableStateOf(false) // Estado global para alternar el tema
@@ -54,9 +58,14 @@ class MainActivity : ComponentActivity() {
             // Verificar actualizaciones al iniciar
             LaunchedEffect(Unit) {
                 lifecycleScope.launch {
-                    val update = UpdateChecker.checkForUpdates(BuildConfig.VERSION_NAME)
-                    if (update != null) {
-                        showUpdateDialog = true
+                    val prefs = this@MainActivity.dataStore.data.first()
+                    val checkUpdates = prefs[CHECK_UPDATES_KEY] ?: false
+
+                    if (checkUpdates) {
+                        val update = UpdateChecker.checkForUpdates(BuildConfig.VERSION_NAME)
+                        if (update != null) {
+                            showUpdateDialog = true
+                        }
                     }
                 }
             }
@@ -113,17 +122,14 @@ fun MainScreen(
             GreetingText()
             Spacer(modifier = Modifier.height(32.dp))
             ButtonsSection()
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(14.dp))
             Text(
-                text = "Aplicación open-source. Basado en la convocatoria 2024.",
+                text = "Aplicación open-source v${BuildConfig.VERSION_NAME}.\nBasado en la convocatoria 2024.",
                 fontSize = 12.sp,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.padding(16.dp),
                 color = MaterialTheme.colorScheme.onSecondary
             )
-            //Spacer(modifier = Modifier.height(16.dp))
-            // Para versiones futuras:
-            //ToggleThemeButton(isDarkTheme = isDarkTheme, onToggleTheme = onToggleTheme)
         }
     }
 }
@@ -236,7 +242,7 @@ fun ButtonsSection() {
             modifier = Modifier.padding(bottom = 8.dp)
         )
         KoFiAndCoffeeButtons() // reutiliza tu composable existente
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(18.dp))
         CustomButton("Sobre la app",
             onClick = {
                 val intent = Intent(context, ReadMeActivity::class.java)
@@ -245,6 +251,67 @@ fun ButtonsSection() {
     }
 }
 
+@SuppressLint("UseKtx")
+@Composable
+fun KoFiAndCoffeeButtons() {
+    val context = LocalContext.current
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(top = 16.dp),
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        val buttonModifier = Modifier
+            .width(160.dp) // un poco más compacto, mejor equilibrio visual
+            .height(56.dp)
+            .shadow(5.dp, shape = RoundedCornerShape(16.dp))
+
+        Button(
+            onClick = {
+                context.startActivity(Intent(Intent.ACTION_VIEW, "https://ko-fi.com/tech_racoon".toUri()))
+            },
+            modifier = buttonModifier,
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.secondary,
+                contentColor = MaterialTheme.colorScheme.onSecondary
+            )
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.kofi_symbol),
+                contentDescription = "Ko-fi",
+                modifier = Modifier.size(20.dp)
+
+            )
+            Spacer(modifier = Modifier.width(6.dp))
+            Text("Ko-fi", fontSize = 15.sp)
+        }
+
+        Spacer(modifier = Modifier.width(10.dp))
+
+        Button(
+            onClick = {
+                context.startActivity(Intent(Intent.ACTION_VIEW, "https://buymeacoffee.com/tech_racoon".toUri()))
+            },
+            modifier = buttonModifier,
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = MaterialTheme.colorScheme.tertiary,
+                contentColor = MaterialTheme.colorScheme.onTertiary
+            )
+        ) {
+            Icon(
+                painter = painterResource(id = R.drawable.bmc_logo),
+                contentDescription = "Buy Me a Coffee",
+                modifier = Modifier.size(20.dp)
+            )
+            Spacer(modifier = Modifier.width(6.dp))
+            Text("Invítame a un café", fontSize = 15.sp)
+        }
+    }
+}
 @Composable
 fun CustomButton(text: String, onClick: () -> Unit) {
     AppTheme{
