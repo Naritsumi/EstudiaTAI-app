@@ -11,7 +11,6 @@ La aplicación está en constante mantenimiento, y las preguntas incluidas son d
 
 Puedes descargar la última versión de **EstudiaTAI App** desde los enlaces disponibles a continuación:
 
-- **Versión v1.0.5**  
   🔗 [Descargar desde GitHub Releases](https://github.com/Naritsumi/EstudiaTAI-app/releases/tag/v1.0.5)
 
 > También puedes encontrar versiones anteriores o futuras actualizaciones en la sección [Releases](https://github.com/Naritsumi/EstudiaTAI-app/releases) del repositorio oficial.
