@@ -1,1 +1,1 @@
-EstudiaTAI is an app for practicing multiple-choice tests for the Spanish AGE IT Assistant exams. It contains quizzes organized by topic and difficulty.
+EstudiaTAI is an app for practicing multiple-choice tests for the Spanish AGE IT Assistant exams. It contains quizzes organized by topic and difficulty. The content of the app (questions, answers and explanations) is written in Spanish only, as it is specifically designed for candidates preparing Spanish public administration exams.
