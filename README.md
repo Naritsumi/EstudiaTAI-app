@@ -13,7 +13,7 @@ Puedes descargar la última versión de **EstudiaTAI App** desde los enlaces dis
 
   🔗 [Descargar desde GitHub Releases](https://github.com/Naritsumi/EstudiaTAI-app/releases)
 
-La aplicación estará disponible en **F-Droid**  
+La aplicación está disponible en **F-Droid**  
 
 <a href="https://gitlab.com/fdroid/fdroiddata/-/merge_requests/28033" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Get_it_on_F-Droid.svg" alt="F-Droid" width="200"/> </a>
 
