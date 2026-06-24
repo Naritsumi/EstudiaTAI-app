@@ -1,1 +1,177 @@
-<!DOCTYPE html><html lang="es">    <head>        <meta charset="UTF-8">        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <title>(Ejemplo) Tipos de Modelos</title>        <style>            body {                font-family: Arial, sans-serif;                margin: 20px;                background-color: #f9f9f9;                color: #333;            }            h1 {                text-align: center;                color: #4CAF50;            }            h2 {                color: #333;            }            p {                font-size: 16px;                line-height: 1.6;                margin-bottom: 20px;            }            .tips {                background-color: #e7f5e7;                border-left: 5px solid #4CAF50;                padding: 10px 15px;                margin-top: 30px;            }            .model {                background-color: #f1f1f1;                padding: 15px;                border-radius: 8px;                margin-bottom: 20px;            }            .model h3 {                color: #007BFF;            }            .model ul {                margin-top: 10px;            }            .model ul li {                margin-bottom: 5px;            }        </style>    </head>    <body>        <h1>Pronto estará disponible</h1>    </body></html>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tema 7: TCP/IP y Modelo OSI</title>
+        <style>
+            body {
+                font-family: 'Helvetica', sans-serif;
+                margin: 20px;
+                background-color: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+            }
+            h1 {
+                color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
+            }
+            h2 {
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tools {
+                background-color: #e7f5e7;
+                border-left: 5px solid #4CAF50;
+                padding: 10px 15px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tema 7: TCP/IP y Modelo OSI</h1>
+        <h2>Modelos de referencia de red</h2>
+        <div class="section">
+            <p>Los modelos de referencia permiten estudiar las comunicaciones dividiendo el proceso en capas. Cada capa ofrece servicios a la superior y utiliza los servicios de la inferior. Esta separación facilita el diseño, la interoperabilidad y la resolución de problemas.</p>
+            <p>Los dos modelos más utilizados son el <b>modelo OSI</b>, de carácter didáctico y normativo, y el <b>modelo TCP/IP</b>, que describe la arquitectura real sobre la que funciona Internet.</p>
+        </div>
+
+        <h2>Modelo OSI</h2>
+        <div class="section">
+            <p>El modelo <b>OSI (Open Systems Interconnection)</b> divide la comunicación en siete capas. Cada una se ocupa de un conjunto concreto de funciones y encapsula los datos con información de control propia.</p>
+            <div class="tools">
+                <ul>
+                    <li><b>7. Aplicación:</b> servicios de red para aplicaciones como web, correo o transferencia de archivos.</li>
+                    <li><b>6. Presentación:</b> formato, codificación, compresión y cifrado de datos.</li>
+                    <li><b>5. Sesión:</b> establecimiento, mantenimiento y cierre de sesiones de comunicación.</li>
+                    <li><b>4. Transporte:</b> comunicación extremo a extremo, segmentación, puertos, control de errores y flujo.</li>
+                    <li><b>3. Red:</b> direccionamiento lógico y enrutamiento entre redes.</li>
+                    <li><b>2. Enlace de datos:</b> tramas, direcciones MAC, acceso al medio y detección de errores locales.</li>
+                    <li><b>1. Física:</b> señales eléctricas, ópticas o radioeléctricas, conectores y medios de transmisión.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Modelo TCP/IP</h2>
+        <div class="section">
+            <p>El modelo <b>TCP/IP</b> agrupa las funciones de red en cuatro capas principales. Es el modelo práctico usado por Internet y por la mayoría de redes actuales.</p>
+            <ul>
+                <li><b>Aplicación:</b> integra funciones de aplicación, presentación y sesión del modelo OSI.</li>
+                <li><b>Transporte:</b> proporciona comunicación extremo a extremo mediante TCP o UDP.</li>
+                <li><b>Internet:</b> usa IP para direccionar y encaminar paquetes entre redes.</li>
+                <li><b>Acceso a red:</b> engloba enlace de datos y física, como Ethernet, Wi-Fi o fibra óptica.</li>
+            </ul>
+            <div class="examples">
+                <h3>Equivalencia aproximada</h3>
+                <p>Aplicación TCP/IP equivale a las capas 7, 6 y 5 de OSI; Transporte coincide con capa 4; Internet se relaciona con capa 3; Acceso a red cubre capas 2 y 1.</p>
+            </div>
+        </div>
+
+        <h2>Encapsulación y unidades de datos</h2>
+        <div class="section">
+            <p>Durante el envío, cada capa añade cabeceras o colas con información de control. En recepción, el proceso se invierte y cada capa interpreta su parte correspondiente.</p>
+            <ul>
+                <li><b>Datos:</b> información manejada por capas superiores.</li>
+                <li><b>Segmento:</b> unidad típica de TCP en transporte.</li>
+                <li><b>Datagrama:</b> unidad típica de UDP o IP según el contexto.</li>
+                <li><b>Paquete:</b> unidad de capa de red.</li>
+                <li><b>Trama:</b> unidad de capa de enlace.</li>
+                <li><b>Bits:</b> representación física transmitida por el medio.</li>
+            </ul>
+        </div>
+
+        <h2>Direcciones y puertos</h2>
+        <div class="section">
+            <p>En una comunicación TCP/IP intervienen distintos identificadores. La dirección <b>MAC</b> identifica una interfaz en la red local, la dirección <b>IP</b> identifica un origen o destino lógico entre redes y el <b>puerto</b> identifica la aplicación o servicio dentro de un equipo.</p>
+            <div class="examples">
+                <h3>Ejemplos de puertos conocidos</h3>
+                <ul>
+                    <li><b>20/21:</b> FTP.</li>
+                    <li><b>22:</b> SSH.</li>
+                    <li><b>25:</b> SMTP.</li>
+                    <li><b>53:</b> DNS.</li>
+                    <li><b>80:</b> HTTP.</li>
+                    <li><b>443:</b> HTTPS.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>IPv4 e IPv6</h2>
+        <div class="section">
+            <p><b>IPv4</b> utiliza direcciones de 32 bits, normalmente escritas en notación decimal con puntos, como 192.168.1.10. Su espacio de direcciones es limitado, por lo que se usan técnicas como NAT.</p>
+            <p><b>IPv6</b> utiliza direcciones de 128 bits, escritas en hexadecimal y separadas por dos puntos. Aporta un espacio de direccionamiento mucho mayor y mejora aspectos como autoconfiguración y simplificación de cabeceras.</p>
+            <p class="important">Una máscara de red o prefijo indica qué parte de la dirección identifica la red y qué parte identifica el host.</p>
+        </div>
+
+        <h2>Protocolos de transporte</h2>
+        <div class="section">
+            <h3>TCP</h3>
+            <p><b>TCP (Transmission Control Protocol)</b> es orientado a conexión. Establece sesión, numera segmentos, confirma recepción, retransmite pérdidas y aplica control de flujo y congestión. Es adecuado cuando importa la fiabilidad.</p>
+            <h3>UDP</h3>
+            <p><b>UDP (User Datagram Protocol)</b> no establece conexión y añade muy poca sobrecarga. No garantiza entrega ni orden, pero es útil en voz, vídeo, juegos en línea, DNS o servicios donde prima la baja latencia.</p>
+        </div>
+
+        <h2>Protocolos de la capa de Internet</h2>
+        <div class="section">
+            <ul>
+                <li><b>IP:</b> direccionamiento y encaminamiento de paquetes.</li>
+                <li><b>ICMP:</b> mensajes de control y diagnóstico, usado por herramientas como ping.</li>
+                <li><b>ARP:</b> resuelve direcciones IPv4 a direcciones MAC dentro de una red local.</li>
+                <li><b>NDP:</b> cumple funciones similares a ARP en IPv6 y permite descubrimiento de vecinos.</li>
+            </ul>
+        </div>
+
+        <h2>Servicios de aplicación habituales</h2>
+        <div class="section tools">
+            <ul>
+                <li><b>DNS:</b> traduce nombres de dominio a direcciones IP.</li>
+                <li><b>DHCP:</b> asigna configuración IP automáticamente a los equipos.</li>
+                <li><b>HTTP/HTTPS:</b> navegación web, con HTTPS protegido mediante TLS.</li>
+                <li><b>SMTP, POP3 e IMAP:</b> envío y recepción de correo electrónico.</li>
+                <li><b>SSH:</b> administración remota segura.</li>
+                <li><b>NTP:</b> sincronización horaria entre sistemas.</li>
+            </ul>
+        </div>
+    </body>
+</html>

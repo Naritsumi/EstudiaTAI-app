@@ -3,7 +3,6 @@ package com.tech.estudiatai
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.AnimatedVisibility
@@ -48,7 +47,7 @@ class B4IndiceActivity : ComponentActivity() {
             AppTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background // Color de fondo del tema
+                    color = MaterialTheme.colorScheme.background
                 ) {
                     B4IndiceButtons()
                 }
@@ -65,30 +64,28 @@ fun B4IndiceButtons() {
     var selectedIndex by remember { mutableStateOf<Int?>(null) }
     var showDropdown by remember { mutableStateOf(false) }
 
-    // Lista de temas deshabilitados (índices de los botones 7 y 10)
-    val disabledTopics = listOf(6, 9)
-
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(18.dp)
-            .windowInsetsPadding(WindowInsets.navigationBars) // Ajusta según la barra de navegación
-            .windowInsetsPadding(WindowInsets.statusBars) // Ajusta según la barra de estado
+            .windowInsetsPadding(WindowInsets.navigationBars)
+            .windowInsetsPadding(WindowInsets.statusBars)
             .verticalScroll(scrollState),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Barra superior con título y botones de acción
         Row(
-            modifier =
-            Modifier
+            modifier = Modifier
                 .fillMaxWidth()
                 .statusBarsPadding(),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconButton(onClick = { (context as? Activity)?.finish() }) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, tint = MaterialTheme.colorScheme.onSecondary, contentDescription = "Salir")
-
+                Icon(
+                    Icons.AutoMirrored.Filled.ArrowBack,
+                    tint = MaterialTheme.colorScheme.onSecondary,
+                    contentDescription = "Salir"
+                )
             }
 
             Text(
@@ -99,7 +96,7 @@ fun B4IndiceButtons() {
                 color = MaterialTheme.colorScheme.onSecondary
             )
 
-            IconButton(onClick = { }) { /* Espaciador para centrar el título */ }
+            IconButton(onClick = { }) {}
         }
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -112,7 +109,6 @@ fun B4IndiceButtons() {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Datos de los botones
         val buttonData = listOf(
             context.getString(R.string.b4t1) to R.raw.b4t1apuntes,
             context.getString(R.string.b4t2) to R.raw.b4t2apuntes,
@@ -128,20 +124,15 @@ fun B4IndiceButtons() {
 
         buttonData.forEachIndexed { index, (label, resourceId) ->
             val isSelected = selectedIndex == index
-            val isDisabled = disabledTopics.contains(index) // Comprobar si el tema está deshabilitado
 
             Button(
                 shape = RoundedCornerShape(20),
                 onClick = {
-                    if (!isDisabled) { // Solo permitir clic si no está deshabilitado
-                        if (isSelected) {
-                            showDropdown = !showDropdown
-                        } else {
-                            selectedIndex = index
-                            showDropdown = true
-                        }
-                    }else{
-                        Toast.makeText(context, "¡Pronto estará disponible!", Toast.LENGTH_SHORT).show()
+                    if (isSelected) {
+                        showDropdown = !showDropdown
+                    } else {
+                        selectedIndex = index
+                        showDropdown = true
                     }
                 },
                 modifier = Modifier
@@ -149,14 +140,15 @@ fun B4IndiceButtons() {
                     .padding(top = 16.dp)
                     .height(60.dp)
                     .shadow(elevation = 8.dp, shape = RoundedCornerShape(16.dp))
-
             ) {
-                Text(label, modifier = Modifier.fillMaxWidth(),
+                Text(
+                    label,
+                    modifier = Modifier.fillMaxWidth(),
                     fontSize = 16.sp,
-                    color = MaterialTheme.colorScheme.surface)
+                    color = MaterialTheme.colorScheme.surface
+                )
             }
 
-            // Menú desplegable con animación
             AnimatedVisibility(visible = showDropdown && isSelected) {
                 Column(
                     modifier = Modifier
@@ -226,10 +218,9 @@ fun B4IndiceButtons() {
                     }
                 }
 
-                // Ajuste de desplazamiento si el dropdown se abre cerca del final
                 LaunchedEffect(showDropdown) {
                     if (showDropdown && isSelected) {
-                        val scrollOffset = (index + 1) * 100 // Asegurar visibilidad del menú desplegable
+                        val scrollOffset = (index + 1) * 100
                         scrollState.animateScrollTo(scrollOffset, animationSpec = tween(durationMillis = 300))
                     }
                 }

@@ -1,1 +1,178 @@
-<!DOCTYPE html><html lang="es">    <head>        <meta charset="UTF-8">        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <title>(Ejemplo) Tipos de Modelos</title>        <style>            body {                font-family: Arial, sans-serif;                margin: 20px;                background-color: #f9f9f9;                color: #333;            }            h1 {                text-align: center;                color: #4CAF50;            }            h2 {                color: #333;            }            p {                font-size: 16px;                line-height: 1.6;                margin-bottom: 20px;            }            .tips {                background-color: #e7f5e7;                border-left: 5px solid #4CAF50;                padding: 10px 15px;                margin-top: 30px;            }            .model {                background-color: #f1f1f1;                padding: 15px;                border-radius: 8px;                margin-bottom: 20px;            }            .model h3 {                color: #007BFF;            }            .model ul {                margin-top: 10px;            }            .model ul li {                margin-bottom: 5px;            }        </style>    </head>    <body>        <h1>Pronto estará disponible</h1>    </body></html>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tema 10: Redes locales</title>
+        <style>
+            body {
+                font-family: 'Helvetica', sans-serif;
+                margin: 20px;
+                background-color: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+            }
+            h1 {
+                color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
+            }
+            h2 {
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tools {
+                background-color: #e7f5e7;
+                border-left: 5px solid #4CAF50;
+                padding: 10px 15px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tema 10: Redes locales</h1>
+        <h2>Concepto de red local</h2>
+        <div class="section">
+            <p>Una <b>red local</b> o <b>LAN (Local Area Network)</b> conecta dispositivos dentro de un área limitada, como una oficina, aula, edificio o domicilio. Permite compartir recursos, acceder a servicios internos y comunicarse con otras redes mediante routers o pasarelas.</p>
+            <p>Las redes locales actuales suelen basarse en <b>Ethernet</b> para cableado y <b>Wi-Fi</b> para acceso inalámbrico. Ambas tecnologías conviven habitualmente dentro de la misma infraestructura.</p>
+        </div>
+
+        <h2>Topologías de red</h2>
+        <div class="section">
+            <p>La topología describe cómo se conectan los equipos y dispositivos de red. Puede ser física, si se refiere al cableado real, o lógica, si describe cómo circulan los datos.</p>
+            <ul>
+                <li><b>Bus:</b> todos los equipos comparten un medio común. Es sencilla, pero sensible a fallos del cable principal.</li>
+                <li><b>Estrella:</b> todos los equipos se conectan a un punto central, normalmente un switch.</li>
+                <li><b>Anillo:</b> los equipos forman un circuito cerrado por el que circula la información.</li>
+                <li><b>Malla:</b> existen múltiples caminos entre nodos, aumentando redundancia y disponibilidad.</li>
+                <li><b>Árbol:</b> organiza varias estrellas conectadas jerárquicamente.</li>
+            </ul>
+            <p class="important">La topología en estrella es la más común en LAN Ethernet modernas por su facilidad de administración y aislamiento de fallos.</p>
+        </div>
+
+        <h2>Ethernet e IEEE 802.3</h2>
+        <div class="section">
+            <p><b>Ethernet</b> es la tecnología más extendida en redes locales cableadas. Está normalizada por IEEE 802.3 y define aspectos de capa física y enlace, como tramas, direcciones MAC, velocidades y medios de transmisión.</p>
+            <div class="examples">
+                <h3>Velocidades habituales</h3>
+                <ul>
+                    <li><b>Fast Ethernet:</b> 100 Mbps.</li>
+                    <li><b>Gigabit Ethernet:</b> 1 Gbps.</li>
+                    <li><b>10 Gigabit Ethernet:</b> 10 Gbps, habitual en troncales y centros de datos.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Conmutación en redes locales</h2>
+        <div class="section">
+            <p>Los <b>switches</b> conectan dispositivos dentro de una LAN y aprenden direcciones MAC para reenviar tramas solo por el puerto adecuado. Esto reduce colisiones y mejora el rendimiento respecto a tecnologías compartidas antiguas.</p>
+            <ul>
+                <li><b>Tabla MAC:</b> relaciona direcciones MAC con puertos del switch.</li>
+                <li><b>Flooding:</b> envío por varios puertos cuando el destino es desconocido o broadcast.</li>
+                <li><b>Full-duplex:</b> permite enviar y recibir simultáneamente.</li>
+                <li><b>Auto-negociación:</b> acuerda velocidad y modo dúplex entre equipos.</li>
+            </ul>
+        </div>
+
+        <h2>VLAN y segmentación</h2>
+        <div class="section">
+            <p>Una <b>VLAN</b> permite separar lógicamente una red física en varias redes independientes. Cada VLAN constituye un dominio de difusión distinto y mejora la seguridad, la organización y el rendimiento.</p>
+            <ul>
+                <li><b>Puertos access:</b> pertenecen a una VLAN concreta y se usan para equipos finales.</li>
+                <li><b>Puertos trunk:</b> transportan tráfico de varias VLAN mediante etiquetas IEEE 802.1Q.</li>
+                <li><b>Inter-VLAN routing:</b> comunicación entre VLAN mediante router o switch de capa 3.</li>
+            </ul>
+            <div class="highlight">
+                <b>Uso típico:</b> separar usuarios, servidores, invitados, telefonía IP y administración.
+            </div>
+        </div>
+
+        <h2>Direccionamiento en una LAN</h2>
+        <div class="section">
+            <p>Los equipos de una red local necesitan una dirección IP, máscara, puerta de enlace y servidores DNS. Esta configuración puede asignarse manualmente o mediante <b>DHCP</b>.</p>
+            <ul>
+                <li><b>IP privada:</b> rangos como 10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16.</li>
+                <li><b>Máscara o prefijo:</b> determina la parte de red y la parte de host.</li>
+                <li><b>Puerta de enlace:</b> router usado para salir a otras redes.</li>
+                <li><b>DNS:</b> traduce nombres a direcciones IP.</li>
+            </ul>
+        </div>
+
+        <h2>Redes inalámbricas WLAN</h2>
+        <div class="section">
+            <p>Las redes Wi-Fi están normalizadas por IEEE 802.11. Permiten movilidad, pero requieren una planificación cuidadosa de cobertura, canales, interferencias y seguridad.</p>
+            <div class="tools">
+                <ul>
+                    <li><b>Punto de acceso:</b> conecta dispositivos inalámbricos con la red cableada.</li>
+                    <li><b>SSID:</b> nombre visible o identificador de la red inalámbrica.</li>
+                    <li><b>Bandas:</b> 2,4 GHz ofrece más alcance; 5 GHz y 6 GHz ofrecen más capacidad y menos saturación.</li>
+                    <li><b>Roaming:</b> cambio de punto de acceso manteniendo conectividad.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Seguridad en redes locales</h2>
+        <div class="section">
+            <p>La seguridad en una LAN combina medidas físicas, lógicas y administrativas. El objetivo es impedir accesos no autorizados, limitar movimientos laterales y proteger servicios críticos.</p>
+            <ul>
+                <li><b>WPA2/WPA3:</b> cifrado y autenticación en redes Wi-Fi.</li>
+                <li><b>802.1X:</b> control de acceso a la red mediante autenticación centralizada.</li>
+                <li><b>ACL:</b> reglas que permiten o bloquean tráfico.</li>
+                <li><b>Port security:</b> limita direcciones MAC permitidas en un puerto.</li>
+                <li><b>Red de invitados:</b> acceso separado para usuarios no confiables.</li>
+            </ul>
+        </div>
+
+        <h2>Administración y diagnóstico</h2>
+        <div class="section examples">
+            <h3>Herramientas comunes</h3>
+            <ul>
+                <li><b>ping:</b> comprueba conectividad IP básica.</li>
+                <li><b>traceroute/tracert:</b> muestra saltos hasta un destino.</li>
+                <li><b>ipconfig/ifconfig/ip:</b> consulta configuración de interfaces.</li>
+                <li><b>arp:</b> muestra relaciones entre direcciones IP y MAC.</li>
+                <li><b>snmp:</b> monitoriza dispositivos de red y métricas operativas.</li>
+            </ul>
+        </div>
+    </body>
+</html>

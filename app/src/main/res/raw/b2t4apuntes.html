@@ -1,1 +1,209 @@
-<!DOCTYPE html><html lang="es">    <head>        <meta charset="UTF-8">        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <title>(Ejemplo) Tipos de Modelos</title>        <style>            body {                font-family: Arial, sans-serif;                margin: 20px;                background-color: #f9f9f9;                color: #333;            }            h1 {                text-align: center;                color: #4CAF50;            }            h2 {                color: #333;            }            p {                font-size: 16px;                line-height: 1.6;                margin-bottom: 20px;            }            .tips {                background-color: #e7f5e7;                border-left: 5px solid #4CAF50;                padding: 10px 15px;                margin-top: 30px;            }            .model {                background-color: #f1f1f1;                padding: 15px;                border-radius: 8px;                margin-bottom: 20px;            }            .model h3 {                color: #007BFF;            }            .model ul {                margin-top: 10px;            }            .model ul li {                margin-bottom: 5px;            }        </style>    </head>    <body>    </body></html>
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bloque 2: Tecnología</title>
+        <style>
+            body {
+                font-family: 'Helvetica', sans-serif;
+                margin: 20px;
+                background-color: #f9f9f9;
+                color: #333;
+                line-height: 1.6;
+            }
+            h1 {
+                color: #4CAF50;
+                font-size: 1.8em;
+                margin-bottom: 30px;
+            }
+            h2 {
+                color: #4CAF50;
+                font-size: 1.6em;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 3px solid #4CAF50;
+                padding-bottom: 5px;
+            }
+            h3 {
+                color: #007BFF;
+                font-size: 1.3em;
+                margin-bottom: 15px;
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            body p, body *:not(h1):not(h2):not(h3) {
+                font-size: 18px;
+            }
+            ul {
+                padding-left: 20px;
+                margin: 10px 0;
+                font-size: 16px;
+            }
+            ul li {
+                margin-bottom: 8px;
+            }
+            .section {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            .section b {
+                color: #333;
+                font-weight: bold;
+            }
+            .examples {
+                background-color: #fff8e1;
+                border-left: 6px solid #FFB300;
+                padding: 15px 20px;
+                margin-top: 30px;
+                font-size: 16px;
+            }
+            .tips, .highlight {
+                background-color: #ffecd1;
+                border: 4px solid #FFB300;
+                padding: 10px;
+                margin-bottom: 15px;
+                font-size: 16px;
+            }
+            .highlight b {
+                color: #007BFF;
+            }
+            .tools {
+                background-color: #e7f5e7;
+                border-left: 5px solid #4CAF50;
+                padding: 10px 15px;
+                margin-top: 30px;
+            }
+            .important {
+                font-weight: bold;
+                color: #E74C3C;
+                background-color: #fce4e4;
+                padding: 5px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tema 4. Sistemas operativos</h1>
+        <div class="section">
+            <p>Un <b>sistema operativo</b> es el software base que actúa como intermediario entre el hardware, las aplicaciones y el usuario. Su función principal es gestionar los recursos del equipo y ofrecer servicios comunes para que los programas puedan ejecutarse de forma segura y ordenada.</p>
+            <p>Entre sus responsabilidades se encuentran la administración de procesos, memoria, ficheros, dispositivos de entrada/salida, usuarios, permisos y comunicaciones de red.</p>
+        </div>
+
+        <h2>Funciones principales</h2>
+        <div class="section">
+            <ul>
+                <li><b>Gestión de procesos:</b> crea, planifica, suspende y finaliza programas en ejecución.</li>
+                <li><b>Gestión de memoria:</b> asigna memoria principal y utiliza memoria virtual cuando es necesario.</li>
+                <li><b>Gestión de almacenamiento:</b> organiza ficheros y directorios mediante sistemas de archivos.</li>
+                <li><b>Gestión de dispositivos:</b> coordina periféricos a través de controladores o drivers.</li>
+                <li><b>Seguridad:</b> controla autenticación, permisos, aislamiento y auditoría.</li>
+                <li><b>Interfaz de usuario:</b> proporciona consola, entorno gráfico o ambas opciones.</li>
+            </ul>
+        </div>
+
+        <h2>Núcleo o kernel</h2>
+        <div class="section">
+            <p>El <b>kernel</b> es la parte central del sistema operativo. Se ejecuta con privilegios elevados y controla el acceso al hardware. Las aplicaciones no acceden directamente a los dispositivos, sino que solicitan servicios al núcleo mediante llamadas al sistema.</p>
+            <div class="examples">
+                <h3>Tipos de kernel</h3>
+                <ul>
+                    <li><b>Monolítico:</b> integra la mayoría de servicios en el núcleo. Es eficiente, pero un fallo interno puede afectar a todo el sistema.</li>
+                    <li><b>Microkernel:</b> deja en el núcleo solo funciones esenciales y mueve servicios a espacio de usuario. Mejora el aislamiento.</li>
+                    <li><b>Híbrido:</b> combina características de ambos enfoques, buscando rendimiento y modularidad.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Procesos, hilos y planificación</h2>
+        <div class="section">
+            <p>Un <b>proceso</b> es un programa en ejecución con su propio espacio de memoria y recursos asociados. Un <b>hilo</b> es una unidad de ejecución más ligera dentro de un proceso; varios hilos pueden compartir memoria y recursos del mismo programa.</p>
+            <p>La <b>planificación</b> decide qué proceso o hilo usa la CPU en cada momento. En sistemas multitarea, esta decisión permite que varias aplicaciones parezcan ejecutarse simultáneamente.</p>
+            <ul>
+                <li><b>FCFS:</b> atiende procesos por orden de llegada.</li>
+                <li><b>Round Robin:</b> asigna turnos de CPU de duración fija.</li>
+                <li><b>Prioridades:</b> ejecuta antes los procesos considerados más importantes.</li>
+                <li><b>SJF:</b> favorece los trabajos con menor tiempo estimado de ejecución.</li>
+            </ul>
+            <div class="highlight">
+                <b>Estados típicos:</b> nuevo, preparado, en ejecución, bloqueado y terminado.
+            </div>
+        </div>
+
+        <h2>Memoria principal y memoria virtual</h2>
+        <div class="section">
+            <p>El sistema operativo asigna memoria RAM a los procesos y evita que unos programas accedan indebidamente a la memoria de otros. Cuando la RAM no es suficiente, puede utilizar <b>memoria virtual</b>, apoyándose en disco para ampliar el espacio disponible.</p>
+            <ul>
+                <li><b>Paginación:</b> divide la memoria en páginas de tamaño fijo.</li>
+                <li><b>Segmentación:</b> organiza la memoria en segmentos lógicos como código, datos o pila.</li>
+                <li><b>Swap:</b> mueve datos entre RAM y disco para liberar memoria principal.</li>
+                <li><b>Protección de memoria:</b> impide accesos no autorizados entre procesos.</li>
+            </ul>
+            <p class="important">Un uso excesivo de swap degrada el rendimiento porque el acceso a disco es mucho más lento que el acceso a RAM.</p>
+        </div>
+
+        <h2>Sistemas de archivos</h2>
+        <div class="section">
+            <p>Un <b>sistema de archivos</b> define cómo se nombran, almacenan, organizan y recuperan los datos en un dispositivo de almacenamiento. También gestiona metadatos como tamaño, fechas, propietario y permisos.</p>
+            <div class="tools">
+                <ul>
+                    <li><b>FAT32:</b> compatible con muchos sistemas, pero limitado en tamaño máximo de archivo.</li>
+                    <li><b>exFAT:</b> útil en memorias externas y tarjetas SD por su compatibilidad.</li>
+                    <li><b>NTFS:</b> habitual en Windows, con permisos, compresión y journaling.</li>
+                    <li><b>ext4:</b> común en Linux, robusto y con journaling.</li>
+                    <li><b>APFS:</b> usado en sistemas Apple modernos, optimizado para almacenamiento flash.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Entrada/salida y controladores</h2>
+        <div class="section">
+            <p>Los dispositivos físicos se gestionan mediante <b>drivers</b>, que traducen las órdenes del sistema operativo a instrucciones específicas del hardware. El sistema operativo coordina interrupciones, búferes, colas de E/S y acceso concurrente a los dispositivos.</p>
+            <ul>
+                <li><b>Interrupciones:</b> señales que informan a la CPU de un evento de hardware.</li>
+                <li><b>Búfer:</b> memoria temporal que suaviza diferencias de velocidad entre dispositivos.</li>
+                <li><b>Spooling:</b> cola de trabajos, frecuente en impresión.</li>
+                <li><b>Plug and Play:</b> detección y configuración automática de hardware.</li>
+            </ul>
+        </div>
+
+        <h2>Usuarios, permisos y seguridad</h2>
+        <div class="section">
+            <p>Los sistemas operativos multiusuario separan cuentas, grupos, privilegios y recursos. El objetivo es aplicar el principio de <b>mínimo privilegio</b>: cada usuario o proceso debe disponer solo de los permisos necesarios.</p>
+            <ul>
+                <li><b>Autenticación:</b> verifica la identidad mediante contraseña, certificado, token o biometría.</li>
+                <li><b>Autorización:</b> decide qué operaciones puede realizar una identidad autenticada.</li>
+                <li><b>Permisos:</b> lectura, escritura y ejecución en ficheros y directorios.</li>
+                <li><b>Auditoría:</b> registro de eventos relevantes para seguridad y diagnóstico.</li>
+            </ul>
+        </div>
+
+        <h2>Tipos de sistemas operativos</h2>
+        <div class="section examples">
+            <h3>Clasificación habitual</h3>
+            <ul>
+                <li><b>Monousuario y multiusuario:</b> según permitan una o varias cuentas trabajando en el sistema.</li>
+                <li><b>Monotarea y multitarea:</b> según ejecuten una o varias tareas de forma concurrente.</li>
+                <li><b>Tiempo compartido:</b> reparten CPU entre usuarios o procesos interactivos.</li>
+                <li><b>Tiempo real:</b> garantizan respuesta dentro de límites temporales estrictos.</li>
+                <li><b>Distribuidos:</b> coordinan varios equipos como si fueran un sistema único.</li>
+                <li><b>Embebidos:</b> diseñados para dispositivos concretos, con recursos limitados.</li>
+            </ul>
+        </div>
+
+        <h2>Ejemplos actuales</h2>
+        <div class="section">
+            <ul>
+                <li><b>Windows:</b> extendido en escritorio y entornos corporativos.</li>
+                <li><b>GNU/Linux:</b> habitual en servidores, supercomputación, desarrollo y sistemas embebidos.</li>
+                <li><b>macOS:</b> sistema de Apple basado en Unix.</li>
+                <li><b>Android:</b> sistema móvil basado en kernel Linux.</li>
+                <li><b>iOS:</b> sistema móvil de Apple con fuerte control del ecosistema.</li>
+            </ul>
+        </div>
+    </body>
+</html>

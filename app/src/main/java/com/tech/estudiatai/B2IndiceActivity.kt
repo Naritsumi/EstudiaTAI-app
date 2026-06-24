@@ -3,7 +3,6 @@ package com.tech.estudiatai
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.AnimatedVisibility
@@ -15,7 +14,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Button
@@ -25,11 +23,17 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -43,7 +47,7 @@ class B2IndiceActivity : ComponentActivity() {
             AppTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background // Color de fondo del tema
+                    color = MaterialTheme.colorScheme.background
                 ) {
                     B2IndiceButtons()
                 }
@@ -60,29 +64,28 @@ fun B2IndiceButtons() {
     var selectedIndex by remember { mutableStateOf<Int?>(null) }
     var showDropdown by remember { mutableStateOf(false) }
 
-    val disabledTopics = listOf(3)
-
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(18.dp)
-            .windowInsetsPadding(WindowInsets.navigationBars) // Ajusta según la barra de navegación
-            .windowInsetsPadding(WindowInsets.statusBars) // Ajusta según la barra de estado
+            .windowInsetsPadding(WindowInsets.navigationBars)
+            .windowInsetsPadding(WindowInsets.statusBars)
             .verticalScroll(scrollState),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Barra superior con título y botones de acción
         Row(
-            modifier =
-            Modifier
+            modifier = Modifier
                 .fillMaxWidth()
                 .statusBarsPadding(),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
             IconButton(onClick = { (context as? Activity)?.finish() }) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, tint = MaterialTheme.colorScheme.onSecondary, contentDescription = "Salir")
-
+                Icon(
+                    Icons.AutoMirrored.Filled.ArrowBack,
+                    tint = MaterialTheme.colorScheme.onSecondary,
+                    contentDescription = "Salir"
+                )
             }
 
             Text(
@@ -93,7 +96,7 @@ fun B2IndiceButtons() {
                 color = MaterialTheme.colorScheme.onSecondary
             )
 
-            IconButton(onClick = { }) { /* Espaciador para centrar el título */ }
+            IconButton(onClick = { }) {}
         }
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -106,7 +109,6 @@ fun B2IndiceButtons() {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Datos de los botones
         val buttonData = listOf(
             context.getString(R.string.b2t1) to R.raw.b2t1apuntes,
             context.getString(R.string.b2t2) to R.raw.b2t2apuntes,
@@ -117,27 +119,15 @@ fun B2IndiceButtons() {
 
         buttonData.forEachIndexed { index, (label, resourceId) ->
             val isSelected = selectedIndex == index
-            val isDisabled = disabledTopics.contains(index) // Comprobar si el tema está deshabilitado
 
             Button(
                 shape = RoundedCornerShape(20),
-                /*onClick = {
+                onClick = {
                     if (isSelected) {
                         showDropdown = !showDropdown
                     } else {
                         selectedIndex = index
                         showDropdown = true
-                    }*/
-                onClick = {
-                    if (!isDisabled) { // Solo permitir clic si no está deshabilitado
-                        if (isSelected) {
-                            showDropdown = !showDropdown
-                        } else {
-                            selectedIndex = index
-                            showDropdown = true
-                        }
-                    }else{
-                        Toast.makeText(context, "¡Pronto estará disponible!", Toast.LENGTH_SHORT).show()
                     }
                 },
                 modifier = Modifier
@@ -145,14 +135,15 @@ fun B2IndiceButtons() {
                     .padding(top = 16.dp)
                     .height(60.dp)
                     .shadow(elevation = 8.dp, shape = RoundedCornerShape(16.dp))
-
             ) {
-                Text(label, modifier = Modifier.fillMaxWidth(),
+                Text(
+                    label,
+                    modifier = Modifier.fillMaxWidth(),
                     fontSize = 16.sp,
-                    color = MaterialTheme.colorScheme.surface)
+                    color = MaterialTheme.colorScheme.surface
+                )
             }
 
-            // Menú desplegable con animación
             AnimatedVisibility(visible = showDropdown && isSelected) {
                 Column(
                     modifier = Modifier
@@ -222,10 +213,9 @@ fun B2IndiceButtons() {
                     }
                 }
 
-                // Ajuste de desplazamiento si el dropdown se abre cerca del final
                 LaunchedEffect(showDropdown) {
                     if (showDropdown && isSelected) {
-                        val scrollOffset = (index + 1) * 100 // Asegurar visibilidad del menú desplegable
+                        val scrollOffset = (index + 1) * 100
                         scrollState.animateScrollTo(scrollOffset, animationSpec = tween(durationMillis = 300))
                     }
                 }
